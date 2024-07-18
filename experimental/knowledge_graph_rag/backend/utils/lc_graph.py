@@ -31,7 +31,7 @@ def process_document(doc, llm):
         print(f"Error processing document: {e}")
         return []
 
-def process_documents(directory, llm, triplets=True, chunk_size=500, chunk_overlap=100):    
+def process_documents(directory, llm, update_progress=None,triplets=True, chunk_size=500, chunk_overlap=100):    
     with st.spinner("Loading and splitting documents"):
         loader = DirectoryLoader(directory)
         raw_docs = loader.load()
@@ -62,6 +62,8 @@ def process_documents(directory, llm, triplets=True, chunk_size=500, chunk_overl
 
             completed_futures += 1
             progress = completed_futures / total_futures
+            if update_progress:
+                update_progress(completed_futures, total_futures)
             progress_bar.progress(progress)  # Update the progress bar
             progress_text.text(f"Processing: {completed_futures}/{total_futures}")  # Update the progress text
 

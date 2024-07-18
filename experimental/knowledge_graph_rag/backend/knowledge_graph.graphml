@@ -1,0 +1,5107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d0" for="edge" attr.name="relation_id" attr.type="long"/>
+<graph edgedefault="directed"><node id="Study"/>
+<node id="Policy-Gradient Algorithm"/>
+<node id="MFG with learning"/>
+<node id="Mathematical Formulation"/>
+<node id="Entropy Regularization"/>
+<node id="MARL"/>
+<node id="MFG"/>
+<node id="LQ games"/>
+<node id="Critical Insights"/>
+<node id="Model-based approach"/>
+<node id="Model mis-specification"/>
+<node id="Stochastic Games"/>
+<node id="Shannon entropy"/>
+<node id="game formulation (MFG-SE)"/>
+<node id="Representative Agent"/>
+<node id="MFG Formulation"/>
+<node id="Empirical Measure"/>
+<node id="Entropy\_Regularization\_for\_Mean\_Field\_Games\_with\_Learning.pdf"/>
+<node id="Knowledge\_Graph\_RAG"/>
+<node id="Reinforcement learning"/>
+<node id="Machine Learning Paradigms"/>
+<node id="Supervised Learning"/>
+<node id="Unsupervised Learning"/>
+<node id="Reinforcement Learning"/>
+<node id="Our Study"/>
+<node id="Time-dependent Policies"/>
+<node id="Stabilizing"/>
+<node id="Convergence to the Game Equilibrium"/>
+<node id="Regularized Q-learning algorithm"/>
+<node id="Mean Field Games"/>
+<node id="Operations Research"/>
+<node id="Supply-Chain Management"/>
+<node id="Finance"/>
+<node id="Game"/>
+<node id="Running Reward"/>
+<node id="Interaction at Terminal Time"/>
+<node id="Running Penalty"/>
+<node id="Deviation from Average State"/>
+<node id="Current Average State"/>
+<node id="Time"/>
+<node id="Average State at Terminal Time"/>
+<node id="Action Value Function"/>
+<node id="State"/>
+<node id="Policy"/>
+<node id="Shannon entropy regularization"/>
+<node id="MARL algorithmic design"/>
+<node id="Gaussian, mean-reverting and time-dependent variance"/>
+<node id=" class of policies"/>
+<node id="cross-entropy regularization"/>
+<node id="Demonstration of Convergence of Fictitious Play"/>
+<node id="cross-entropy loss"/>
+<node id="Prediction of Other Agents’ Actions"/>
+<node id="Non-Stationarity of Environment"/>
+<node id="Q-learning"/>
+<node id="Infinite Horizon Setting"/>
+<node id="Shannon Entropy"/>
+<node id="Cross Entropy"/>
+<node id="HJB"/>
+<node id="V(T, x)"/>
+<node id="πs"/>
+<node id="page\_content"/>
+<node id="g"/>
+<node id="Terminal Reward"/>
+<node id="r"/>
+<node id="Temperature"/>
+<node id="λSE"/>
+<node id="λCE"/>
+<node id="Self-exploration"/>
+<node id="Exploration"/>
+<node id="MFG-SE"/>
+<node id="Linear-Quadratic MFGs"/>
+<node id="MFG-EE"/>
+<node id="Cross-entropy"/>
+<node id="PDE Approach"/>
+<node id="Existence of MFG Solution"/>
+<node id="Probabilistic Approach"/>
+<node id="Master Equation Approach"/>
+<node id="Small Parameter Conditions"/>
+<node id="Uniqueness of MFG Solution"/>
+<node id="Monotonicity Condition"/>
+<node id="MFG with Learning"/>
+<node id="Gaussian Exploration"/>
+<node id="Continuous-time Single-Agent RL"/>
+<node id="[36, 37]"/>
+<node id="[29]"/>
+<node id="[33]"/>
+<node id="Mean Field Interaction"/>
+<node id="Policy πSE∗ s(u; x)"/>
+<node id="Current State"/>
+<node id="Variances"/>
+<node id="nan"/>
+<node id="Strength"/>
+<node id="Mean Reversion"/>
+<node id="B D2"/>
+<node id="Uncertainty in the Game"/>
+<node id="Model-free approach"/>
+<node id="Single-agent reinforcement-learning"/>
+<node id="Model structure"/>
+<node id="Model parameters"/>
+<node id="Control policy"/>
+<node id="Policy-gradient method for single-agent LQ regulators"/>
+<node id="Our Algorithm"/>
+<node id="Global convergence of policy gradient for MFG"/>
+<node id="Recent works on two-agent zero-sum LQ games"/>
+<node id="Recent works on general-sum LQ games"/>
+<node id="LQ mean ﬁeld control problem with common noise"/>
+<node id="V(t | µ, α)"/>
+<node id="Payoff Function J"/>
+<node id="Entropy-regularized Payoff"/>
+<node id="Utility Function U"/>
+<node id="Regularization Parameters λSE, λCE"/>
+<node id="Gaussian exploration"/>
+<node id="Single-Agent RL"/>
+<node id="Degree of exploration"/>
+<node id="Variance_of_Gaussian_Distribution"/>
+<node id="Optimal exploration scheduling"/>
+<node id="Time-Dependent_Variance_of_Gaussian_Distribution"/>
+<node id="Single-Agent_Mean-Variance_Portfolio_Selection_Problem"/>
+<node id="Time-dependent_Variance_of_Gaussian_Distribution"/>
+<node id="('HJB equation', 'CONCEPT')"/>
+<node id="Is_Member_Of"/>
+<node id="Policy Construction"/>
+<node id="Model Mis-specification"/>
+<node id="Model-free paradigm"/>
+<node id="Agent"/>
+<node id="Optimal Policy"/>
+<node id="System"/>
+<node id="Policy gradient method"/>
+<node id="Actor critic method"/>
+<node id="procedure"/>
+<node id="family of linear-quadratic MFG"/>
+<node id="candidate ﬁxed point(s)"/>
+<node id="set-valued map"/>
+<node id="Section 3"/>
+<node id="explicit ﬁxed-point solution"/>
+<node id="veriﬁcation arguments"/>
+<node id="solution to the MFG problem"/>
+<node id="Mean-field information"/>
+<node id="Control Problem"/>
+<node id="Value function"/>
+<node id="HJB Equation"/>
+<node id="Entropy Regulation"/>
+<node id="Learning"/>
+<node id="Algorithms Efficiency"/>
+<node id="Algorithms Stability"/>
+<node id="Algorithms Convergence"/>
+<node id="Finite Time Horizon"/>
+<node id="Section 2"/>
+<node id="Enhanced entropy"/>
+<node id="Policy-gradient based algorithm"/>
+<node id="Numerical Performance"/>
+<node id="Policy-gradient based algorithm with entropy regularization"/>
+<node id="Section 4"/>
+<node id="MFG with relaxed controls"/>
+<node id="Three-step Fixed Point Approach"/>
+<node id="Framework of MFG with relaxed controls"/>
+<node id="Population state-action distribution (µ, α)"/>
+<node id="Step 1"/>
+<node id="Initial state x"/>
+<node id="Stochastic control problem with randomized policies"/>
+<node id="Step 2"/>
+<node id="X π,x"/>
+<node id="representative agent"/>
+<node id="controlled state process"/>
+<node id="Time Interval [0, T]"/>
+<node id="exogenous ﬂows"/>
+<node id="α"/>
+<node id="µ"/>
+<node id="ν"/>
+<node id="randomized policy"/>
+<node id="admissible policy set A"/>
+<node id="paradigm"/>
+<node id="[36]"/>
+<node id="Most Existing Studies"/>
+<node id="[21]"/>
+<node id="Convergence Improvement"/>
+<node id="Variance Reduction"/>
+<node id="[2]"/>
+<node id="Theoretical Study"/>
+<node id="Policy Features"/>
+<node id="Pure Observations"/>
+<node id="Environment"/>
+<node id="RL literature"/>
+<node id="Fictitious Play"/>
+<node id="Mean Field Policy Gradient with Exploration"/>
+<node id="πEE∗ s"/>
+<node id="N"/>
+<node id="(cid:18) λSE + λCE λSE"/>
+<node id="SDE"/>
+<node id="Furthermore"/>
+<node id="X ∗"/>
+<node id="(3.12)"/>
+<node id="(cid:19)"/>
+<node id="policy (3.12)"/>
+<node id="(3.13)"/>
+<node id="X ∗ t"/>
+<node id="ξ"/>
+<node id="s ∈ [t, T ]"/>
+<node id="ηEE"/>
+<node id="γEE"/>
+<node id="A"/>
+<node id="B"/>
+<node id="D"/>
+<node id="Q"/>
+<node id="¯Q"/>
+<node id="mu_t"/>
+<node id="m_s"/>
+<node id="Entropy\_Regularization"/>
+<node id="Mean\_Field\_Games"/>
+<node id="Partial\_Differential\_Equations"/>
+<node id="Ansatz"/>
+<node id="Ms"/>
+<node id="M\_Star"/>
+<node id="Optimization\_Problem"/>
+<node id="Entropy regularization"/>
+<node id="Exploration-Exploitation"/>
+<node id="Information Gain"/>
+<node id="Benefit"/>
+<node id="RL settings"/>
+<node id="More Than One Agent"/>
+<node id="Unknown Environment"/>
+<node id="Sources of Uncertainty"/>
+<node id="Actions of Other Agents"/>
+<node id="Initial State ξ"/>
+<node id="Stochasticity"/>
+<node id="Brownian motion W"/>
+<node id="Deterministic Initial State x"/>
+<node id="Solving Analytically"/>
+<node id="V (t, x | µ, α)"/>
+<node id="Functional"/>
+<node id="J(t, x | π, µ, α)"/>
+<node id="π"/>
+<node id="Supremum"/>
+<node id="r(X π)"/>
+<node id="Expectation"/>
+<node id="Metadata Source"/>
+<node id="/mnt/data/forked-GenAI/GenerativeAIExamples/experimental/knowledge_graph_rag/frontend/papers/Entropy_Regularization_for_Mean_Field_Games_with_Learning.pdf"/>
+<node id="Virginia Tech"/>
+<node id="Blacksburg, VA"/>
+<node id="Localization Accuracy"/>
+<node id="Anonymization"/>
+<node id="Goodwin Hall"/>
+<node id="Controlled state process"/>
+<node id="Finite Horizon Setting"/>
+<node id="T"/>
+<node id="Infinity"/>
+<node id="0 ≤ t ≤ T"/>
+<node id="Flow of Population State Distribution"/>
+<node id="µs"/>
+<node id="P(R)"/>
+<node id="Flow of Population Action Distribution"/>
+<node id="αs"/>
+<node id="R"/>
+<node id="x"/>
+<node id="αs(·; x)"/>
+<node id="P(U )"/>
+<node id="Smart Infrastructure"/>
+<node id="Localization"/>
+<node id="Occupant Tracking"/>
+<node id="Buildings Occupants"/>
+<node id="Entropy Regularization for Mean Field Games with Learning"/>
+<node id="Knowledge Graph RAG"/>
+<node id="Policy (3.3)"/>
+<node id="SDE (3.4)"/>
+<node id="State Process X∗"/>
+<node id="Controlled State Process under (3.3)"/>
+<node id="X∗"/>
+<node id="m∗"/>
+<node id="Population Mean"/>
+<node id="B(m∗ − x) D2"/>
+<node id="B2(X∗ − m∗)2 D2"/>
+<node id="Smart Buildings"/>
+<node id="Data Anonymity"/>
+<node id="Ansatz V"/>
+<node id="expression"/>
+<node id="variables"/>
+<node id="s"/>
+<node id="parameters"/>
+<node id="ηs"/>
+<node id="γs"/>
+<node id="mean-field information"/>
+<node id="p(s,x)"/>
+<node id="equation for B"/>
+<node id="Riemann integral"/>
+<node id="integrand"/>
+<node id="V"/>
+<node id="du"/>
+<node id="NE"/>
+<node id="Game (MFG-EE)"/>
+<node id="Markovian policy"/>
+<node id="p(s, x)"/>
+<node id="Xs"/>
+<node id="t"/>
+<node id="u"/>
+<node id="Unknown"/>
+<node id="Gaussian Property"/>
+<node id="Population Action Distribution"/>
+<node id="Agent State"/>
+<node id="State Variable y"/>
+<node id="State y"/>
+<node id="ms"/>
+<node id="Minus ms"/>
+<node id="Process Hs"/>
+<node id="Waseem Karim"/>
+<node id="Privacy Concerns"/>
+<node id="GPS Tracking"/>
+<node id="Mapping and Navigation Systems"/>
+<node id="4th Amendment"/>
+<node id="GPS sensors"/>
+<node id="Researchers"/>
+<node id="User restrictions"/>
+<node id="Software Developers"/>
+<node id="Personal location data"/>
+<node id="New York Times"/>
+<node id="Applications"/>
+<node id="Undisclosed Source"/>
+<node id="Daniel Lacker"/>
+<node id="Mean ﬁeld games via controlled martingale problems: existence of markovian equilibria"/>
+<node id="Mean ﬁeld and n-agent games for optimal investment under relative performance criteria"/>
+<node id="Jean-Michel Lasry"/>
+<node id="Pierre-Louis Lions"/>
+<node id="Mean ﬁeld games"/>
+<node id="Initial State Distribution"/>
+<node id="State Process"/>
+<node id="Agent-Population Profile"/>
+<node id="Single-Agent-Side"/>
+<node id="Population State-Action Distribution"/>
+<node id="J Function"/>
+<node id="Reward"/>
+<node id="Alpha"/>
+<node id="X"/>
+<node id="U"/>
+<node id="Probability"/>
+<node id="Distribution"/>
+<node id="Process"/>
+<node id="Dynamics"/>
+<node id="Equation"/>
+<node id="Parameters"/>
+<node id="Occupant tracking"/>
+<node id="Public Safety"/>
+<node id="Energy Conservation"/>
+<node id="Marketing"/>
+<node id="GPS"/>
+<node id="Tracking Outside Buildings"/>
+<node id="Visual-based tracking"/>
+<node id="Tracking People"/>
+<node id="Surveillance Cameras"/>
+<node id="Vibration-based tracking"/>
+<node id="Accelerometers"/>
+<node id="Surveillance Systems"/>
+<node id="Highly Crowded Areas"/>
+<node id="Applications of Existing AI Methodologies"/>
+<node id="Vision-Based Tracking Data"/>
+<node id="Privacy of Individuals Metadata"/>
+<node id="Ben M Hambly"/>
+<node id="Policy gradient methods ﬁnd the nash equilibrium in n-player general-sum linear-quadratic games"/>
+<node id="Renyuan Xu"/>
+<node id="Huining Yang"/>
+<node id="Elad Hazan"/>
+<node id="Provably eﬃcient maximum entropy exploration"/>
+<node id="Sham Kakade"/>
+<node id="Karan Singh"/>
+<node id="Abby Van Soest"/>
+<node id="late 1980s"/>
+<node id="selective capabilities for public use"/>
+<node id="full capabilities since the year 2000"/>
+<node id="Independent of any telephonic or internet reception"/>
+<node id="GPS Trackers"/>
+<node id="Personal trackers in the late 90s, early 2000s"/>
+<node id="Cheap technology to acquire even at its infancy"/>
+<node id="United States Air Force"/>
+<node id="Geographic Location"/>
+<node id="Time Information"/>
+<node id="GPS Receiver"/>
+<node id="United States Government"/>
+<node id="US Department of Defense"/>
+<node id="GPS receivers"/>
+<node id="Studies"/>
+<node id="K Michael"/>
+<node id="J Wang"/>
+<node id="Personal tracking systems"/>
+<node id="Emerging Applications"/>
+<node id="Tracking Suspects"/>
+<node id="Tracking Employees"/>
+<node id="Tracking Children"/>
+<node id="Ethical Implications"/>
+<node id="People"/>
+<node id="Emergency"/>
+<node id="Natural Disaster"/>
+<node id="Occupant Comfort"/>
+<node id="Building Simulation Data Collection"/>
+<node id="Building"/>
+<node id="Adam Shwartz"/>
+<node id="Loss Through Surveillance Footage"/>
+<node id="City of Chicago's Surveillance Cameras"/>
+<node id="City of Chicago"/>
+<node id="Highly Integrated Network of Surveillance Cameras"/>
+<node id="Privacy"/>
+<node id="Racial Profiling"/>
+<node id="City Safety"/>
+<node id="Occupant Privacy"/>
+<node id="Occupant Gender Information"/>
+<node id="Vibration Signals Dataset"/>
+<node id="Occupant Localization"/>
+<node id="Current Methods Accuracy"/>
+<node id="Proposed Method"/>
+<node id="Vibration Data"/>
+<node id="Anonymizing Occupant Gender Information"/>
+<node id="Vibration based methods"/>
+<node id="Other methods"/>
+<node id="Personal tracking technology"/>
+<node id="Past Three Decades"/>
+<node id="Government Sector"/>
+<node id="Security Sector"/>
+<node id="Commerce Sectors"/>
+<node id="Advancements in GPS"/>
+<node id="Navstar GPS"/>
+<node id="Shariq Iqbal"/>
+<node id="International Conference on Machine Learning"/>
+<node id="Actor-attention-critic for multi-agent reinforcement learning"/>
+<node id="Fei Sha"/>
+<node id="Stochastic Processes and their Applications"/>
+<node id="Haoran Wang"/>
+<node id="Continuous-time mean-variance portfolio selection: A reinforcement learning framework"/>
+<node id="Xun Yu Zhou"/>
+<node id="Weichen Wang"/>
+<node id="Global convergence of policy gradient for linear-quadratic mean-field control/game in continuous time"/>
+<node id="Jiequn Han"/>
+<node id="Zhuoran Yang"/>
+<node id="Zhaoran Wang"/>
+<node id="Vibration-based sensors"/>
+<node id="Location-based and Vision-based tracking methods"/>
+<node id="Buildings walls and Floors"/>
+<node id="Range of Surveillance"/>
+<node id="Quality and Accuracy of GPS signals"/>
+<node id="Indoors"/>
+<node id="Human"/>
+<node id="Tracking"/>
+<node id="Camera"/>
+<node id="Electronic Sensor"/>
+<node id="Privacy Breaches"/>
+<node id="Potential Victims"/>
+<node id="Actual Harm"/>
+<node id="Malicious Person"/>
+<node id="Times"/>
+<node id="Vulnerable"/>
+<node id="Fire Alarm Dataset"/>
+<node id="Pierre Cardaliaguet"/>
+<node id="Saeed Hadikhanloo"/>
+<node id="Learning in mean ﬁeld games: the ﬁctitious play"/>
+<node id="René Carmona"/>
+<node id="François Delarue"/>
+<node id="Mean ﬁeld forward-backward stochastic diﬀerential equations"/>
+<node id="A probabilistic weak formulation of mean ﬁeld games and"/>
+<node id="Sarah Dean"/>
+<node id="On the sample complexity of the linear quadratic regulator"/>
+<node id="Horia Mania"/>
+<node id="Nikolai Matni"/>
+<node id="Benjamin Recht"/>
+<node id="Stephen Tu"/>
+<node id="Maryam Fazel"/>
+<node id="Global convergence of policy gradient methods for the linear quadratic regulator"/>
+<node id="Rong Ge"/>
+<node id="Sham M Kakade"/>
+<node id="Mehran Mesbahi"/>
+<node id="GPS trackers"/>
+<node id="Law Enforcement"/>
+<node id="9/11"/>
+<node id="Patriot Act"/>
+<node id="Privacy concerns"/>
+<node id="Michael Wunder"/>
+<node id="Proceedings of the 27th International Conference on Machine Learning (ICML-10)"/>
+<node id="Michael L Littman"/>
+<node id="Monica Babes"/>
+<node id="Classes of multiagent Q-learning dynamics with epsilon-greedy exploration"/>
+<node id="Kaiqing Zhang"/>
+<node id="Advances in Neural Information Processing Systems"/>
+<node id="Tamer Basar"/>
+<node id="Policy optimization provably converges In Advances in Neural Information Processing Systems"/>
+<node id="225 high sensitivity accelerometers"/>
+<node id="Virginia Tech’s campus"/>
+<node id="Zuyue Fu"/>
+<node id="Gradient Methods for the Linear Quadratic Regulator"/>
+<node id="Actor-Critic Provably Finds Nash Equilibria of Linear-Quadratic Mean-Field Games"/>
+<node id="Yongxin Chen"/>
+<node id="Jordi Grau-Moya"/>
+<node id="Soft Q-learning with Mutual-Information Regularization"/>
+<node id="Felix Leibfried"/>
+<node id="Peter Vrancx"/>
+<node id="Red-flags"/>
+<node id="Above Researchers"/>
+<node id="Mobile Phones"/>
+<node id="Sensors"/>
+<node id="Best Spying Device"/>
+<node id="Flash-light Application"/>
+<node id="Users Phones GPS Sensors"/>
+<node id="User Restrictions"/>
+<node id="Location Data"/>
+<node id="Metadata"/>
+<node id="Northeastern University"/>
+<node id="Boston"/>
+<node id="Wireless technologies"/>
+<node id="Indoor tracking techniques"/>
+<node id="Vision technologies"/>
+<node id="Ultrasound"/>
+<node id="RFID"/>
+<node id="WLAN"/>
+<node id="Bluetooth"/>
+<node id="Fixed camera"/>
+<node id="Mobile camera"/>
+<node id="Project"/>
+<node id="Time based methods"/>
+<node id="Multilateration"/>
+<node id="Vibrations"/>
+<node id="Attenuation of Signal"/>
+<node id="Array of Sensors"/>
+<node id="Material of the Floor"/>
+<node id="Wave Propagation Speed"/>
+<node id="Event"/>
+<node id="Original Location Prediction"/>
+<node id="Karl J Aström"/>
+<node id="Adaptive Control"/>
+<node id="Björn Wittenmark"/>
+<node id="2013"/>
+<node id="Martino Bardi"/>
+<node id="Explicit solutions of some linear-quadratic mean field games"/>
+<node id="Networks &amp; Heterogeneous Media"/>
+<node id="Alain Bensoussan"/>
+<node id="Linear-quadratic mean field games"/>
+<node id="KCJ Sung"/>
+<node id="Sheung Chi Phillip Yam"/>
+<node id="Siu-Pang Yung"/>
+<node id="Journal of Optimization Theory and Applications"/>
+<node id="Jalaj Bhandari"/>
+<node id="Global optimality guarantees for policy gradient methods"/>
+<node id="Daniel Russo"/>
+<node id="Public Spaces"/>
+<node id="Cristopher Slobogin"/>
+<node id="[8]"/>
+<node id="Anonymity"/>
+<node id="Tracking Individuals"/>
+<node id="Computing"/>
+<node id="Computer Vision"/>
+<node id="Massive Advancements"/>
+<node id="Centralized Data"/>
+<node id="Multiple Sources"/>
+<node id="A probabilistic weak formulation of mean field games and applications"/>
+<node id="Linear-quadratic mean-field reinforcement learning: Convergence of policy gradient methods"/>
+<node id="Mathieu Laurière"/>
+<node id="Zongjun Tan"/>
+<node id="Leverage"/>
+<node id="Dispersion Compensation"/>
+<node id="Group of Methods"/>
+<node id="Dispersion Relation of the Floor"/>
+<node id="Time Domain Signal"/>
+<node id="Warped Frequency Transform (WFT)"/>
+<node id="Methods for this Transformation"/>
+<node id="Predict Location of the Event"/>
+<node id="raw data"/>
+<node id="data"/>
+<node id="Energy windowed data"/>
+<node id="windows of time"/>
+<node id="vibration based tracking method"/>
+<node id="Tracking method"/>
+<node id="indoor tracking"/>
+<node id="Indoor tracking"/>
+<node id="personal identifying information"/>
+<node id="VTSIL methodology"/>
+<node id="Moving Average  Filter"/>
+<node id="One Second Window"/>
+<node id="Data"/>
+<node id="HVAC"/>
+<node id="Noise Source"/>
+<node id="Energy based methods"/>
+<node id="footstep localization in a building"/>
+<node id="attenuation of the signal"/>
+<node id="vibrations travel a distance"/>
+<node id="Dispersion compensation based methods"/>
+<node id="same underlying principle"/>
+<node id="Energy Windowing"/>
+<node id="Figure 8"/>
+<node id="Equation 1"/>
+<node id="Sensor Layout"/>
+<node id="Fourth Fl"/>
+<node id="Sensor"/>
+<node id="Radio Signals"/>
+<node id="General Intuition"/>
+<node id="Transmitter"/>
+<node id="Location"/>
+<node id="Receiver"/>
+<node id="Determination"/>
+<node id="Signal"/>
+<node id="Attenuation"/>
+<node id="Packet Loss"/>
+<node id="Redundant Receivers"/>
+<node id="Redundant Transmitters"/>
+<node id="Signal Strength"/>
+<node id="Building Sensors"/>
+<node id="Cell Phone"/>
+<node id="RFID Badge"/>
+<node id="Same length"/>
+<node id="Footstep responses"/>
+<node id="Machine learning algorithms"/>
+<node id="Vectors"/>
+<node id="0.1 seconds"/>
+<node id="Before the detection"/>
+<node id="0.3 seconds"/>
+<node id="After the detection"/>
+<node id="Single Person"/>
+<node id="Route"/>
+<node id="Evacuation"/>
+<node id="Localizing a Sequence of Footstep Events"/>
+<node id="Final Report"/>
+<node id="Energy Based Methods"/>
+<node id="Error"/>
+<node id="This Work"/>
+<node id="Building Occupants"/>
+<node id="Fire Alarm"/>
+<node id="Ambient Vibrations"/>
+<node id="256 Hz"/>
+<node id="Josef Hofbauer"/>
+<node id="On the global convergence of stochastic ﬁctitious play"/>
+<node id="William H Sandholm"/>
+<node id="Econometrica"/>
+<node id="Economics Field"/>
+<node id="Zhang-Wei Hong"/>
+<node id="A deep policy inference Q-network for multi-agent systems"/>
+<node id="Shih-Yang Su"/>
+<node id="Tzu-Yun Shann"/>
+<node id="Yi-Hsiang Chang"/>
+<node id="Chun-Yi Lee"/>
+<node id="Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems"/>
+<node id="International Foundation for Autonomous Agents and Multiagent Systems"/>
+<node id="AAAI"/>
+<node id="predict the location of the event"/>
+<node id="dispersion compensation methods"/>
+<node id="smaller structures"/>
+<node id="one demonstration in a building"/>
+<node id="these methods"/>
+<node id="plates"/>
+<node id="localization methods"/>
+<node id="Table I"/>
+<node id="number sensors"/>
+<node id="each study"/>
+<node id="sensor type"/>
+<node id="information needed"/>
+<node id="error reported"/>
+<node id="Individuals"/>
+<node id="Individual Identifying Information"/>
+<node id="Data Obscuring"/>
+<node id="Classification Accuracy"/>
+<node id="Work"/>
+<node id="Multiple Classification Methods"/>
+<node id="Sex"/>
+<node id="Multi-Agent Reinforcement Learning"/>
+<node id="ARXIV preprint arXiv:1802.09640"/>
+<node id="[35]"/>
+<node id="The Journal of Machine Learning Research"/>
+<node id="An information-theoretic analysis of Thompson sampling"/>
+<node id="Journal of Machine Learning Research"/>
+<node id="Exploration versus exploitation in reinforcement learning: a stochastic control approach"/>
+<node id="Privacy\_Concerns\_Regarding\_Occupant\_Tracking\_in\_Smart\_Buildings.pdf"/>
+<node id="metadata"/>
+<node id="central server"/>
+<node id="data pipeline"/>
+<node id="Virginia Tech Smart Infrastructure Laboratory"/>
+<node id="time series data"/>
+<node id=".mat (Matlab data file)"/>
+<node id=".csv files"/>
+<node id="coordinates"/>
+<node id="x-y-z coordinate system"/>
+<node id="Single Person Walking"/>
+<node id="Vibration Sensors"/>
+<node id="Conventional Indoor Tracking Methods"/>
+<node id="Second Experiment"/>
+<node id="Level of Personal Identification"/>
+<node id="Dataset"/>
+<node id="Male and Female Subjects"/>
+<node id="Subjects"/>
+<node id="Hallway"/>
+<node id="Raw Data"/>
+<node id="Classify Subjects"/>
+<node id="Individual"/>
+<node id="Evacuation Route"/>
+<node id="Surveillance cameras"/>
+<node id="Late 80s"/>
+<node id="Around-the-clock monitoring"/>
+<node id="Sensitive areas and buildings monitoring"/>
+<node id="Traffic violations monitoring"/>
+<node id="ATMs"/>
+<node id="IP linked camera"/>
+<node id="1996"/>
+<node id="Video recording"/>
+<node id="Recordings"/>
+<node id="Multiple cameras"/>
+<node id="One place"/>
+<node id="Cristopher"/>
+<node id="Early study"/>
+<node id="Paper"/>
+<node id="Figure 9"/>
+<node id="Amplitude of the Signal"/>
+<node id="Footstep Event"/>
+<node id="Sequence of Footstep Events"/>
+<node id="Other Sensors"/>
+<node id="Alajlouni et. Al."/>
+<node id="energy calculation process"/>
+<node id="energy"/>
+<node id="Ei"/>
+<node id="sensor"/>
+<node id="position"/>
+<node id="This work"/>
+<node id="Vibration based building localization"/>
+<node id="First Experiment"/>
+<node id="Accuracy"/>
+<node id="Ability"/>
+<node id="Group Movement"/>
+<node id="Individual Movement"/>
+<node id="Tracking Method"/>
+<node id="A. Ellis Kessler"/>
+<node id="All authors"/>
+<node id="Anonymization Approach"/>
+<node id="Neural Network model"/>
+<node id="Energy-windowing Approach"/>
+<node id="Sensor Data"/>
+<node id="Increasing Window Sizes"/>
+<node id="Reducing Classification Accuracy"/>
+<node id="Individual’s Gender"/>
+<node id="Gender Classification"/>
+<node id="Windows"/>
+<node id="RMS"/>
+<node id="Energy"/>
+<node id="Es"/>
+<node id="β"/>
+<node id="xs"/>
+<node id="ys"/>
+<node id="ri"/>
+<node id="ri formula"/>
+<node id="xi"/>
+<node id="yi"/>
+<node id="Footstep Tracking"/>
+<node id="Indoor Tracking"/>
+<node id="Occupants"/>
+<node id="Exits"/>
+<node id="NAN"/>
+<node id="Benefits"/>
+<node id="Energy Windowing Technique"/>
+<node id="Successful Anonymization"/>
+<node id="Same Window Sizes"/>
+<node id="Localization Process"/>
+<node id="Vibration Energy Signal"/>
+<node id="Finding Peaks"/>
+<node id="Five Events"/>
+<node id="Time Signal"/>
+<node id="Footstep Signature Data"/>
+<node id="Binary Classification"/>
+<node id="arXiv preprint arXiv:1906.01786, 2019"/>
+<node id="The Master Equation and the Convergence Problem in Mean Field Games:(AMS-201)"/>
+<node id="Princeton University Press, 2019"/>
+<node id="[31]"/>
+<node id="Certainty equivalence is eﬃcient for linear quadratic control"/>
+<node id="Gergely Neu"/>
+<node id="[32]"/>
+<node id="Anders Jonsson"/>
+<node id="Vicenç Gómez"/>
+<node id="A uniﬁed view of entropy-regularized markov&#10;decision processes"/>
+<node id="arXiv preprint arXiv:1705.07798"/>
+<node id="arXiv"/>
+<node id="Individuals gender classifiers"/>
+<node id="classify better than 50 percent"/>
+<node id="Proposed method"/>
+<node id="localization accuracy"/>
+<node id="same time window sizes"/>
+<node id="Specific Part of Building"/>
+<node id="Localization Error"/>
+<node id="Multiple Events"/>
+<node id="Building Management Professionals"/>
+<node id="Real Individuals"/>
+<node id="Evacuation Routes"/>
+<node id="Nearest Exits"/>
+<node id="Exit Signs"/>
+<node id="Evacuation Procedures"/>
+<node id="Binary Classification Models"/>
+<node id="Machine Learning"/>
+<node id="Leave One Out Cross Validation"/>
+<node id="Window Sizes"/>
+<node id="Data Aggregation"/>
+<node id="50%"/>
+<node id="Bin Size"/>
+<node id="Classifier"/>
+<node id="Exponential Decay"/>
+<node id="Localization Method"/>
+<node id="Multiple Window Sizes"/>
+<node id="Root Mean Squared Error"/>
+<node id="Event Locations"/>
+<node id="Known Locations"/>
+<node id="Along"/>
+<node id="Walking Signal"/>
+<node id="One Sensor"/>
+<node id="Acceleration Data"/>
+<node id="X-Axis Component"/>
+<node id="Y-Axis Component"/>
+<node id="Z-Axis Component"/>
+<node id="Window of Length W"/>
+<node id="Square Root of Sum of Squares of Acceleration Data"/>
+<node id="Classification and Gender Anonymization"/>
+<node id="this work"/>
+<node id="Privacy Concerns Regarding Occupant Tracking in Smart Buildings"/>
+<node id="binary classifiers"/>
+<node id="sex of an individual"/>
+<node id="confidentiality of data"/>
+<node id="data loss"/>
+<node id="ability to locate an individual"/>
+<node id="building"/>
+<node id="Current methods"/>
+<node id="Building Users Identification"/>
+<node id="People Tracking"/>
+<node id="Windowed Floor Vibration Data"/>
+<node id="Ellis Kessler"/>
+<node id="Goodwin Hall Case Study"/>
+<node id="Previous Data"/>
+<node id="Localization Experiments"/>
+<node id="Related Work Section"/>
+<node id="Single Participants"/>
+<node id="Sex Labels"/>
+<node id="Trial Labels"/>
+<node id="Explore"/>
+<node id="Personal Identification"/>
+<node id="Previous Works"/>
+<node id="Classify Sex"/>
+<node id="Vibration Signal"/>
+<node id="B. Moeti Masiane"/>
+<node id="Data Pre-processing"/>
+<node id="Data Visualization"/>
+<node id="Classifier Training"/>
+<node id="Moeti"/>
+<node id="Related Works Section"/>
+<node id="Training Classification Models"/>
+<node id="Anonymizing Data"/>
+<node id="Limited Training Data Size"/>
+<node id="Challenges"/>
+<node id="Future Work"/>
+<node id="Small Number of Participants"/>
+<node id="Data Collection for Footstep Signatures"/>
+<node id="Participants"/>
+<node id="Informed Consent"/>
+<node id="Vibration Readings"/>
+<node id="C. Awad Abdelhalim"/>
+<node id="Literature Review"/>
+<node id="Ethical Concerns"/>
+<node id="Literature"/>
+<node id="Case-Study Data Analysis"/>
+<node id="Location-based Tracking Technologies"/>
+<node id="Vision-based Tracking Technologies"/>
+<node id="C. BASRI and A. El Khadimi"/>
+<node id="Survey on indoor localization system and recent advances of wiﬁ ﬁngerprinting technique"/>
+<node id="F. Van Diggelen and C. Abraham"/>
+<node id="Indoor gps technology"/>
+<node id="2016 5th International Conference on Multimedia Computing and Systems (ICMCS)"/>
+<node id="CTIA Wireless-Agenda"/>
+<node id="Wiﬁ ﬁngerprinting technique"/>
+<node id="A. G. Woolard"/>
+<node id="Applications of dispersion compensation for indoor vibration event localization"/>
+<node id="Journal of Vibration and Control"/>
+<node id="Research Sector"/>
+<node id="L. Mainetti"/>
+<node id="A survey on indoor positioning systems"/>
+<node id="2014 22nd International Conference on Software, Telecommunications and Computer Networks (SoftCOM)"/>
+<node id="IEEE"/>
+<node id="W. Karim"/>
+<node id="The privacy implications of personal locators: why you should think twice before voluntarily availing yourself to gps moni- toring"/>
+<node id="Wash. UJL &amp; Pol’y"/>
+<node id="2004"/>
+<node id="K. Michael"/>
+<node id="The emerging ethics of humancentric gps tracking and monitoring"/>
+<node id="A. McNamee"/>
+<node id="M. G. Michael"/>
+<node id="2006 International Conference on Mobile Business"/>
+<node id="2006"/>
+<node id="J. D. Poston"/>
+<node id="2015 International Conference on Location and GNSS (ICL-GNSS)"/>
+<node id="J. Schloemann"/>
+<node id="R. M. Buehrer"/>
+<node id="V. V. N. S. Malladi"/>
+<node id="P. A. Tarazaga"/>
+<node id="Towards indoor localization of pedestrians via smart building vibration sensing"/>
+<node id="linear combinations of the first-two singular values alongside 23 other scaled singular values"/>
+<node id="Accurate Representation of the Actual Dataset"/>
+<node id="Generative AI Examples"/>
+<node id="experimental"/>
+<node id="Knowledge Graph"/>
+<node id="Rapid Automatic Knowledge Format"/>
+<node id="data for 6000 participants"/>
+<node id="6000 participants"/>
+<node id="3000 females"/>
+<node id="3000 males"/>
+<node id="('S. Alajlouni', 'PERSON')"/>
+<node id="('Mechanical Systems and Signal Processing', 'JOUR')"/>
+<node id="('M. Albakri', 'PERSON')"/>
+<node id="('P. Tarazaga', 'PERSON')"/>
+<node id="('J. D. Poston', 'PERSON')"/>
+<node id="('R. M. Buehrer', 'PERSON')"/>
+<node id="('P. A. Tarazaga', 'PERSON')"/>
+<node id="Wireless-Agenda, Dallas"/>
+<node id="vol. 89, 2001"/>
+<node id="A. Soloviev and J. Dickman"/>
+<node id="Extending gps carrier phase availability indoors with a deeply integrated receiver architecture"/>
+<node id="IEEE Wireless Communications"/>
+<node id="A. Soloviev"/>
+<node id="J. Dickman"/>
+<node id="2011"/>
+<node id="vol. 18, no. 2"/>
+<node id="pp. 36–44"/>
+<node id="Research Community"/>
+<node id="J. L. Wang"/>
+<node id="Privacy and ethical issues in location-based tracking systems"/>
+<node id="M. C. Loui"/>
+<node id="2009 IEEE International Symposium on Technology and Society"/>
+<node id="S. Narain"/>
+<node id="How gps can track you, even when you turn it off"/>
+<node id="G. Noubir"/>
+<node id="CNBC"/>
+<node id="J. Valentino-DeVries"/>
+<node id="Your apps know where you were last night, and theyre not keeping it secret"/>
+<node id="N. Singer"/>
+<node id="M. H. Keller"/>
+<node id="A. Krolik"/>
+<node id="F. Adib"/>
+<node id="See through walls with WiFi"/>
+<node id="vol. 43. ACM"/>
+<node id="D. Katabi"/>
+<node id="Y. Cascone"/>
+<node id="Ethical issues of monitoring sensor networks for energy efﬁciency in smart buildings: a case study"/>
+<node id="M. Ferrara"/>
+<node id="L. Giovannini"/>
+<node id="G. Serale"/>
+<node id="Energy Procedia"/>
+<node id="T. Sharpe"/>
+<node id="Ethical issues in domestic building performance evaluation studies"/>
+<node id="Building Research &amp; Information"/>
+<node id="C. Slobogin"/>
+<node id="Public privacy: camera surveillance of public places and&#10;&#10;the right to anonymity"/>
+<node id="Miss. lJ"/>
+<node id="2002"/>
+<node id="M. Saini"/>
+<node id="W 3-privacy: understanding what, when, and where inference channels in multi-camera surveillance video"/>
+<node id="P. K. Atrey"/>
+<node id="S. Mehrotra"/>
+<node id="M. Kankanhalli"/>
+<node id="Multimedia Tools and Applications"/>
+<node id="2014"/>
+<node id="multi-camera surveillance video"/>
+<node id="J. R. Guerrieri"/>
+<node id="RFID-assisted Indoor Localization and Communication for First Responders"/>
+<node id="M. H. Francis"/>
+<node id="P. F. Wilson"/>
+<node id="T. Kos"/>
+<node id="L. Miller"/>
+<node id="N. Bryner"/>
+<node id="D. Stroup"/>
+<node id="L. Klein-Berndt"/>
+<node id="2006 First European Conference on Antennas and Propagation"/>
+<node id="2008 1st IFIP Wireless Days"/>
+<node id="RFID Tags: Positioning Principles and Localization Techniques"/>
+<node id="Ieee"/>
+<node id="M. Bouet"/>
+<node id="A. L. Dos Santos"/>
+<node id="J. Wang"/>
+<node id="Enabling live video analytics with a scalable and privacy-aware framework"/>
+<node id="ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)"/>
+<node id="B. Amos"/>
+<node id="A. Das"/>
+<node id="P. Pillai"/>
+<node id="N. Sadeh"/>
+<node id="M. Satyanarayanan"/>
+<node id="S. Alajlouni"/>
+<node id="A new fast and calibration-free method for footstep impact localization in an instrumented floor"/>
+<node id="P. Tarazaga"/>
+<node id="J. Cai"/>
+<node id="Distance-domain Damage Imaging of Plate-like Structures with Dispersive Lamb Waves"/>
+<node id="X. Wang"/>
+<node id="S. Yuan"/>
+<node id="Distance-domain Damage Imaging"/>
+<node id="IEEE Internet of Things Journal"/>
+<node id="Gender Classiﬁcation of Walkers via Underﬂoor Accelerometer Measurements"/>
+<node id="D. Bales"/>
+<node id="M. Kasarda"/>
+<node id="D. Batra"/>
+<node id="M. Molina-Solana"/>
+<node id="Data science for building energy management: A review"/>
+<node id="M. Ros"/>
+<node id="M. D. Ruiz"/>
+<node id="J. Gmez-Romero"/>
+<node id="M. J. Martin-Bautista"/>
+<node id="Renewable and Sustainable Energy Reviews"/>
+<node id="Apr. 2017"/>
+<node id="D. Yan"/>
+<node id="Occupant behavior modeling for building performance simulation: Current state and future challenges"/>
+<node id="W. OBrien"/>
+<node id="T. Hong"/>
+<node id="X. Feng"/>
+<node id="H. Burak Gunay"/>
+<node id="F. Tahmasebi"/>
+<node id="A. Mahdavi"/>
+<node id="Energy and Buildings"/>
+<node id="Nov. 2015"/>
+<node id="Privacy_Concerns_Regarding_Occupant_Tracking_in_Smart_Buildings.pdf"/>
+<node id="/mnt/data/forked-GenAI/GenerativeAIExamples/experimental/knowledge_graph_rag/frontend/papers"/>
+<node id="G. Fischer"/>
+<node id="1st Workshop on Positioning, Navigation and Communication"/>
+<node id="B. Dietrich"/>
+<node id="F. Winkler"/>
+<node id="Bluetooth indoor localization system"/>
+<node id="Y. Zhuang"/>
+<node id="Smartphone-based indoor localization with bluetooth low energy beacons"/>
+<node id="J. Yang"/>
+<node id="Y. Li"/>
+<node id="L. Qi"/>
+<node id="N. El-Sheimy"/>
+<node id="2016"/>
+<node id="596"/>
+<node id="vol. 16, no. 5"/>
+<node id="See through walls with WiFi!"/>
+<node id="ACM"/>
+<edge source="Study" target="Policy-Gradient Algorithm">
+  <data key="d0">0</data>
+  <data key="d1">Leads_To</data>
+</edge>
+<edge source="Study" target="Mobile Phones">
+  <data key="d0">76</data>
+  <data key="d1">Conclude</data>
+</edge>
+<edge source="MFG with learning" target="Mathematical Formulation">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="MFG with learning" target="LQ games">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Mathematical Formulation" target="Section 2">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Entropy Regularization" target="MFG with learning">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Entropy Regularization" target="Time-dependent Policies">
+  <data key="d0">36</data>
+  <data key="d1">Positive_Impact_On</data>
+</edge>
+<edge source="Entropy Regularization" target="MFG with Learning">
+  <data key="d0">16</data>
+  <data key="d1">Introduce</data>
+</edge>
+<edge source="Entropy Regularization" target="Reinforcement Learning">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Entropy Regularization" target="Learning">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Entropy Regularization" target="Algorithms Efficiency">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Entropy Regularization" target="Algorithms Stability">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Entropy Regularization" target="Algorithms Convergence">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Entropy Regularization" target="Mean Field Games">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Entropy Regularization" target="ηEE">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Entropy Regularization" target="γEE">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Entropy Regularization" target="A">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Entropy Regularization" target="B">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Entropy Regularization" target="D">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Entropy Regularization" target="λSE">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Entropy Regularization" target="λCE">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Entropy Regularization" target="Q">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Entropy Regularization" target="¯Q">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Entropy Regularization" target="mu_t">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Entropy Regularization" target="m_s">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="MARL" target="MFG">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="MFG" target="Initial State ξ">
+  <data key="d0">52</data>
+  <data key="d1">Treats</data>
+</edge>
+<edge source="LQ games" target="Critical Insights">
+  <data key="d0">3</data>
+  <data key="d1">Bring</data>
+</edge>
+<edge source="LQ games" target="Stochastic Games">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Model-based approach" target="Model mis-specification">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Model-based approach" target="Single-agent reinforcement-learning">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Model-based approach" target="Model structure">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Model-based approach" target="Model parameters">
+  <data key="d0">22</data>
+  <data key="d1">Has_Not</data>
+</edge>
+<edge source="Model-based approach" target="Control policy">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Model-based approach" target="Policy Construction">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Model-based approach" target="Model Mis-specification">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Shannon entropy" target="game formulation (MFG-SE)">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Shannon entropy" target="MFG-SE">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Shannon entropy" target="Section 3">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Shannon entropy" target="Information Gain">
+  <data key="d0">20</data>
+  <data key="d1">Quantify</data>
+</edge>
+<edge source="Representative Agent" target="MFG Formulation">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Representative Agent" target="page\_content">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Representative Agent" target="Mean Field Interaction">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Representative Agent" target="V(t | µ, α)">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Empirical Measure" target="MFG Formulation">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Entropy\_Regularization\_for\_Mean\_Field\_Games\_with\_Learning.pdf" target="Knowledge\_Graph\_RAG">
+  <data key="d0">6</data>
+  <data key="d1">Relate\_To</data>
+</edge>
+<edge source="Reinforcement learning" target="Machine Learning Paradigms">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Machine Learning Paradigms" target="Supervised Learning">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Machine Learning Paradigms" target="Unsupervised Learning">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Machine Learning Paradigms" target="Reinforcement Learning">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Reinforcement Learning" target="Exploration-Exploitation">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Our Study" target="Entropy Regularization">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Our Study" target="Stabilizing">
+  <data key="d0">7</data>
+  <data key="d1">Help</data>
+</edge>
+<edge source="Stabilizing" target="Convergence to the Game Equilibrium">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Regularized Q-learning algorithm" target="Mean Field Games">
+  <data key="d0">8</data>
+  <data key="d1">Propose</data>
+</edge>
+<edge source="Mean Field Games" target="Operations Research">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Mean Field Games" target="Supply-Chain Management">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Mean Field Games" target="Finance">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Mean Field Games" target="Learning">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Mean Field Games" target="Finite Time Horizon">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Mean Field Games" target="Entropy Regularization">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Mean Field Games" target="Policy (3.3)">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Game" target="Running Reward">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Game" target="Interaction at Terminal Time">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Game" target="Running Penalty">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Game" target="Initial State Distribution">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Running Reward" target="Action Value Function">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Running Reward" target="State">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Running Reward" target="Policy">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Running Reward" target="g">
+  <data key="d0">6</data>
+  <data key="d1">Relate\_To</data>
+</edge>
+<edge source="Interaction at Terminal Time" target="Deviation from Average State">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Interaction at Terminal Time" target="Average State at Terminal Time">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Running Penalty" target="Deviation from Average State">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Running Penalty" target="Current Average State">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Running Penalty" target="Time">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Time" target="Determination">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="State" target="Process">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Policy" target="Single-Agent-Side">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Policy" target="J Function">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Shannon entropy regularization" target="MARL algorithmic design">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="MARL algorithmic design" target="Gaussian, mean-reverting and time-dependent variance">
+  <data key="d0">10</data>
+  <data key="d1"> Benefit_From</data>
+</edge>
+<edge source="Gaussian, mean-reverting and time-dependent variance" target=" class of policies">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="cross-entropy regularization" target="Demonstration of Convergence of Fictitious Play">
+  <data key="d0">12</data>
+  <data key="d1">Applied_In</data>
+</edge>
+<edge source="cross-entropy regularization" target="Non-Stationarity of Environment">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="cross-entropy loss" target="Prediction of Other Agents’ Actions">
+  <data key="d0">13</data>
+  <data key="d1">Used_For</data>
+</edge>
+<edge source="Q-learning" target="Infinite Horizon Setting">
+  <data key="d0">14</data>
+  <data key="d1">Used_In</data>
+</edge>
+<edge source="Shannon Entropy" target="Cross Entropy">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Cross Entropy" target="Shannon Entropy">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="HJB" target="V(T, x)">
+  <data key="d0">15</data>
+  <data key="d1">Give</data>
+</edge>
+<edge source="HJB" target="Partial\_Differential\_Equations">
+  <data key="d0">48</data>
+  <data key="d1">Operate\_In</data>
+</edge>
+<edge source="πs" target="Mean Field Games">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Terminal Reward" target="r">
+  <data key="d0">6</data>
+  <data key="d1">Relate\_To</data>
+</edge>
+<edge source="Temperature" target="λSE">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Temperature" target="λCE">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Self-exploration" target="λSE">
+  <data key="d0">6</data>
+  <data key="d1">Relate\_To</data>
+</edge>
+<edge source="Exploration" target="λCE">
+  <data key="d0">6</data>
+  <data key="d1">Relate\_To</data>
+</edge>
+<edge source="MFG-SE" target="Linear-Quadratic MFGs">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="MFG-EE" target="Linear-Quadratic MFGs">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Cross-entropy" target="MFG-EE">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Cross-entropy" target="Benefit">
+  <data key="d0">50</data>
+  <data key="d1">Measure</data>
+</edge>
+<edge source="PDE Approach" target="Existence of MFG Solution">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Probabilistic Approach" target="Existence of MFG Solution">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Master Equation Approach" target="Existence of MFG Solution">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Small Parameter Conditions" target="Uniqueness of MFG Solution">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Monotonicity Condition" target="Uniqueness of MFG Solution">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Gaussian Exploration" target="Entropy Regularization">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Gaussian Exploration" target="Continuous-time Single-Agent RL">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="[36, 37]" target="Gaussian Exploration">
+  <data key="d0">17</data>
+  <data key="d1">Support</data>
+</edge>
+<edge source="[29]" target="Gaussian Exploration">
+  <data key="d0">17</data>
+  <data key="d1">Support</data>
+</edge>
+<edge source="[33]" target="Gaussian Exploration">
+  <data key="d0">17</data>
+  <data key="d1">Support</data>
+</edge>
+<edge source="Policy πSE∗ s(u; x)" target="Mean Field Interaction">
+  <data key="d0">18</data>
+  <data key="d1">Influence</data>
+</edge>
+<edge source="Policy πSE∗ s(u; x)" target="Current State">
+  <data key="d0">18</data>
+  <data key="d1">Influence</data>
+</edge>
+<edge source="Variances" target="nan">
+  <data key="d0">19</data>
+  <data key="d1">Time_Dependent</data>
+</edge>
+<edge source="Strength" target="Mean Reversion">
+  <data key="d0">20</data>
+  <data key="d1">Quantify</data>
+</edge>
+<edge source="B D2" target="Uncertainty in the Game">
+  <data key="d0">21</data>
+  <data key="d1">Indicate</data>
+</edge>
+<edge source="Model-free approach" target="Model-based approach">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Model-free approach" target="Single-agent reinforcement-learning">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Control policy" target="Model parameters">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Policy-gradient method for single-agent LQ regulators" target="Our Algorithm">
+  <data key="d0">24</data>
+  <data key="d1">Inspire</data>
+</edge>
+<edge source="Global convergence of policy gradient for MFG" target="Our Algorithm">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Recent works on two-agent zero-sum LQ games" target="Our Algorithm">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Recent works on general-sum LQ games" target="Our Algorithm">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="LQ mean ﬁeld control problem with common noise" target="Our Algorithm">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="V(t | µ, α)" target="Payoff Function J">
+  <data key="d0">25</data>
+  <data key="d1">Solve</data>
+</edge>
+<edge source="Payoff Function J" target="Entropy-regularized Payoff">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Entropy-regularized Payoff" target="Utility Function U">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Utility Function U" target="Regularization Parameters λSE, λCE">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Regularization Parameters λSE, λCE" target="Entropy-regularized Payoff">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Gaussian exploration" target="Single-Agent RL">
+  <data key="d0">26</data>
+  <data key="d1">Applied_To</data>
+</edge>
+<edge source="Degree of exploration" target="Variance_of_Gaussian_Distribution">
+  <data key="d0">27</data>
+  <data key="d1">Characterized_By</data>
+</edge>
+<edge source="Optimal exploration scheduling" target="Time-Dependent_Variance_of_Gaussian_Distribution">
+  <data key="d0">28</data>
+  <data key="d1">Coin_In</data>
+</edge>
+<edge source="Optimal exploration scheduling" target="Single-Agent_Mean-Variance_Portfolio_Selection_Problem">
+  <data key="d0">29</data>
+  <data key="d1">Derived_For</data>
+</edge>
+<edge source="Time-dependent_Variance_of_Gaussian_Distribution" target="Single-Agent_Mean-Variance_Portfolio_Selection_Problem">
+  <data key="d0">13</data>
+  <data key="d1">Used_For</data>
+</edge>
+<edge source="('HJB equation', 'CONCEPT')" target="Is_Member_Of">
+  <data key="d0">30</data>
+  <data key="d1">('Entropy_Regularization_for_Mean_Field_Games_with_Learning.pdf', 'DOC')</data>
+</edge>
+<edge source="Model-free paradigm" target="Model-based approach">
+  <data key="d0">32</data>
+  <data key="d1">DifferFrom</data>
+</edge>
+<edge source="Model-free paradigm" target="Reinforcement Learning">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Agent" target="Optimal Policy">
+  <data key="d0">33</data>
+  <data key="d1">Learn</data>
+</edge>
+<edge source="Agent" target="System">
+  <data key="d0">34</data>
+  <data key="d1">Interact_With</data>
+</edge>
+<edge source="Agent" target="Mean Field Policy Gradient with Exploration">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Policy gradient method" target="Model-free approach">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="Actor critic method" target="Model-free approach">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="procedure" target="family of linear-quadratic MFG">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="procedure" target="candidate ﬁxed point(s)">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="family of linear-quadratic MFG" target="Section 3">
+  <data key="d0">16</data>
+  <data key="d1">Introduce</data>
+</edge>
+<edge source="candidate ﬁxed point(s)" target="set-valued map">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="set-valued map" target="family of linear-quadratic MFG">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Section 3" target="LQ games">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="explicit ﬁxed-point solution" target="veriﬁcation arguments">
+  <data key="d0">35</data>
+  <data key="d1">Build</data>
+</edge>
+<edge source="veriﬁcation arguments" target="solution to the MFG problem">
+  <data key="d0">36</data>
+  <data key="d1">Positive_Impact_On</data>
+</edge>
+<edge source="Mean-field information" target="Control Problem">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Value function" target="HJB Equation">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="HJB Equation" target="Control Problem">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Entropy Regulation" target="Mean Field Games">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="Enhanced entropy" target="Section 3">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Policy-gradient based algorithm" target="Numerical Performance">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Numerical Performance" target="Section 4">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Policy-gradient based algorithm with entropy regularization" target="Numerical Performance">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="MFG with relaxed controls" target="Three-step Fixed Point Approach">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Three-step Fixed Point Approach" target="Framework of MFG with relaxed controls">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Population state-action distribution (µ, α)" target="Step 1">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Step 1" target="Three-step Fixed Point Approach">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Initial state x" target="Step 1">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Stochastic control problem with randomized policies" target="Step 1">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Step 2" target="Three-step Fixed Point Approach">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="X π,x" target="Step 2">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="representative agent" target="controlled state process">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="representative agent" target="randomized policy">
+  <data key="d0">39</data>
+  <data key="d1">Use</data>
+</edge>
+<edge source="controlled state process" target="Time Interval [0, T]">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="controlled state process" target="exogenous ﬂows">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="controlled state process" target="paradigm">
+  <data key="d0">40</data>
+  <data key="d1">Follow</data>
+</edge>
+<edge source="exogenous ﬂows" target="α">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="exogenous ﬂows" target="µ">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="α" target="Flow of Population Action Distribution">
+  <data key="d0">16</data>
+  <data key="d1">Introduce</data>
+</edge>
+<edge source="µ" target="ν">
+  <data key="d0">38</data>
+  <data key="d1">Equal</data>
+</edge>
+<edge source="µ" target="Flow of Population State Distribution">
+  <data key="d0">16</data>
+  <data key="d1">Introduce</data>
+</edge>
+<edge source="µ" target="α">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="µ" target="αs">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="randomized policy" target="admissible policy set A">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="paradigm" target="[36]">
+  <data key="d0">41</data>
+  <data key="d1">Proposed_In</data>
+</edge>
+<edge source="[36]" target="Haoran Wang">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="[36]" target="Exploration versus exploitation in reinforcement learning: a stochastic control approach">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Most Existing Studies" target="Entropy Regularization">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="[21]" target="Convergence Improvement">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="[21]" target="Variance Reduction">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="[21]" target="MARL">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="[21]" target="Entropy Regularization">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="[2]" target="Theoretical Study">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="[2]" target="Entropy Regularization">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="[2]" target="MARL">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Policy Features" target="Pure Observations">
+  <data key="d0">43</data>
+  <data key="d1">Learned_From</data>
+</edge>
+<edge source="Environment" target="Entropy Regularization">
+  <data key="d0">44</data>
+  <data key="d1">Reduced_Nonstationarity</data>
+</edge>
+<edge source="Environment" target="MARL">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="RL literature" target="Fictitious Play">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="πEE∗ s" target="N">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="N" target="(cid:18) λSE + λCE λSE">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="(cid:18) λSE + λCE λSE" target="SDE">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="SDE" target="policy (3.12)">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Furthermore" target="X ∗">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="X ∗" target="(3.12)">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="(3.12)" target="(cid:19)">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="(cid:19)" target="SDE">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="policy (3.12)" target="(3.13)">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="(3.13)" target="X ∗ t">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="X ∗ t" target="ξ">
+  <data key="d0">46</data>
+  <data key="d1">Decrease</data>
+</edge>
+<edge source="ξ" target="s ∈ [t, T ]">
+  <data key="d0">47</data>
+  <data key="d1">Raise</data>
+</edge>
+<edge source="Entropy\_Regularization" target="Mean\_Field\_Games">
+  <data key="d0">6</data>
+  <data key="d1">Relate\_To</data>
+</edge>
+<edge source="Mean\_Field\_Games" target="HJB">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Mean\_Field\_Games" target="Ansatz">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Ansatz" target="Ms">
+  <data key="d0">6</data>
+  <data key="d1">Relate\_To</data>
+</edge>
+<edge source="Ansatz" target="Gaussian Property">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Ms" target="M\_Star">
+  <data key="d0">38</data>
+  <data key="d1">Equal</data>
+</edge>
+<edge source="M\_Star" target="Optimization\_Problem">
+  <data key="d0">49</data>
+  <data key="d1">Participates\_In</data>
+</edge>
+<edge source="Entropy regularization" target="Reinforcement Learning">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Entropy regularization" target="Shannon entropy">
+  <data key="d0">16</data>
+  <data key="d1">Introduce</data>
+</edge>
+<edge source="Entropy regularization" target="Cross-entropy">
+  <data key="d0">16</data>
+  <data key="d1">Introduce</data>
+</edge>
+<edge source="Entropy regularization" target="RL settings">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Entropy regularization" target="Sources of Uncertainty">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="RL settings" target="More Than One Agent">
+  <data key="d0">45</data>
+  <data key="d1">Have</data>
+</edge>
+<edge source="RL settings" target="Unknown Environment">
+  <data key="d0">45</data>
+  <data key="d1">Have</data>
+</edge>
+<edge source="Sources of Uncertainty" target="Unknown Environment">
+  <data key="d0">51</data>
+  <data key="d1">Contain</data>
+</edge>
+<edge source="Sources of Uncertainty" target="Actions of Other Agents">
+  <data key="d0">51</data>
+  <data key="d1">Contain</data>
+</edge>
+<edge source="Initial State ξ" target="Stochasticity">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Stochasticity" target="Brownian motion W">
+  <data key="d0">53</data>
+  <data key="d1">From</data>
+</edge>
+<edge source="Deterministic Initial State x" target="Solving Analytically">
+  <data key="d0">54</data>
+  <data key="d1">Useful_For</data>
+</edge>
+<edge source="Deterministic Initial State x" target="MFG">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="V (t, x | µ, α)" target="Functional">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="J(t, x | π, µ, α)" target="Functional">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="π" target="Supremum">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="r(X π)" target="Expectation">
+  <data key="d0">47</data>
+  <data key="d1">Raise</data>
+</edge>
+<edge source="Metadata Source" target="/mnt/data/forked-GenAI/GenerativeAIExamples/experimental/knowledge_graph_rag/frontend/papers/Entropy_Regularization_for_Mean_Field_Games_with_Learning.pdf">
+  <data key="d0">55</data>
+  <data key="d1">Is</data>
+</edge>
+<edge source="Virginia Tech" target="Blacksburg, VA">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Virginia Tech" target="Goodwin Hall">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Localization Accuracy" target="Anonymization">
+  <data key="d0">56</data>
+  <data key="d1">Minimally Impacted By</data>
+</edge>
+<edge source="Localization Accuracy" target="NAN">
+  <data key="d0">153</data>
+  <data key="d1">Adequate</data>
+</edge>
+<edge source="Goodwin Hall" target="225 high sensitivity accelerometers">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Goodwin Hall" target="Virginia Tech’s campus">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Goodwin Hall" target="Sensor Layout">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Goodwin Hall" target="Occupant Tracking">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Controlled state process" target="Finite Horizon Setting">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Finite Horizon Setting" target="T">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Finite Horizon Setting" target="0 ≤ t ≤ T">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="T" target="Infinity">
+  <data key="d0">57</data>
+  <data key="d1">Less_Than</data>
+</edge>
+<edge source="Flow of Population State Distribution" target="µs">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="µs" target="P(R)">
+  <data key="d0">58</data>
+  <data key="d1">Belongs_To</data>
+</edge>
+<edge source="Flow of Population Action Distribution" target="αs">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="αs" target="R">
+  <data key="d0">59</data>
+  <data key="d1">Maps_To</data>
+</edge>
+<edge source="αs" target="αs(·; x)">
+  <data key="d0">60</data>
+  <data key="d1">Outputs</data>
+</edge>
+<edge source="R" target="x">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="αs(·; x)" target="P(U )">
+  <data key="d0">58</data>
+  <data key="d1">Belongs_To</data>
+</edge>
+<edge source="Smart Infrastructure" target="Localization">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Localization" target="Occupant Tracking">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Localization" target="Event Locations">
+  <data key="d0">157</data>
+  <data key="d1">Predict</data>
+</edge>
+<edge source="Occupant Tracking" target="Buildings Occupants">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Occupant Tracking" target="Data Anonymity">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Occupant Tracking" target="Occupant Privacy">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Occupant Tracking" target="Privacy Concerns">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Occupant Tracking" target="Smart Buildings">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Entropy Regularization for Mean Field Games with Learning" target="Knowledge Graph RAG">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Entropy Regularization for Mean Field Games with Learning" target="Mean Field Games">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Entropy Regularization for Mean Field Games with Learning" target="Learning">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Knowledge Graph RAG" target="Entropy Regularization for Mean Field Games with Learning">
+  <data key="d0">61</data>
+  <data key="d1">Invests_In</data>
+</edge>
+<edge source="Policy (3.3)" target="SDE (3.4)">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="SDE (3.4)" target="State Process X∗">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="State Process X∗" target="Controlled State Process under (3.3)">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="X∗" target="m∗">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="m∗" target="Population Mean">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Population Mean" target="B(m∗ − x) D2">
+  <data key="d0">46</data>
+  <data key="d1">Decrease</data>
+</edge>
+<edge source="Population Mean" target="B2(X∗ − m∗)2 D2">
+  <data key="d0">46</data>
+  <data key="d1">Decrease</data>
+</edge>
+<edge source="Smart Buildings" target="Occupant Tracking">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Smart Buildings" target="Fire Alarm Dataset">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Smart Buildings" target="raw data">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Smart Buildings" target="Energy Windowing">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Smart Buildings" target="Sensors">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Smart Buildings" target="Building">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Data Anonymity" target="Occupant Tracking">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Ansatz V" target="expression">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Ansatz V" target="parameters">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Ansatz V" target="mean-field information">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="expression" target="variables">
+  <data key="d0">51</data>
+  <data key="d1">Contain</data>
+</edge>
+<edge source="variables" target="x">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="variables" target="s">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="parameters" target="ηs">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="parameters" target="γs">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="mean-field information" target="p(s,x)">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="p(s,x)" target="equation for B">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="equation for B" target="Riemann integral">
+  <data key="d0">51</data>
+  <data key="d1">Contain</data>
+</edge>
+<edge source="Riemann integral" target="integrand">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="integrand" target="V">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="integrand" target="du">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="NE" target="Game (MFG-EE)">
+  <data key="d0">6</data>
+  <data key="d1">Relate\_To</data>
+</edge>
+<edge source="NE" target="Markovian policy">
+  <data key="d0">6</data>
+  <data key="d1">Relate\_To</data>
+</edge>
+<edge source="NE" target="Game">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Game (MFG-EE)" target="t">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Game (MFG-EE)" target="T">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Game (MFG-EE)" target="s">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Game (MFG-EE)" target="u">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Game (MFG-EE)" target="NE">
+  <data key="d0">62</data>
+  <data key="d1">Is\_Member\_Of</data>
+</edge>
+<edge source="Markovian policy" target="Game (MFG-EE)">
+  <data key="d0">48</data>
+  <data key="d1">Operate\_In</data>
+</edge>
+<edge source="Markovian policy" target="p(s, x)">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="p(s, x)" target="Xs">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="p(s, x)" target="Game (MFG-EE)">
+  <data key="d0">49</data>
+  <data key="d1">Participates\_In</data>
+</edge>
+<edge source="Unknown" target="Ansatz">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Unknown" target="Gender Classification">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Unknown" target="Anonymization">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Unknown" target="Data">
+  <data key="d0">141</data>
+  <data key="d1">Operate_On</data>
+</edge>
+<edge source="Unknown" target="Windows">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Gaussian Property" target="Population Action Distribution">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Population Action Distribution" target="Agent State">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Agent State" target="State Variable y">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="State Variable y" target="State y">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="State y" target="ms">
+  <data key="d0">63</data>
+  <data key="d1">Minus</data>
+</edge>
+<edge source="Minus ms" target="State y">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Minus ms" target="Process Hs">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Minus ms" target="State Variable y">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Process Hs" target="Minus ms">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Waseem Karim" target="Privacy Concerns">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Privacy Concerns" target="GPS Tracking">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Privacy Concerns" target="4th Amendment">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Privacy Concerns" target="Building Users Identification">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="GPS Tracking" target="Mapping and Navigation Systems">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="GPS sensors" target="Researchers">
+  <data key="d0">64</data>
+  <data key="d1">Used_By</data>
+</edge>
+<edge source="Researchers" target="Applications of Existing AI Methodologies">
+  <data key="d0">8</data>
+  <data key="d1">Propose</data>
+</edge>
+<edge source="Researchers" target="Privacy of Individuals Metadata">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Researchers" target="Red-flags">
+  <data key="d0">47</data>
+  <data key="d1">Raise</data>
+</edge>
+<edge source="Researchers" target="Above Researchers">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Researchers" target="Flash-light Application">
+  <data key="d0">73</data>
+  <data key="d1">Develop</data>
+</edge>
+<edge source="Researchers" target="User Restrictions">
+  <data key="d0">103</data>
+  <data key="d1">Demonstrate</data>
+</edge>
+<edge source="Researchers" target="Study">
+  <data key="d0">104</data>
+  <data key="d1">Conduct</data>
+</edge>
+<edge source="Researchers" target="data">
+  <data key="d0">108</data>
+  <data key="d1">Classify</data>
+</edge>
+<edge source="Researchers" target="Privacy Concerns Regarding Occupant Tracking in Smart Buildings">
+  <data key="d0">47</data>
+  <data key="d1">Raise</data>
+</edge>
+<edge source="Researchers" target="linear combinations of the first-two singular values alongside 23 other scaled singular values">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="Researchers" target="Generative AI Examples">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Researchers" target="data for 6000 participants">
+  <data key="d0">168</data>
+  <data key="d1">Synthesize</data>
+</edge>
+<edge source="User restrictions" target="Software Developers">
+  <data key="d0">65</data>
+  <data key="d1">Overpassed_By</data>
+</edge>
+<edge source="Personal location data" target="New York Times">
+  <data key="d0">66</data>
+  <data key="d1">Accessed_By</data>
+</edge>
+<edge source="Personal location data" target="Applications">
+  <data key="d0">67</data>
+  <data key="d1">Collected_By</data>
+</edge>
+<edge source="Personal location data" target="Undisclosed Source">
+  <data key="d0">68</data>
+  <data key="d1">Commercialized_By</data>
+</edge>
+<edge source="New York Times" target="Your apps know where you were last night, and theyre not keeping it secret">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Daniel Lacker" target="Mean ﬁeld games via controlled martingale problems: existence of markovian equilibria">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="Daniel Lacker" target="Mean ﬁeld and n-agent games for optimal investment under relative performance criteria">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Daniel Lacker" target="Jean-Michel Lasry">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Daniel Lacker" target="Pierre-Louis Lions">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Daniel Lacker" target="Stochastic Processes and their Applications">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Daniel Lacker" target="A probabilistic weak formulation of mean ﬁeld games and">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Daniel Lacker" target="A probabilistic weak formulation of mean field games and applications">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Mean ﬁeld games via controlled martingale problems: existence of markovian equilibria" target="Stochastic Processes and their Applications">
+  <data key="d0">91</data>
+  <data key="d1">Published_In</data>
+</edge>
+<edge source="Jean-Michel Lasry" target="Mean ﬁeld games">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Jean-Michel Lasry" target="The Master Equation and the Convergence Problem in Mean Field Games:(AMS-201)">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Pierre-Louis Lions" target="Mean ﬁeld games">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Pierre-Louis Lions" target="The Master Equation and the Convergence Problem in Mean Field Games:(AMS-201)">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Initial State Distribution" target="State Process">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="State Process" target="Agent-Population Profile">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="State Process" target="Dynamics">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Agent-Population Profile" target="Policy">
+  <data key="d0">69</data>
+  <data key="d1">Consists_Of</data>
+</edge>
+<edge source="Agent-Population Profile" target="Alpha">
+  <data key="d0">69</data>
+  <data key="d1">Consists_Of</data>
+</edge>
+<edge source="Single-Agent-Side" target="Population State-Action Distribution">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Population State-Action Distribution" target="Policy">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="J Function" target="Time">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="J Function" target="Reward">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="J Function" target="Policy">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="J Function" target="Population State-Action Distribution">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Alpha" target="X">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Alpha" target="Probability">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="X" target="U">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Probability" target="Distribution">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Distribution" target="State">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Dynamics" target="Equation">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Equation" target="Parameters">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Occupant tracking" target="Public Safety">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Occupant tracking" target="Energy Conservation">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Occupant tracking" target="Marketing">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="GPS" target="Tracking Outside Buildings">
+  <data key="d0">13</data>
+  <data key="d1">Used_For</data>
+</edge>
+<edge source="GPS" target="late 1980s">
+  <data key="d0">16</data>
+  <data key="d1">Introduce</data>
+</edge>
+<edge source="GPS" target="selective capabilities for public use">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="GPS" target="full capabilities since the year 2000">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="GPS" target="Independent of any telephonic or internet reception">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="GPS" target="United States Air Force">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="GPS" target="Geographic Location">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="GPS" target="Time Information">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="GPS" target="GPS Receiver">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="GPS" target="Navstar GPS">
+  <data key="d0">88</data>
+  <data key="d1">Originally_Known_As</data>
+</edge>
+<edge source="GPS" target="Wireless technologies">
+  <data key="d0">105</data>
+  <data key="d1">Include</data>
+</edge>
+<edge source="Visual-based tracking" target="Tracking People">
+  <data key="d0">13</data>
+  <data key="d1">Used_For</data>
+</edge>
+<edge source="Visual-based tracking" target="Surveillance Cameras">
+  <data key="d0">70</data>
+  <data key="d1">Uses</data>
+</edge>
+<edge source="Surveillance Cameras" target="Public Spaces">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Surveillance Cameras" target="Privacy Concerns">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Surveillance Cameras" target="Anonymity">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Surveillance Cameras" target="Tracking Individuals">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Surveillance Cameras" target="Centralized Data">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Vibration-based tracking" target="Tracking People">
+  <data key="d0">13</data>
+  <data key="d1">Used_For</data>
+</edge>
+<edge source="Vibration-based tracking" target="Accelerometers">
+  <data key="d0">70</data>
+  <data key="d1">Uses</data>
+</edge>
+<edge source="Surveillance Systems" target="Highly Crowded Areas">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Vision-Based Tracking Data" target="Surveillance Systems">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Ben M Hambly" target="Policy gradient methods ﬁnd the nash equilibrium in n-player general-sum linear-quadratic games">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Renyuan Xu" target="Policy gradient methods ﬁnd the nash equilibrium in n-player general-sum linear-quadratic games">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Huining Yang" target="Policy gradient methods ﬁnd the nash equilibrium in n-player general-sum linear-quadratic games">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Elad Hazan" target="Provably eﬃcient maximum entropy exploration">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Sham Kakade" target="Provably eﬃcient maximum entropy exploration">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Karan Singh" target="Provably eﬃcient maximum entropy exploration">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Abby Van Soest" target="Provably eﬃcient maximum entropy exploration">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="GPS Trackers" target="Personal trackers in the late 90s, early 2000s">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="GPS Trackers" target="Cheap technology to acquire even at its infancy">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="United States Air Force" target="GPS">
+  <data key="d0">72</data>
+  <data key="d1">Operate</data>
+</edge>
+<edge source="United States Government" target="GPS">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="US Department of Defense" target="GPS">
+  <data key="d0">73</data>
+  <data key="d1">Develop</data>
+</edge>
+<edge source="GPS receivers" target="Studies">
+  <data key="d0">14</data>
+  <data key="d1">Used_In</data>
+</edge>
+<edge source="Studies" target="Privacy concerns">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="K Michael" target="Studies">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="J Wang" target="Studies">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="Personal tracking systems" target="Emerging Applications">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Personal tracking systems" target="Tracking Suspects">
+  <data key="d0">13</data>
+  <data key="d1">Used_For</data>
+</edge>
+<edge source="Personal tracking systems" target="Tracking Employees">
+  <data key="d0">13</data>
+  <data key="d1">Used_For</data>
+</edge>
+<edge source="Personal tracking systems" target="Tracking Children">
+  <data key="d0">13</data>
+  <data key="d1">Used_For</data>
+</edge>
+<edge source="Personal tracking systems" target="Ethical Implications">
+  <data key="d0">75</data>
+  <data key="d1">Have_Implications</data>
+</edge>
+<edge source="People" target="Emergency">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="People" target="Natural Disaster">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="People" target="Occupant Comfort">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="People" target="Building Simulation Data Collection">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="People" target="Potential Victims">
+  <data key="d0">92</data>
+  <data key="d1">Can_Be</data>
+</edge>
+<edge source="Building" target="Emergency">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Building" target="Natural Disaster">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Building" target="Occupant Comfort">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Building" target="Building Simulation Data Collection">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Building" target="NAN">
+  <data key="d0">147</data>
+  <data key="d1">No_Footstep_Events</data>
+</edge>
+<edge source="Building" target="Evacuation">
+  <data key="d0">146</data>
+  <data key="d1">10_Minutes_Before</data>
+</edge>
+<edge source="Building" target="Footstep Signature Data">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Building" target="Smart Buildings">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Building" target="Data Collection for Footstep Signatures">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Adam Shwartz" target="Loss Through Surveillance Footage">
+  <data key="d0">76</data>
+  <data key="d1">Conclude</data>
+</edge>
+<edge source="Adam Shwartz" target="City of Chicago's Surveillance Cameras">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="City of Chicago" target="Highly Integrated Network of Surveillance Cameras">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="City of Chicago" target="Privacy">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="City of Chicago" target="Racial Profiling">
+  <data key="d0">77</data>
+  <data key="d1">Encourage</data>
+</edge>
+<edge source="City of Chicago" target="City Safety">
+  <data key="d0">78</data>
+  <data key="d1">Not_Relate_To</data>
+</edge>
+<edge source="Occupant Privacy" target="Occupant Gender Information">
+  <data key="d0">79</data>
+  <data key="d1">Anonymize</data>
+</edge>
+<edge source="Vibration Signals Dataset" target="Occupant Localization">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Vibration Signals Dataset" target="Occupant Gender Information">
+  <data key="d0">81</data>
+  <data key="d1">Identifying Information</data>
+</edge>
+<edge source="Occupant Localization" target="Current Methods Accuracy">
+  <data key="d0">80</data>
+  <data key="d1">Similar Levels</data>
+</edge>
+<edge source="Occupant Localization" target="Binary Classification">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Proposed Method" target="Vibration Data">
+  <data key="d0">82</data>
+  <data key="d1">Transform</data>
+</edge>
+<edge source="Proposed Method" target="Vibration Signals Dataset">
+  <data key="d0">83</data>
+  <data key="d1">Tested On</data>
+</edge>
+<edge source="Proposed Method" target="Anonymizing Occupant Gender Information">
+  <data key="d0">84</data>
+  <data key="d1">Result In</data>
+</edge>
+<edge source="Vibration Data" target="Dataset">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="Vibration Data" target="Personal Identification">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Vibration Data" target="Vibration Signal">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Vibration based methods" target="Other methods">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Personal tracking technology" target="Past Three Decades">
+  <data key="d0">85</data>
+  <data key="d1">Evolve</data>
+</edge>
+<edge source="Personal tracking technology" target="Government Sector">
+  <data key="d0">86</data>
+  <data key="d1">High_Demand</data>
+</edge>
+<edge source="Personal tracking technology" target="Security Sector">
+  <data key="d0">86</data>
+  <data key="d1">High_Demand</data>
+</edge>
+<edge source="Personal tracking technology" target="Commerce Sectors">
+  <data key="d0">86</data>
+  <data key="d1">High_Demand</data>
+</edge>
+<edge source="Personal tracking technology" target="Advancements in GPS">
+  <data key="d0">87</data>
+  <data key="d1">Possible</data>
+</edge>
+<edge source="Navstar GPS" target="United States Government">
+  <data key="d0">90</data>
+  <data key="d1">Operate_By</data>
+</edge>
+<edge source="Shariq Iqbal" target="International Conference on Machine Learning">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Shariq Iqbal" target="Actor-attention-critic for multi-agent reinforcement learning">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="Actor-attention-critic for multi-agent reinforcement learning" target="International Conference on Machine Learning">
+  <data key="d0">91</data>
+  <data key="d1">Published_In</data>
+</edge>
+<edge source="Fei Sha" target="International Conference on Machine Learning">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Fei Sha" target="Actor-attention-critic for multi-agent reinforcement learning">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="Haoran Wang" target="Continuous-time mean-variance portfolio selection: A reinforcement learning framework">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Haoran Wang" target="[36]">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Haoran Wang" target="Journal of Machine Learning Research">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Continuous-time mean-variance portfolio selection: A reinforcement learning framework" target="Global convergence of policy gradient for linear-quadratic mean-field control/game in continuous time">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Xun Yu Zhou" target="Continuous-time mean-variance portfolio selection: A reinforcement learning framework">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Weichen Wang" target="Global convergence of policy gradient for linear-quadratic mean-field control/game in continuous time">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Jiequn Han" target="Global convergence of policy gradient for linear-quadratic mean-field control/game in continuous time">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Zhuoran Yang" target="Global convergence of policy gradient for linear-quadratic mean-field control/game in continuous time">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Zhuoran Yang" target="Advances in Neural Information Processing Systems">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Zhuoran Yang" target="Actor-Critic Provably Finds Nash Equilibria of Linear-Quadratic Mean-Field Games">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Zhaoran Wang" target="Global convergence of policy gradient for linear-quadratic mean-field control/game in continuous time">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Zhaoran Wang" target="Actor-Critic Provably Finds Nash Equilibria of Linear-Quadratic Mean-Field Games">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Vibration-based sensors" target="Location-based and Vision-based tracking methods">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Vibration-based sensors" target="Privacy Concerns">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Vibration-based sensors" target="Indoors">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Buildings walls and Floors" target="Range of Surveillance">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Buildings walls and Floors" target="Quality and Accuracy of GPS signals">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Human" target="Tracking">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Tracking" target="Privacy Breaches">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Tracking" target="Building">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Camera" target="Tracking">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Camera" target="Occupant Tracking">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Camera" target="Privacy">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Electronic Sensor" target="Tracking">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Privacy Breaches" target="People">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Potential Victims" target="Actual Harm">
+  <data key="d0">93</data>
+  <data key="d1">Could_Lead_To</data>
+</edge>
+<edge source="Potential Victims" target="Vulnerable">
+  <data key="d0">96</data>
+  <data key="d1">Are</data>
+</edge>
+<edge source="Malicious Person" target="Times">
+  <data key="d0">94</data>
+  <data key="d1">Can_Identify</data>
+</edge>
+<edge source="Times" target="Potential Victims">
+  <data key="d0">95</data>
+  <data key="d1">When</data>
+</edge>
+<edge source="Fire Alarm Dataset" target="This Work">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="Pierre Cardaliaguet" target="Saeed Hadikhanloo">
+  <data key="d0">97</data>
+  <data key="d1">Collaborate</data>
+</edge>
+<edge source="Pierre Cardaliaguet" target="Learning in mean ﬁeld games: the ﬁctitious play">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Pierre Cardaliaguet" target="François Delarue">
+  <data key="d0">97</data>
+  <data key="d1">Collaborate</data>
+</edge>
+<edge source="Pierre Cardaliaguet" target="Jean-Michel Lasry">
+  <data key="d0">97</data>
+  <data key="d1">Collaborate</data>
+</edge>
+<edge source="Pierre Cardaliaguet" target="Pierre-Louis Lions">
+  <data key="d0">97</data>
+  <data key="d1">Collaborate</data>
+</edge>
+<edge source="Pierre Cardaliaguet" target="The Master Equation and the Convergence Problem in Mean Field Games:(AMS-201)">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Saeed Hadikhanloo" target="Learning in mean ﬁeld games: the ﬁctitious play">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="René Carmona" target="François Delarue">
+  <data key="d0">97</data>
+  <data key="d1">Collaborate</data>
+</edge>
+<edge source="René Carmona" target="Mean ﬁeld forward-backward stochastic diﬀerential equations">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="René Carmona" target="Daniel Lacker">
+  <data key="d0">97</data>
+  <data key="d1">Collaborate</data>
+</edge>
+<edge source="René Carmona" target="A probabilistic weak formulation of mean ﬁeld games and">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="René Carmona" target="A probabilistic weak formulation of mean field games and applications">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="René Carmona" target="Linear-quadratic mean-field reinforcement learning: Convergence of policy gradient methods">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="François Delarue" target="Mean ﬁeld forward-backward stochastic diﬀerential equations">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="François Delarue" target="The Master Equation and the Convergence Problem in Mean Field Games:(AMS-201)">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Sarah Dean" target="On the sample complexity of the linear quadratic regulator">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Horia Mania" target="On the sample complexity of the linear quadratic regulator">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Horia Mania" target="[31]">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Horia Mania" target="Certainty equivalence is eﬃcient for linear quadratic control">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="Nikolai Matni" target="On the sample complexity of the linear quadratic regulator">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Benjamin Recht" target="On the sample complexity of the linear quadratic regulator">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Benjamin Recht" target="[31]">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Benjamin Recht" target="Certainty equivalence is eﬃcient for linear quadratic control">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="Stephen Tu" target="On the sample complexity of the linear quadratic regulator">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Stephen Tu" target="[31]">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Stephen Tu" target="Certainty equivalence is eﬃcient for linear quadratic control">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="Maryam Fazel" target="Global convergence of policy gradient methods for the linear quadratic regulator">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Rong Ge" target="Global convergence of policy gradient methods for the linear quadratic regulator">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Sham M Kakade" target="Global convergence of policy gradient methods for the linear quadratic regulator">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Mehran Mesbahi" target="Global convergence of policy gradient methods for the linear quadratic regulator">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="GPS trackers" target="4th Amendment">
+  <data key="d0">99</data>
+  <data key="d1">Possible_Violation_Of</data>
+</edge>
+<edge source="GPS trackers" target="Smart Buildings">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Law Enforcement" target="GPS trackers">
+  <data key="d0">100</data>
+  <data key="d1">Accessible_To</data>
+</edge>
+<edge source="Law Enforcement" target="9/11">
+  <data key="d0">101</data>
+  <data key="d1">At_Time</data>
+</edge>
+<edge source="Patriot Act" target="9/11">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Michael Wunder" target="Proceedings of the 27th International Conference on Machine Learning (ICML-10)">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Michael L Littman" target="Proceedings of the 27th International Conference on Machine Learning (ICML-10)">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Monica Babes" target="Proceedings of the 27th International Conference on Machine Learning (ICML-10)">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Classes of multiagent Q-learning dynamics with epsilon-greedy exploration" target="Proceedings of the 27th International Conference on Machine Learning (ICML-10)">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="Kaiqing Zhang" target="Advances in Neural Information Processing Systems">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Tamer Basar" target="Advances in Neural Information Processing Systems">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Policy optimization provably converges In Advances in Neural Information Processing Systems" target="Advances in Neural Information Processing Systems">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="Zuyue Fu" target="Gradient Methods for the Linear Quadratic Regulator">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Zuyue Fu" target="Actor-Critic Provably Finds Nash Equilibria of Linear-Quadratic Mean-Field Games">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Yongxin Chen" target="Actor-Critic Provably Finds Nash Equilibria of Linear-Quadratic Mean-Field Games">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Jordi Grau-Moya" target="Soft Q-learning with Mutual-Information Regularization">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Felix Leibfried" target="Soft Q-learning with Mutual-Information Regularization">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Peter Vrancx" target="Soft Q-learning with Mutual-Information Regularization">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Mobile Phones" target="Sensors">
+  <data key="d0">45</data>
+  <data key="d1">Have</data>
+</edge>
+<edge source="Mobile Phones" target="Best Spying Device">
+  <data key="d0">96</data>
+  <data key="d1">Are</data>
+</edge>
+<edge source="Sensors" target="nan">
+  <data key="d0">111</data>
+  <data key="d1">Discarded</data>
+</edge>
+<edge source="Sensors" target="Building">
+  <data key="d0">144</data>
+  <data key="d1">Located_In</data>
+</edge>
+<edge source="Flash-light Application" target="Users Phones GPS Sensors">
+  <data key="d0">102</data>
+  <data key="d1">Acquire</data>
+</edge>
+<edge source="User Restrictions" target="Location Data">
+  <data key="d0">45</data>
+  <data key="d1">Have</data>
+</edge>
+<edge source="User Restrictions" target="Metadata">
+  <data key="d0">45</data>
+  <data key="d1">Have</data>
+</edge>
+<edge source="Metadata" target="Paper">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="Northeastern University" target="Boston">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Wireless technologies" target="Indoor tracking techniques">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Vision technologies" target="Indoor tracking techniques">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Ultrasound" target="Wireless technologies">
+  <data key="d0">105</data>
+  <data key="d1">Include</data>
+</edge>
+<edge source="RFID" target="Wireless technologies">
+  <data key="d0">105</data>
+  <data key="d1">Include</data>
+</edge>
+<edge source="WLAN" target="Wireless technologies">
+  <data key="d0">105</data>
+  <data key="d1">Include</data>
+</edge>
+<edge source="Bluetooth" target="Wireless technologies">
+  <data key="d0">105</data>
+  <data key="d1">Include</data>
+</edge>
+<edge source="Fixed camera" target="Vision technologies">
+  <data key="d0">105</data>
+  <data key="d1">Include</data>
+</edge>
+<edge source="Mobile camera" target="Vision technologies">
+  <data key="d0">105</data>
+  <data key="d1">Include</data>
+</edge>
+<edge source="Project" target="Smart Buildings">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Time based methods" target="Multilateration">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Time based methods" target="footstep localization in a building">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Time based methods" target="vibrations travel a distance">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Vibrations" target="Attenuation of Signal">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Array of Sensors" target="Time based methods">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Material of the Floor" target="Wave Propagation Speed">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Event" target="Original Location Prediction">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Event" target="Vibration Energy Signal">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Event" target="Time Signal">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Karl J Aström" target="Adaptive Control">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="Adaptive Control" target="2013">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Björn Wittenmark" target="Adaptive Control">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="Martino Bardi" target="Explicit solutions of some linear-quadratic mean field games">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="Networks &amp; Heterogeneous Media" target="Explicit solutions of some linear-quadratic mean field games">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Alain Bensoussan" target="Linear-quadratic mean field games">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="KCJ Sung" target="Linear-quadratic mean field games">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="Sheung Chi Phillip Yam" target="Linear-quadratic mean field games">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="Siu-Pang Yung" target="Linear-quadratic mean field games">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="Journal of Optimization Theory and Applications" target="Linear-quadratic mean field games">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Jalaj Bhandari" target="Global optimality guarantees for policy gradient methods">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Jalaj Bhandari" target="Daniel Russo">
+  <data key="d0">97</data>
+  <data key="d1">Collaborate</data>
+</edge>
+<edge source="Global optimality guarantees for policy gradient methods" target="arXiv preprint arXiv:1906.01786, 2019">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Daniel Russo" target="Global optimality guarantees for policy gradient methods">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Daniel Russo" target="[35]">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Daniel Russo" target="The Journal of Machine Learning Research">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Cristopher Slobogin" target="[8]">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Tracking Individuals" target="Privacy Concerns">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Computing" target="Computer Vision">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Computing" target="Massive Advancements">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Centralized Data" target="Multiple Sources">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="A probabilistic weak formulation of mean field games and applications" target="René Carmona">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="A probabilistic weak formulation of mean field games and applications" target="Daniel Lacker">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Linear-quadratic mean-field reinforcement learning: Convergence of policy gradient methods" target="René Carmona">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Linear-quadratic mean-field reinforcement learning: Convergence of policy gradient methods" target="Mathieu Laurière">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Linear-quadratic mean-field reinforcement learning: Convergence of policy gradient methods" target="Zongjun Tan">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Mathieu Laurière" target="Linear-quadratic mean-field reinforcement learning: Convergence of policy gradient methods">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Zongjun Tan" target="Linear-quadratic mean-field reinforcement learning: Convergence of policy gradient methods">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Leverage" target="Dispersion Compensation">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Dispersion Compensation" target="Group of Methods">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Dispersion Compensation" target="Dispersion Relation of the Floor">
+  <data key="d0">39</data>
+  <data key="d1">Use</data>
+</edge>
+<edge source="Dispersion Compensation" target="Time Domain Signal">
+  <data key="d0">82</data>
+  <data key="d1">Transform</data>
+</edge>
+<edge source="Group of Methods" target="Localization">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Warped Frequency Transform (WFT)" target="Methods for this Transformation">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="Warped Frequency Transform (WFT)" target="Predict Location of the Event">
+  <data key="d0">107</data>
+  <data key="d1">Allow</data>
+</edge>
+<edge source="data" target="data pipeline">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Energy windowed data" target="windows of time">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Energy windowed data" target="vibration based tracking method">
+  <data key="d0">14</data>
+  <data key="d1">Used_In</data>
+</edge>
+<edge source="Tracking method" target="indoor tracking">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Indoor tracking" target="personal identifying information">
+  <data key="d0">109</data>
+  <data key="d1">Less</data>
+</edge>
+<edge source="VTSIL methodology" target="Smart Buildings">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Moving Average  Filter" target="One Second Window">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Moving Average  Filter" target="Data">
+  <data key="d0">110</data>
+  <data key="d1">De-trend</data>
+</edge>
+<edge source="Data" target="Classification Accuracy">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="HVAC" target="Noise Source">
+  <data key="d0">112</data>
+  <data key="d1">Near</data>
+</edge>
+<edge source="Energy based methods" target="footstep localization in a building">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Energy based methods" target="attenuation of the signal">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Dispersion compensation based methods" target="footstep localization in a building">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Dispersion compensation based methods" target="same underlying principle">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Energy Windowing" target="Figure 8">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Energy Windowing" target="Equation 1">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Figure 8" target="Equation">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Figure 8" target="Five Events">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="Sensor Layout" target="Fourth Fl">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Sensor Layout" target="Privacy Concerns">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Fourth Fl" target="Goodwin Hall">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Sensor" target="Sensor Layout">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Radio Signals" target="General Intuition">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Transmitter" target="Location">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Receiver" target="Determination">
+  <data key="d0">113</data>
+  <data key="d1">Makes</data>
+</edge>
+<edge source="Signal" target="Transmitter">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Signal" target="Receiver">
+  <data key="d0">114</data>
+  <data key="d1">Reaches</data>
+</edge>
+<edge source="Attenuation" target="Signal">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Packet Loss" target="Signal">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Redundant Receivers" target="System">
+  <data key="d0">115</data>
+  <data key="d1">Added_To</data>
+</edge>
+<edge source="Redundant Transmitters" target="System">
+  <data key="d0">115</data>
+  <data key="d1">Added_To</data>
+</edge>
+<edge source="Signal Strength" target="Signal">
+  <data key="d0">116</data>
+  <data key="d1">Manipulated</data>
+</edge>
+<edge source="Building Sensors" target="Smart Buildings">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Building Sensors" target="Occupant Tracking">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Building Sensors" target="Privacy">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Cell Phone" target="Occupant Tracking">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Cell Phone" target="Privacy">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="RFID Badge" target="Occupant Tracking">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="RFID Badge" target="Privacy">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="Same length" target="Footstep responses">
+  <data key="d0">117</data>
+  <data key="d1"> Ensure</data>
+</edge>
+<edge source="Footstep responses" target="Vectors">
+  <data key="d0">96</data>
+  <data key="d1">Are</data>
+</edge>
+<edge source="Machine learning algorithms" target="Footstep responses">
+  <data key="d0">118</data>
+  <data key="d1">May be applied to</data>
+</edge>
+<edge source="Vectors" target="Footstep responses">
+  <data key="d0">119</data>
+  <data key="d1">Of the same length</data>
+</edge>
+<edge source="0.1 seconds" target="Before the detection">
+  <data key="d0">120</data>
+  <data key="d1">May be kept</data>
+</edge>
+<edge source="0.3 seconds" target="After the detection">
+  <data key="d0">120</data>
+  <data key="d1">May be kept</data>
+</edge>
+<edge source="Single Person" target="Route">
+  <data key="d0">39</data>
+  <data key="d1">Use</data>
+</edge>
+<edge source="Single Person" target="Evacuation">
+  <data key="d0">39</data>
+  <data key="d1">Use</data>
+</edge>
+<edge source="Single Person" target="Figure 9">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Single Person" target="Amplitude of the Signal">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Single Person" target="Walking Signal">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Localizing a Sequence of Footstep Events" target="Single Person">
+  <data key="d0">121</data>
+  <data key="d1">Track</data>
+</edge>
+<edge source="Localizing a Sequence of Footstep Events" target="Final Report">
+  <data key="d0">103</data>
+  <data key="d1">Demonstrate</data>
+</edge>
+<edge source="Energy Based Methods" target="Error">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Building Occupants" target="Fire Alarm Dataset">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Fire Alarm" target="Building">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Ambient Vibrations" target="Fire Alarm Dataset">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="256 Hz" target="Ambient Vibrations">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="Josef Hofbauer" target="On the global convergence of stochastic ﬁctitious play">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="On the global convergence of stochastic ﬁctitious play" target="Econometrica">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="William H Sandholm" target="On the global convergence of stochastic ﬁctitious play">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Econometrica" target="Economics Field">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Zhang-Wei Hong" target="A deep policy inference Q-network for multi-agent systems">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="A deep policy inference Q-network for multi-agent systems" target="Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems">
+  <data key="d0">122</data>
+  <data key="d1">Presented_At</data>
+</edge>
+<edge source="Shih-Yang Su" target="A deep policy inference Q-network for multi-agent systems">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Tzu-Yun Shann" target="A deep policy inference Q-network for multi-agent systems">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Yi-Hsiang Chang" target="A deep policy inference Q-network for multi-agent systems">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Chun-Yi Lee" target="A deep policy inference Q-network for multi-agent systems">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems" target="International Foundation for Autonomous Agents and Multiagent Systems">
+  <data key="d0">123</data>
+  <data key="d1">Organized_By</data>
+</edge>
+<edge source="International Foundation for Autonomous Agents and Multiagent Systems" target="AAAI">
+  <data key="d0">124</data>
+  <data key="d1">Classified_As</data>
+</edge>
+<edge source="predict the location of the event" target="dispersion compensation methods">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="dispersion compensation methods" target="smaller structures">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="dispersion compensation methods" target="one demonstration in a building">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="these methods" target="plates">
+  <data key="d0">125</data>
+  <data key="d1">Common_In</data>
+</edge>
+<edge source="localization methods" target="Table I">
+  <data key="d0">126</data>
+  <data key="d1">Summarized_In</data>
+</edge>
+<edge source="number sensors" target="each study">
+  <data key="d0">14</data>
+  <data key="d1">Used_In</data>
+</edge>
+<edge source="sensor type" target="each study">
+  <data key="d0">14</data>
+  <data key="d1">Used_In</data>
+</edge>
+<edge source="information needed" target="each study">
+  <data key="d0">14</data>
+  <data key="d1">Used_In</data>
+</edge>
+<edge source="error reported" target="each study">
+  <data key="d0">14</data>
+  <data key="d1">Used_In</data>
+</edge>
+<edge source="Individuals" target="Individual Identifying Information">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Individuals" target="Vibration Signal">
+  <data key="d0">166</data>
+  <data key="d1">Identify</data>
+</edge>
+<edge source="Data Obscuring" target="Classification Accuracy">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Work" target="Multiple Classification Methods">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Multiple Classification Methods" target="Sex">
+  <data key="d0">108</data>
+  <data key="d1">Classify</data>
+</edge>
+<edge source="Multiple Classification Methods" target="Individuals">
+  <data key="d0">108</data>
+  <data key="d1">Classify</data>
+</edge>
+<edge source="Multi-Agent Reinforcement Learning" target="ARXIV preprint arXiv:1802.09640">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="ARXIV preprint arXiv:1802.09640" target="Multi-Agent Reinforcement Learning">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="[35]" target="Daniel Russo">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="[35]" target="An information-theoretic analysis of Thompson sampling">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="The Journal of Machine Learning Research" target="[35]">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="An information-theoretic analysis of Thompson sampling" target="The Journal of Machine Learning Research">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Journal of Machine Learning Research" target="[36]">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Exploration versus exploitation in reinforcement learning: a stochastic control approach" target="Journal of Machine Learning Research">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Privacy\_Concerns\_Regarding\_Occupant\_Tracking\_in\_Smart\_Buildings.pdf" target="metadata">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Privacy\_Concerns\_Regarding\_Occupant\_Tracking\_in\_Smart\_Buildings.pdf" target="Anonymization Approach">
+  <data key="d0">6</data>
+  <data key="d1">Relate\_To</data>
+</edge>
+<edge source="central server" target="data">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="data pipeline" target="Virginia Tech Smart Infrastructure Laboratory">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="data pipeline" target="time series data">
+  <data key="d0">127</data>
+  <data key="d1">Convert</data>
+</edge>
+<edge source="time series data" target=".mat (Matlab data file)">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="time series data" target=".csv files">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="coordinates" target="x-y-z coordinate system">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="coordinates" target="data pipeline">
+  <data key="d0">128</data>
+  <data key="d1">Embedded_In</data>
+</edge>
+<edge source="Single Person Walking" target="Localization">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Vibration Sensors" target="Conventional Indoor Tracking Methods">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Vibration Sensors" target="Second Experiment">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Vibration Sensors" target="Level of Personal Identification">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Vibration Sensors" target="First Experiment">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Vibration Sensors" target="Tracking Method">
+  <data key="d0">136</data>
+  <data key="d1">Precision</data>
+</edge>
+<edge source="Vibration Sensors" target="Footstep Tracking">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Second Experiment" target="Ability">
+  <data key="d0">103</data>
+  <data key="d1">Demonstrate</data>
+</edge>
+<edge source="Dataset" target="Male and Female Subjects">
+  <data key="d0">129</data>
+  <data key="d1">Involve</data>
+</edge>
+<edge source="Dataset" target="Second Experiment">
+  <data key="d0">14</data>
+  <data key="d1">Used_In</data>
+</edge>
+<edge source="Dataset" target="Benefits">
+  <data key="d0">148</data>
+  <data key="d1">Used_To_Show</data>
+</edge>
+<edge source="Dataset" target="Data">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Dataset" target="Single Participants">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Dataset" target="Sex Labels">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Dataset" target="Trial Labels">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Dataset" target="Explore">
+  <data key="d0">165</data>
+  <data key="d1">Utilize</data>
+</edge>
+<edge source="Subjects" target="Hallway">
+  <data key="d0">130</data>
+  <data key="d1">Walk</data>
+</edge>
+<edge source="Raw Data" target="Classify Subjects">
+  <data key="d0">131</data>
+  <data key="d1">Attempted</data>
+</edge>
+<edge source="Raw Data" target="Data">
+  <data key="d0">132</data>
+  <data key="d1">Obscure</data>
+</edge>
+<edge source="Individual" target="Evacuation Route">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Individual" target="Along">
+  <data key="d0">130</data>
+  <data key="d1">Walk</data>
+</edge>
+<edge source="Surveillance cameras" target="Late 80s">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Surveillance cameras" target="Around-the-clock monitoring">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Surveillance cameras" target="Sensitive areas and buildings monitoring">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Surveillance cameras" target="Traffic violations monitoring">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Surveillance cameras" target="ATMs">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="IP linked camera" target="1996">
+  <data key="d0">133</data>
+  <data key="d1">Release</data>
+</edge>
+<edge source="IP linked camera" target="Video recording">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="IP linked camera" target="Surveillance cameras">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Recordings" target="Multiple cameras">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Recordings" target="One place">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Cristopher" target="Early study">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Paper" target="Privacy Concerns">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Paper" target="Occupant Tracking">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Paper" target="Smart Buildings">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Footstep Event" target="Single Person">
+  <data key="d0">134</data>
+  <data key="d1">Localize</data>
+</edge>
+<edge source="Footstep Event" target="Other Sensors">
+  <data key="d0">134</data>
+  <data key="d1">Localize</data>
+</edge>
+<edge source="Sequence of Footstep Events" target="Single Person">
+  <data key="d0">121</data>
+  <data key="d1">Track</data>
+</edge>
+<edge source="Alajlouni et. Al." target="energy calculation process">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Alajlouni et. Al." target="Exponential Decay">
+  <data key="d0">155</data>
+  <data key="d1">Show</data>
+</edge>
+<edge source="energy" target="Ei">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="sensor" target="position">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="This work" target="Vibration based building localization">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="First Experiment" target="Accuracy">
+  <data key="d0">135</data>
+  <data key="d1">Examine</data>
+</edge>
+<edge source="First Experiment" target="Privacy Concerns">
+  <data key="d0">135</data>
+  <data key="d1">Examine</data>
+</edge>
+<edge source="Ability" target="Group Movement">
+  <data key="d0">121</data>
+  <data key="d1">Track</data>
+</edge>
+<edge source="Ability" target="Individual Movement">
+  <data key="d0">121</data>
+  <data key="d1">Track</data>
+</edge>
+<edge source="Tracking Method" target="Conventional Indoor Tracking Methods">
+  <data key="d0">137</data>
+  <data key="d1">Compare_To</data>
+</edge>
+<edge source="A. Ellis Kessler" target="All authors">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="A. Ellis Kessler" target="Goodwin Hall Case Study">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Neural Network model" target="Energy-windowing Approach">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Energy-windowing Approach" target="Dataset">
+  <data key="d0">138</data>
+  <data key="d1">Develop_For</data>
+</edge>
+<edge source="Sensor Data" target="Increasing Window Sizes">
+  <data key="d0">139</data>
+  <data key="d1">Aggregate_Into</data>
+</edge>
+<edge source="Increasing Window Sizes" target="Reducing Classification Accuracy">
+  <data key="d0">140</data>
+  <data key="d1">Help_In</data>
+</edge>
+<edge source="Reducing Classification Accuracy" target="Individual’s Gender">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Windows" target="RMS">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Windows" target="Energy">
+  <data key="d0">141</data>
+  <data key="d1">Operate_On</data>
+</edge>
+<edge source="Energy" target="Figure 8">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Energy" target="Exponential Decay">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Es" target="nan">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="β" target="nan">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="xs" target="nan">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="ys" target="nan">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="ri" target="ri formula">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="xi" target="ri formula">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="yi" target="ri formula">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Footstep Tracking" target="Indoor Tracking">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Occupants" target="Exits">
+  <data key="d0">142</data>
+  <data key="d1">Travel_To</data>
+</edge>
+<edge source="Exits" target="Sensors">
+  <data key="d0">143</data>
+  <data key="d1">Detected_By</data>
+</edge>
+<edge source="Benefits" target="Indoor Tracking">
+  <data key="d0">149</data>
+  <data key="d1">Of</data>
+</edge>
+<edge source="Energy Windowing Technique" target="Successful Anonymization">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Same Window Sizes" target="Localization Process">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Vibration Energy Signal" target="Finding Peaks">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Footstep Signature Data" target="Occupant Localization">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="The Master Equation and the Convergence Problem in Mean Field Games:(AMS-201)" target="Princeton University Press, 2019">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Certainty equivalence is eﬃcient for linear quadratic control" target="[31]">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Certainty equivalence is eﬃcient for linear quadratic control" target="Advances in Neural Information Processing Systems">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Gergely Neu" target="[32]">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Gergely Neu" target="A uniﬁed view of entropy-regularized markov&#10;decision processes">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="Anders Jonsson" target="[32]">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Anders Jonsson" target="A uniﬁed view of entropy-regularized markov&#10;decision processes">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="Vicenç Gómez" target="[32]">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Vicenç Gómez" target="A uniﬁed view of entropy-regularized markov&#10;decision processes">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="A uniﬁed view of entropy-regularized markov&#10;decision processes" target="arXiv preprint arXiv:1705.07798">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="A uniﬁed view of entropy-regularized markov&#10;decision processes" target="arXiv">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Individuals gender classifiers" target="classify better than 50 percent">
+  <data key="d0">150</data>
+  <data key="d1">Unable_To</data>
+</edge>
+<edge source="Proposed method" target="localization accuracy">
+  <data key="d0">151</data>
+  <data key="d1">Increase</data>
+</edge>
+<edge source="Proposed method" target="same time window sizes">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Proposed method" target="People Tracking">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Proposed method" target="Privacy">
+  <data key="d0">164</data>
+  <data key="d1">Preserve</data>
+</edge>
+<edge source="Specific Part of Building" target="Localization Error">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Localization Error" target="Localization Accuracy">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Multiple Events" target="Localization">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Multiple Events" target="NAN">
+  <data key="d0">7</data>
+  <data key="d1">Help</data>
+</edge>
+<edge source="Building Management Professionals" target="Building">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Real Individuals" target="Evacuation Routes">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Evacuation Routes" target="Nearest Exits">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Evacuation Routes" target="Exit Signs">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Evacuation Procedures" target="Evacuation Routes">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Binary Classification Models" target="Machine Learning">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Leave One Out Cross Validation" target="Binary Classification Models">
+  <data key="d0">64</data>
+  <data key="d1">Used_By</data>
+</edge>
+<edge source="Window Sizes" target="Data Aggregation">
+  <data key="d0">64</data>
+  <data key="d1">Used_By</data>
+</edge>
+<edge source="Window Sizes" target="Root Mean Squared Error">
+  <data key="d0">135</data>
+  <data key="d1">Examine</data>
+</edge>
+<edge source="50%" target="Classification Accuracy">
+  <data key="d0">154</data>
+  <data key="d1">Threshold</data>
+</edge>
+<edge source="Bin Size" target="Data Aggregation">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Classifier" target="Accuracy">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Localization Method" target="Localization">
+  <data key="d0">156</data>
+  <data key="d1">Perform</data>
+</edge>
+<edge source="Localization Method" target="Multiple Window Sizes">
+  <data key="d0">39</data>
+  <data key="d1">Use</data>
+</edge>
+<edge source="Event Locations" target="Known Locations">
+  <data key="d0">158</data>
+  <data key="d1">Compare</data>
+</edge>
+<edge source="Walking Signal" target="One Sensor">
+  <data key="d0">159</data>
+  <data key="d1">Measured By</data>
+</edge>
+<edge source="Walking Signal" target="Acceleration Data">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Walking Signal" target="Window of Length W">
+  <data key="d0">160</data>
+  <data key="d1">Calculated By</data>
+</edge>
+<edge source="One Sensor" target="Figure 9">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Acceleration Data" target="X-Axis Component">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Acceleration Data" target="Y-Axis Component">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Acceleration Data" target="Z-Axis Component">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Window of Length W" target="Square Root of Sum of Squares of Acceleration Data">
+  <data key="d0">161</data>
+  <data key="d1">Defined As</data>
+</edge>
+<edge source="Classification and Gender Anonymization" target="B">
+  <data key="d0">162</data>
+  <data key="d1">Follows</data>
+</edge>
+<edge source="this work" target="Privacy Concerns Regarding Occupant Tracking in Smart Buildings">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="binary classifiers" target="sex of an individual">
+  <data key="d0">108</data>
+  <data key="d1">Classify</data>
+</edge>
+<edge source="sex of an individual" target="confidentiality of data">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="confidentiality of data" target="data loss">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="data loss" target="ability to locate an individual">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="ability to locate an individual" target="building">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Current methods" target="Privacy Concerns">
+  <data key="d0">163</data>
+  <data key="d1">Present</data>
+</edge>
+<edge source="Building Users Identification" target="People Tracking">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Windowed Floor Vibration Data" target="Proposed method">
+  <data key="d0">64</data>
+  <data key="d1">Used_By</data>
+</edge>
+<edge source="Ellis Kessler" target="A. Ellis Kessler">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="Ellis Kessler" target="Previous Data">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Ellis Kessler" target="Localization Experiments">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Ellis Kessler" target="Related Work Section">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="Goodwin Hall Case Study" target="Goodwin Hall">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Single Participants" target="Hallway">
+  <data key="d0">130</data>
+  <data key="d1">Walk</data>
+</edge>
+<edge source="Previous Works" target="Classify Sex">
+  <data key="d0">155</data>
+  <data key="d1">Show</data>
+</edge>
+<edge source="B. Moeti Masiane" target="Data Pre-processing">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="B. Moeti Masiane" target="Data Visualization">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="B. Moeti Masiane" target="Classifier Training">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Moeti" target="Related Works Section">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="Moeti" target="Training Classification Models">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Moeti" target="Gender Classification">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Moeti" target="Anonymizing Data">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Limited Training Data Size" target="Challenges">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Challenges" target="Future Work">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Small Number of Participants" target="Limited Training Data Size">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Data Collection for Footstep Signatures" target="Small Number of Participants">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Participants" target="Data Collection for Footstep Signatures">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Informed Consent" target="Data Collection for Footstep Signatures">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Vibration Readings" target="Data Collection for Footstep Signatures">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="C. Awad Abdelhalim" target="Literature Review">
+  <data key="d0">104</data>
+  <data key="d1">Conduct</data>
+</edge>
+<edge source="C. Awad Abdelhalim" target="Ethical Concerns">
+  <data key="d0">167</data>
+  <data key="d1">Review</data>
+</edge>
+<edge source="C. Awad Abdelhalim" target="Literature">
+  <data key="d0">168</data>
+  <data key="d1">Synthesize</data>
+</edge>
+<edge source="C. Awad Abdelhalim" target="Case-Study Data Analysis">
+  <data key="d0">169</data>
+  <data key="d1">Assist</data>
+</edge>
+<edge source="Literature Review" target="Ethical Concerns">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Location-based Tracking Technologies" target="Ethical Concerns">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Vision-based Tracking Technologies" target="Ethical Concerns">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="C. BASRI and A. El Khadimi" target="Survey on indoor localization system and recent advances of wiﬁ ﬁngerprinting technique">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="F. Van Diggelen and C. Abraham" target="Indoor gps technology">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="Indoor gps technology" target="Indoor gps technology">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="2016 5th International Conference on Multimedia Computing and Systems (ICMCS)" target="Survey on indoor localization system and recent advances of wiﬁ ﬁngerprinting technique">
+  <data key="d0">170</data>
+  <data key="d1">Host</data>
+</edge>
+<edge source="CTIA Wireless-Agenda" target="Indoor gps technology">
+  <data key="d0">170</data>
+  <data key="d1">Host</data>
+</edge>
+<edge source="Wiﬁ ﬁngerprinting technique" target="Survey on indoor localization system and recent advances of wiﬁ ﬁngerprinting technique">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="A. G. Woolard" target="Applications of dispersion compensation for indoor vibration event localization">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="A. G. Woolard" target="2015 International Conference on Location and GNSS (ICL-GNSS)">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="A. G. Woolard" target="Gender Classiﬁcation of Walkers via Underﬂoor Accelerometer Measurements">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Applications of dispersion compensation for indoor vibration event localization" target="Journal of Vibration and Control">
+  <data key="d0">171</data>
+  <data key="d1">Publish_In</data>
+</edge>
+<edge source="Journal of Vibration and Control" target="Research Sector">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="L. Mainetti" target="A survey on indoor positioning systems">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="A survey on indoor positioning systems" target="2014 22nd International Conference on Software, Telecommunications and Computer Networks (SoftCOM)">
+  <data key="d0">122</data>
+  <data key="d1">Presented_At</data>
+</edge>
+<edge source="A survey on indoor positioning systems" target="IEEE">
+  <data key="d0">171</data>
+  <data key="d1">Publish_In</data>
+</edge>
+<edge source="2014 22nd International Conference on Software, Telecommunications and Computer Networks (SoftCOM)" target="Research Sector">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="IEEE" target="Research Sector">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="IEEE" target="2006 International Conference on Mobile Business">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="IEEE" target="2009 IEEE International Symposium on Technology and Society">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="IEEE" target="RFID-assisted Indoor Localization and Communication for First Responders">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="W. Karim" target="The privacy implications of personal locators: why you should think twice before voluntarily availing yourself to gps moni- toring">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="W. Karim" target="Wash. UJL &amp; Pol’y">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="2004" target="The privacy implications of personal locators: why you should think twice before voluntarily availing yourself to gps moni- toring">
+  <data key="d0">171</data>
+  <data key="d1">Publish_In</data>
+</edge>
+<edge source="K. Michael" target="The emerging ethics of humancentric gps tracking and monitoring">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="A. McNamee" target="The emerging ethics of humancentric gps tracking and monitoring">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="M. G. Michael" target="The emerging ethics of humancentric gps tracking and monitoring">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="2006 International Conference on Mobile Business" target="The emerging ethics of humancentric gps tracking and monitoring">
+  <data key="d0">172</data>
+  <data key="d1">Occur</data>
+</edge>
+<edge source="2006" target="2006 International Conference on Mobile Business">
+  <data key="d0">173</data>
+  <data key="d1">Occur_In</data>
+</edge>
+<edge source="J. D. Poston" target="2015 International Conference on Location and GNSS (ICL-GNSS)">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="J. D. Poston" target="Gender Classiﬁcation of Walkers via Underﬂoor Accelerometer Measurements">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="J. Schloemann" target="2015 International Conference on Location and GNSS (ICL-GNSS)">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="R. M. Buehrer" target="2015 International Conference on Location and GNSS (ICL-GNSS)">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="V. V. N. S. Malladi" target="2015 International Conference on Location and GNSS (ICL-GNSS)">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="V. V. N. S. Malladi" target="Gender Classiﬁcation of Walkers via Underﬂoor Accelerometer Measurements">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="P. A. Tarazaga" target="2015 International Conference on Location and GNSS (ICL-GNSS)">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="P. A. Tarazaga" target="Gender Classiﬁcation of Walkers via Underﬂoor Accelerometer Measurements">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Towards indoor localization of pedestrians via smart building vibration sensing" target="2015 International Conference on Location and GNSS (ICL-GNSS)">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="linear combinations of the first-two singular values alongside 23 other scaled singular values" target="Accurate Representation of the Actual Dataset">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Generative AI Examples" target="experimental">
+  <data key="d0">11</data>
+  <data key="d1">Is_Member_Of</data>
+</edge>
+<edge source="Generative AI Examples" target="Knowledge Graph">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Knowledge Graph" target="Rapid Automatic Knowledge Format">
+  <data key="d0">61</data>
+  <data key="d1">Invests_In</data>
+</edge>
+<edge source="6000 participants" target="Study">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="6000 participants" target="Researchers">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="3000 females" target="Researchers">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="3000 females" target="Privacy Concerns Regarding Occupant Tracking in Smart Buildings">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="3000 males" target="Researchers">
+  <data key="d0">9</data>
+  <data key="d1">Control</data>
+</edge>
+<edge source="3000 males" target="Privacy Concerns Regarding Occupant Tracking in Smart Buildings">
+  <data key="d0">31</data>
+  <data key="d1">Negative_Impact_On</data>
+</edge>
+<edge source="('S. Alajlouni', 'PERSON')" target="('Mechanical Systems and Signal Processing', 'JOUR')">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="('Mechanical Systems and Signal Processing', 'JOUR')" target="NAN">
+  <data key="d0">174</data>
+  <data key="d1">NAN</data>
+</edge>
+<edge source="('M. Albakri', 'PERSON')" target="('Mechanical Systems and Signal Processing', 'JOUR')">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="('P. Tarazaga', 'PERSON')" target="('Mechanical Systems and Signal Processing', 'JOUR')">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="('J. D. Poston', 'PERSON')" target="('Mechanical Systems and Signal Processing', 'JOUR')">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="('R. M. Buehrer', 'PERSON')" target="('Mechanical Systems and Signal Processing', 'JOUR')">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="('P. A. Tarazaga', 'PERSON')" target="('Mechanical Systems and Signal Processing', 'JOUR')">
+  <data key="d0">106</data>
+  <data key="d1">Write</data>
+</edge>
+<edge source="Wireless-Agenda, Dallas" target="vol. 89, 2001">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="A. Soloviev and J. Dickman" target="Extending gps carrier phase availability indoors with a deeply integrated receiver architecture">
+  <data key="d0">16</data>
+  <data key="d1">Introduce</data>
+</edge>
+<edge source="Extending gps carrier phase availability indoors with a deeply integrated receiver architecture" target="2011">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Extending gps carrier phase availability indoors with a deeply integrated receiver architecture" target="vol. 18, no. 2">
+  <data key="d0">51</data>
+  <data key="d1">Contain</data>
+</edge>
+<edge source="Extending gps carrier phase availability indoors with a deeply integrated receiver architecture" target="pp. 36–44">
+  <data key="d0">51</data>
+  <data key="d1">Contain</data>
+</edge>
+<edge source="IEEE Wireless Communications" target="Extending gps carrier phase availability indoors with a deeply integrated receiver architecture">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="IEEE Wireless Communications" target="2011">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="IEEE Wireless Communications" target="Research Community">
+  <data key="d0">23</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="A. Soloviev" target="IEEE Wireless Communications">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="J. Dickman" target="IEEE Wireless Communications">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="J. L. Wang" target="Privacy and ethical issues in location-based tracking systems">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="M. C. Loui" target="Privacy and ethical issues in location-based tracking systems">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="2009 IEEE International Symposium on Technology and Society" target="Privacy and ethical issues in location-based tracking systems">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="S. Narain" target="How gps can track you, even when you turn it off">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="G. Noubir" target="How gps can track you, even when you turn it off">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="CNBC" target="How gps can track you, even when you turn it off">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="J. Valentino-DeVries" target="Your apps know where you were last night, and theyre not keeping it secret">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="N. Singer" target="Your apps know where you were last night, and theyre not keeping it secret">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="M. H. Keller" target="Your apps know where you were last night, and theyre not keeping it secret">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="A. Krolik" target="Your apps know where you were last night, and theyre not keeping it secret">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="F. Adib" target="See through walls with WiFi">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="F. Adib" target="vol. 43. ACM">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="F. Adib" target="See through walls with WiFi!">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="D. Katabi" target="See through walls with WiFi">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="D. Katabi" target="vol. 43. ACM">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="D. Katabi" target="See through walls with WiFi!">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Y. Cascone" target="Ethical issues of monitoring sensor networks for energy efﬁciency in smart buildings: a case study">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="M. Ferrara" target="Ethical issues of monitoring sensor networks for energy efﬁciency in smart buildings: a case study">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="L. Giovannini" target="Ethical issues of monitoring sensor networks for energy efﬁciency in smart buildings: a case study">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="G. Serale" target="Ethical issues of monitoring sensor networks for energy efﬁciency in smart buildings: a case study">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="Energy Procedia" target="Ethical issues of monitoring sensor networks for energy efﬁciency in smart buildings: a case study">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="T. Sharpe" target="Ethical issues in domestic building performance evaluation studies">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="Building Research &amp; Information" target="Ethical issues in domestic building performance evaluation studies">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="C. Slobogin" target="Public privacy: camera surveillance of public places and&#10;&#10;the right to anonymity">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="Miss. lJ" target="Public privacy: camera surveillance of public places and&#10;&#10;the right to anonymity">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="2002" target="Public privacy: camera surveillance of public places and&#10;&#10;the right to anonymity">
+  <data key="d0">175</data>
+  <data key="d1">Release_Year</data>
+</edge>
+<edge source="M. Saini" target="W 3-privacy: understanding what, when, and where inference channels in multi-camera surveillance video">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="P. K. Atrey" target="W 3-privacy: understanding what, when, and where inference channels in multi-camera surveillance video">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="S. Mehrotra" target="W 3-privacy: understanding what, when, and where inference channels in multi-camera surveillance video">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="M. Kankanhalli" target="W 3-privacy: understanding what, when, and where inference channels in multi-camera surveillance video">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="Multimedia Tools and Applications" target="W 3-privacy: understanding what, when, and where inference channels in multi-camera surveillance video">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="2014" target="W 3-privacy: understanding what, when, and where inference channels in multi-camera surveillance video">
+  <data key="d0">175</data>
+  <data key="d1">Release_Year</data>
+</edge>
+<edge source="multi-camera surveillance video" target="W 3-privacy: understanding what, when, and where inference channels in multi-camera surveillance video">
+  <data key="d0">2</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="J. R. Guerrieri" target="RFID-assisted Indoor Localization and Communication for First Responders">
+  <data key="d0">176</data>
+  <data key="d1">Works_On</data>
+</edge>
+<edge source="M. H. Francis" target="RFID-assisted Indoor Localization and Communication for First Responders">
+  <data key="d0">176</data>
+  <data key="d1">Works_On</data>
+</edge>
+<edge source="P. F. Wilson" target="RFID-assisted Indoor Localization and Communication for First Responders">
+  <data key="d0">176</data>
+  <data key="d1">Works_On</data>
+</edge>
+<edge source="T. Kos" target="RFID-assisted Indoor Localization and Communication for First Responders">
+  <data key="d0">176</data>
+  <data key="d1">Works_On</data>
+</edge>
+<edge source="L. Miller" target="RFID-assisted Indoor Localization and Communication for First Responders">
+  <data key="d0">176</data>
+  <data key="d1">Works_On</data>
+</edge>
+<edge source="N. Bryner" target="RFID-assisted Indoor Localization and Communication for First Responders">
+  <data key="d0">176</data>
+  <data key="d1">Works_On</data>
+</edge>
+<edge source="D. Stroup" target="RFID-assisted Indoor Localization and Communication for First Responders">
+  <data key="d0">176</data>
+  <data key="d1">Works_On</data>
+</edge>
+<edge source="L. Klein-Berndt" target="RFID-assisted Indoor Localization and Communication for First Responders">
+  <data key="d0">176</data>
+  <data key="d1">Works_On</data>
+</edge>
+<edge source="2006 First European Conference on Antennas and Propagation" target="RFID-assisted Indoor Localization and Communication for First Responders">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="2008 1st IFIP Wireless Days" target="RFID Tags: Positioning Principles and Localization Techniques">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Ieee" target="RFID Tags: Positioning Principles and Localization Techniques">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="M. Bouet" target="RFID Tags: Positioning Principles and Localization Techniques">
+  <data key="d0">176</data>
+  <data key="d1">Works_On</data>
+</edge>
+<edge source="A. L. Dos Santos" target="RFID Tags: Positioning Principles and Localization Techniques">
+  <data key="d0">176</data>
+  <data key="d1">Works_On</data>
+</edge>
+<edge source="J. Wang" target="Enabling live video analytics with a scalable and privacy-aware framework">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="J. Wang" target="ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="B. Amos" target="Enabling live video analytics with a scalable and privacy-aware framework">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="B. Amos" target="ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="A. Das" target="Enabling live video analytics with a scalable and privacy-aware framework">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="A. Das" target="ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="P. Pillai" target="Enabling live video analytics with a scalable and privacy-aware framework">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="P. Pillai" target="ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="N. Sadeh" target="Enabling live video analytics with a scalable and privacy-aware framework">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="N. Sadeh" target="ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="M. Satyanarayanan" target="Enabling live video analytics with a scalable and privacy-aware framework">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="M. Satyanarayanan" target="ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="S. Alajlouni" target="A new fast and calibration-free method for footstep impact localization in an instrumented floor">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="S. Alajlouni" target="Journal of Vibration and Control">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="P. Tarazaga" target="A new fast and calibration-free method for footstep impact localization in an instrumented floor">
+  <data key="d0">42</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="P. Tarazaga" target="Journal of Vibration and Control">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="J. Cai" target="Distance-domain Damage Imaging of Plate-like Structures with Dispersive Lamb Waves">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Distance-domain Damage Imaging of Plate-like Structures with Dispersive Lamb Waves" target="Distance-domain Damage Imaging">
+  <data key="d0">37</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="X. Wang" target="Distance-domain Damage Imaging of Plate-like Structures with Dispersive Lamb Waves">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="S. Yuan" target="Distance-domain Damage Imaging of Plate-like Structures with Dispersive Lamb Waves">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="IEEE Internet of Things Journal" target="Gender Classiﬁcation of Walkers via Underﬂoor Accelerometer Measurements">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Gender Classiﬁcation of Walkers via Underﬂoor Accelerometer Measurements" target="IEEE Internet of Things Journal">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="D. Bales" target="Gender Classiﬁcation of Walkers via Underﬂoor Accelerometer Measurements">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="M. Kasarda" target="Gender Classiﬁcation of Walkers via Underﬂoor Accelerometer Measurements">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="D. Batra" target="Gender Classiﬁcation of Walkers via Underﬂoor Accelerometer Measurements">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="M. Molina-Solana" target="Data science for building energy management: A review">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="M. Ros" target="Data science for building energy management: A review">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="M. D. Ruiz" target="Data science for building energy management: A review">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="J. Gmez-Romero" target="Data science for building energy management: A review">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="M. J. Martin-Bautista" target="Data science for building energy management: A review">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="Renewable and Sustainable Energy Reviews" target="Data science for building energy management: A review">
+  <data key="d0">177</data>
+  <data key="d1">PublicationForum</data>
+</edge>
+<edge source="Apr. 2017" target="Data science for building energy management: A review">
+  <data key="d0">178</data>
+  <data key="d1">PublishedOn</data>
+</edge>
+<edge source="D. Yan" target="Occupant behavior modeling for building performance simulation: Current state and future challenges">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="W. OBrien" target="Occupant behavior modeling for building performance simulation: Current state and future challenges">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="T. Hong" target="Occupant behavior modeling for building performance simulation: Current state and future challenges">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="X. Feng" target="Occupant behavior modeling for building performance simulation: Current state and future challenges">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="H. Burak Gunay" target="Occupant behavior modeling for building performance simulation: Current state and future challenges">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="F. Tahmasebi" target="Occupant behavior modeling for building performance simulation: Current state and future challenges">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="A. Mahdavi" target="Occupant behavior modeling for building performance simulation: Current state and future challenges">
+  <data key="d0">74</data>
+  <data key="d1">Author</data>
+</edge>
+<edge source="Energy and Buildings" target="Occupant behavior modeling for building performance simulation: Current state and future challenges">
+  <data key="d0">177</data>
+  <data key="d1">PublicationForum</data>
+</edge>
+<edge source="Nov. 2015" target="Occupant behavior modeling for building performance simulation: Current state and future challenges">
+  <data key="d0">178</data>
+  <data key="d1">PublishedOn</data>
+</edge>
+<edge source="Privacy_Concerns_Regarding_Occupant_Tracking_in_Smart_Buildings.pdf" target="/mnt/data/forked-GenAI/GenerativeAIExamples/experimental/knowledge_graph_rag/frontend/papers">
+  <data key="d0">179</data>
+  <data key="d1">RelateTo</data>
+</edge>
+<edge source="G. Fischer" target="1st Workshop on Positioning, Navigation and Communication">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="G. Fischer" target="Bluetooth indoor localization system">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="B. Dietrich" target="1st Workshop on Positioning, Navigation and Communication">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="F. Winkler" target="1st Workshop on Positioning, Navigation and Communication">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Bluetooth indoor localization system" target="2004">
+  <data key="d0">16</data>
+  <data key="d1">Introduce</data>
+</edge>
+<edge source="Bluetooth indoor localization system" target="1st Workshop on Positioning, Navigation and Communication">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Y. Zhuang" target="Smartphone-based indoor localization with bluetooth low energy beacons">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Smartphone-based indoor localization with bluetooth low energy beacons" target="Sensors">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Smartphone-based indoor localization with bluetooth low energy beacons" target="2016">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Smartphone-based indoor localization with bluetooth low energy beacons" target="596">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="Smartphone-based indoor localization with bluetooth low energy beacons" target="vol. 16, no. 5">
+  <data key="d0">98</data>
+  <data key="d1">Publish</data>
+</edge>
+<edge source="J. Yang" target="Smartphone-based indoor localization with bluetooth low energy beacons">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Y. Li" target="Smartphone-based indoor localization with bluetooth low energy beacons">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="L. Qi" target="Smartphone-based indoor localization with bluetooth low energy beacons">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="N. El-Sheimy" target="Smartphone-based indoor localization with bluetooth low energy beacons">
+  <data key="d0">5</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="See through walls with WiFi!" target="ACM">
+  <data key="d0">4</data>
+  <data key="d1">Operate_In</data>
+</edge>
+</graph></graphml>

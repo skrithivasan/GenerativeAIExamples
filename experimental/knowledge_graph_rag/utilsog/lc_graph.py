@@ -15,14 +15,14 @@
 
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
 import concurrent.futures
-
+from utils.preprocessor import extract_triples
 from tqdm import tqdm
 from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import multiprocessing
 import csv
 import streamlit as st
-from utils.preprocessor import extract_triples
+
 # function to process a single document (will run many of these processes in parallel)
 def process_document(doc, llm):
     try:
