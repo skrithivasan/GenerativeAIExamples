@@ -4,11 +4,6 @@ import json
 
 st.set_page_config(layout="wide")
 
-# Start the chat backend server when navigating to the chat page
-start_backend_response = requests.post("http://localhost:8000/start-chat-backend/")
-if start_backend_response.status_code != 200:
-    st.error("Error starting the chat backend.")
-
 st.title("Chat with your Knowledge Graph!")
 
 if "messages" not in st.session_state:
@@ -18,7 +13,7 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-response = requests.get("http://localhost:8000/get-models/")
+response = requests.get("http://localhost:8000/chat/get-models/")
 if response.status_code == 200:
     available_models = response.json()["models"]
 else:
@@ -43,7 +38,7 @@ if user_input:
         message_placeholder = st.empty()
         full_response = ""
 
-        response = requests.post("http://localhost:8001/chat/", json={"user_input": user_input, "use_kg": use_kg, "model_id": llm})
+        response = requests.post("http://localhost:8000/chat/chat/", json={"user_input": user_input, "use_kg": use_kg, "model_id": llm})
         if response.status_code == 200:
             response_data = response.json()
             context = response_data.get("context", "")

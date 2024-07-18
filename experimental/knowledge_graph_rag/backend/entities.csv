@@ -1,1028 +1,1008 @@
 entity_id,entity_name,entity_type
-0,Study,EVENT
-1,MFG with learning,CONCEPT
-2,Entropy Regularization,CONCEPT
-3,MARL,FIELD
-4,LQ games,FIELD
-5,Model-based approach,TOOL
-6,Shannon entropy,METRIC
-7,Representative Agent,PERSON
-8,Empirical Measure,TOOL
-9,Entropy\_Regularization\_for\_Mean\_Field\_Games\_with\_Learning.pdf,DOC
-10,Reinforcement learning,CONCEPT
-11,Machine Learning Paradigms,FIELD
-12,Our Study,FIELD
-13,Stabilizing,METRIC
-14,Regularized Q-learning algorithm,TOOL
-15,Mean Field Games,CONCEPT
-16,Game,EVENT
-17,Running Penalty,CONCEPT
-18,Interaction at Terminal Time,CONCEPT
-19,Running Reward,CONCEPT
-20,Shannon entropy regularization,CONCEPT
-21,MARL algorithmic design,FIELD
-22,"Gaussian, mean-reverting and time-dependent variance",CONCEPT
-23,cross-entropy regularization,TOOL
-24,cross-entropy loss,TOOL
-25,Q-learning,TOOL
-26,Shannon Entropy,CONCEPT
-27,Cross Entropy,CONCEPT
-28,HJB,TOOL
-29,πs,CONCEPT
-30,Terminal Reward,CONCEPT
-31,Temperature,CONCEPT
-32,Self-exploration,CONCEPT
-33,Exploration,CONCEPT
-34,MFG-SE,EVENT
-35,MFG-EE,EVENT
-36,Cross-entropy,CONCEPT
-37,PDE Approach,TOOL
-38,Probabilistic Approach,TOOL
-39,Master Equation Approach,TOOL
-40,Small Parameter Conditions,CONCEPT
-41,Monotonicity Condition,CONCEPT
-42,Gaussian Exploration,CONCEPT
-43,"[36, 37]",REF
-44,[29],REF
-45,[33],REF
-46,Policy πSE∗ s(u; x),PRODUCT
-47,Variances,METRIC
-48,Strength,METRIC
-49,B D2,METRIC
-50,Model-free approach,TOOL
-51,Control policy,TOOL
-52,Policy-gradient method for single-agent LQ regulators,TOOL
-53,Global convergence of policy gradient for MFG,TOOL
-54,Recent works on two-agent zero-sum LQ games,CONCEPT
-55,Recent works on general-sum LQ games,CONCEPT
-56,LQ mean ﬁeld control problem with common noise,CONCEPT
-57,"V(t | µ, α)",CONCEPT
-58,Payoff Function J,CONCEPT
-59,Entropy-regularized Payoff,CONCEPT
-60,Utility Function U,CONCEPT
-61,"Regularization Parameters λSE, λCE",METRIC
-62,Gaussian exploration,TOOL
-63,Degree of exploration,CONCEPT
-64,Optimal exploration scheduling,CONCEPT
-65,Time-dependent_Variance_of_Gaussian_Distribution,TOOL
-66,"('HJB equation', 'CONCEPT')",Unknown
-67,Model-free paradigm,TOOL
-68,Agent,PERSON
-69,Policy gradient method,TOOL
-70,Actor critic method,TOOL
-71,procedure,CONCEPT
-72,candidate ﬁxed point(s),CONCEPT
-73,set-valued map,TOOL
-74,family of linear-quadratic MFG,FIELD
-75,explicit ﬁxed-point solution,CONCEPT
-76,veriﬁcation arguments,TOOL
-77,Mean-field information,CONCEPT
-78,Value function,CONCEPT
-79,HJB Equation,CONCEPT
-80,Entropy Regulation,CONCEPT
-81,Mathematical Formulation,CONCEPT
-82,Enhanced entropy,CONCEPT
-83,Section 3,SECTION
-84,Policy-gradient based algorithm,CONCEPT
-85,Policy-gradient based algorithm with entropy regularization,CONCEPT
-86,Numerical Performance,CONCEPT
-87,MFG with relaxed controls,CONCEPT
-88,Three-step Fixed Point Approach,CONCEPT
-89,"Population state-action distribution (µ, α)",TOOL
-90,Step 1,CONCEPT
-91,Initial state x,TOOL
-92,Stochastic control problem with randomized policies,CONCEPT
-93,Step 2,CONCEPT
-94,"X π,x",TOOL
-95,representative agent,PERSON
-96,controlled state process,PROCESS
-97,exogenous ﬂows,FLOWS
-98,µ,VARIABLE
-99,randomized policy,POLICY
-100,paradigm,CONCEPT
-101,Most Existing Studies,FIELD
-102,[21],EVENT
-103,[2],EVENT
-104,Policy Features,PRODUCT
-105,Environment,CONCEPT
-106,RL literature,FIELD
-107,πEE∗ s,CONCEPT
-108,N,METRIC
-109,(cid:18) λSE + λCE λSE,TOOL
-110,Furthermore,EVENT
-111,X ∗,INSTITUTION
-112,(3.12),FIELD
-113,(cid:19),TOOL
-114,SDE,FIELD
-115,policy (3.12),TOOL
-116,(3.13),FIELD
-117,X ∗ t,INSTITUTION
-118,ξ,PRODUCT
-119,Entropy\_Regularization,CONCEPT
-120,Mean\_Field\_Games,CONCEPT
-121,Ansatz,CONCEPT
-122,Ms,CONCEPT
-123,M\_Star,CONCEPT
-124,Entropy regularization,CONCEPT
-125,Reinforcement Learning,FIELD
-126,RL settings,CONCEPT
-127,Sources of Uncertainty,CONCEPT
-128,MFG,CONCEPT
-129,Initial State ξ,CONCEPT
-130,Stochasticity,CONCEPT
-131,Deterministic Initial State x,CONCEPT
-132,"V (t, x | µ, α)",CONCEPT
-133,"J(t, x | π, µ, α)",CONCEPT
-134,π,CONCEPT
-135,r(X π),CONCEPT
-136,Metadata Source,CONCEPT
+0,Entropy Regularization,CONCEPT
+1,University of Oxford,INSTITUTION
+2,Most Existing Studies,FIELD
+3,Regularized Q-learning algorithm,TOOL
+4,Control Literature,FIELD
+5,Exploration schemes,CONCEPT
+6,Model-free approach,TOOL
+7,Model-based approach,TOOL
+8,Agent,PERSON
+9,Control policy,TOOL
+10,Entropy Regularization for Mean Field Games with Learning,CONCEPT
+11,Mean Field Games,CONCEPT
+12,"('Entropy Regularization for Mean Field Games with Learning', 'CONCEPT')",Unknown
+13,Shannon entropy regularization,CONCEPT
+14,Organization,ORG
+15,Mathematical Formulation,FIELD
+16,MFG with learning,CONCEPT
+17,Shannon entropy,METRIC
+18,representative agent,PERSON
+19,population action distribution,PRODUCT
+20,model-based approach,TOOL
+21,model-free algorithm,TOOL
+22,controlled state process,CONCEPT
+23,she,PERSON
+24,outcome,CONCEPT
+25,HJB equation,CONCEPT
+26,Game Theory,FIELD
+27,Pure Strategies,CONCEPT
+28,Mixed Strategies,CONCEPT
+29,Dirac Measure,CONCEPT
+30,πs,CONCEPT
+31,Gaussian Exploration,CONCEPT
+32,"[36, 37]",CITATION
+33,[29],CITATION
+34,[33],CITATION
+35,Shannon Entropy,CONCEPT
+36,Classical Fixed-Point Approach,TOOL
+37, Candidate Solution,CONCEPT
+38,Verification Theorem,CONCEPT
+39,Representative Agent,PERSON
+40,Running Reward,CONCEPT
+41,Temperature,CONCEPT
+42,Self-exploration,CONCEPT
+43,Exploration,CONCEPT
+44,Metadata,CONCEPT
+45,Policy-gradient method for single-agent LQ regulators,TOOL
+46,Global convergence of policy gradient for MFG,TOOL
+47,Two-agent zero-sum LQ games,TOOL
+48,General-sum LQ games,TOOL
+49,LQ mean ﬁeld control problem with common noise,TOOL
+50,procedure,CONCEPT
+51,solution,CONCEPT
+52,"('HJB equation', 'CONCEPT')",Unknown
+53,Study,EVENT
+54,Time-dependent Policies,TOOL
+55,Policy-Gradient Algorithm,TOOL
+56,Agents,PERSON
+57,Optimal Exploration Scheduling,TOOL
+58,MFG-SE,EVENT
+59,MFG-EE,EVENT
+60,Cross-entropy,CONCEPT
+61,Paper,DOC
+62,Mean Field Game,FIELD
+63,Model-Free Approach,TOOL
+64,Uncertainties,CONCEPT
+65,Stabilizing and Accelerating Convergence,CONCEPT
+66,Theorem 2,METRIC
+67,Theorem 4,METRIC
+68,Class of Linear-Quadratic Stochastic Games,FIELD
+69,Game,EVENT
+70,Interaction at Terminal Time,METRIC
+71,Single-agent RL,FIELD
+72,MARL,FIELD
+73,Random Noise,TOOL
+74,ε-greedy policy,TOOL
+75,Softmax Method,TOOL
+76,Time-invariant Gaussian Exploration,TOOL
+77,Time-dependent,TOOL
+78,cross-entropy regularization,TOOL
+79,cross-entropy loss,TOOL
+80,[20],EVENT
+81,[34],EVENT
+82,[2],EVENT
+83,non-stationarity of the environment,CONCEPT
+84,a ﬁnite number of agents,GPE
+85,Maximization Problem,CONCEPT
+86,Action Distribution,CONCEPT
+87,m*,METRIC
+88,Combination of Shannon Entropy and Cross Entropy,METRIC
+89,RL algorithm design,CONCEPT
+90,exploration-exploitation,CONCEPT
+91,over-exploration,CONCEPT
+92,convergence to the optimal solution,CONCEPT
+93,pure exploitation,CONCEPT
+94,global solutions,CONCEPT
+95,game with learning,CONCEPT
+96,realized cumulative reward,METRIC
+97,Gaussian exploration,TOOL
+98,Single-Agent RL,FIELD
+99,Degree of Exploration,CONCEPT
+100,Gaussian distribution,TOOL
+101,Single-Agent Mean-Variance Portfolio Selection Problem,FIELD
+102,Time-dependent Variance,METRIC
+103,"('Game', 'GPE')",Unknown
+104,RL literature,FIELD
+105,"('representative agent', 'PERSON')",Unknown
+106,X i t,VAR
+107,Time,TIME
+108,"('Optimal Policy', 'POLICY')",Unknown
+109,"('Means of Optimal Policy', 'METRIC')",Unknown
+110,"('Variances of Optimal Policy', 'METRIC')",Unknown
+111,"('Mean Reversion', 'TOOL')",Unknown
+112,Entropy\_Regularization,CONCEPT
+113,Mean\_Field\_Games,FIELD
+114,HJB,CONCEPT
+115,Control,FIELD
+116,Optimality,CONCEPT
+117,Theory of MFG,CONCEPT
+118,Aggregation Idea,CONCEPT
+119,Curse of Dimensionality,CONCEPT
+120,Representative Agent i,PERSON
+121,State X i t,CONCEPT
+122,Time T prime,TIME
+123,Empirical State Distribution,CONCEPT
+124,Mean-Field Information,CONCEPT
+125,HJB Equation,FIELD
+126,Value Function,FIELD
+127,Partial Derivative,FIELD
+128,Variable,FIELD
+129,Set,FIELD
+130,Probability Distribution,FIELD
+131,Drift,FIELD
+132,Diffusion,FIELD
+133,Markovian policy πs(u; x),TOOL
+134,Forward Equation,TOOL
+135,"p(s, x)",TOOL
+136,Xs,CONCEPT
 137,Virginia Tech,INSTITUTION
-138,Localization Accuracy,METRIC
-139,Controlled state process,CONCEPT
-140,Finite Horizon Setting,CONCEPT
-141,T,METRIC
-142,Flow of Population State Distribution,TOOL
-143,µs,TOOL
-144,α,TOOL
-145,Flow of Population Action Distribution,TOOL
-146,αs,TOOL
-147,R,FIELD
-148,αs(·; x),TOOL
-149,Smart Infrastructure,FIELD
-150,Localization,FIELD
-151,Occupant Tracking,FIELD
-152,Entropy Regularization for Mean Field Games with Learning,CONCEPT
-153,Policy (3.3),CONCEPT
-154,SDE (3.4),CONCEPT
-155,State Process X∗,CONCEPT
-156,Knowledge Graph RAG,PROJECT
-157,X∗,CONCEPT
-158,m∗,CONCEPT
-159,Population Mean,CONCEPT
-160,Smart Buildings,GPE
-161,Data Anonymity,CONCEPT
-162,Ansatz V,CONCEPT
-163,expression,FIELD
-164,variables,FIELD
-165,parameters,FIELD
-166,mean-field information,FIELD
-167,"p(s,x)",TOOL
-168,equation for B,FIELD
-169,Riemann integral,FIELD
-170,integrand,CONCEPT
-171,NE,CONCEPT
-172,Markovian policy,CONCEPT
-173,"p(s, x)",CONCEPT
-174,Game (MFG-EE),CONCEPT
-175,Unknown,CONCEPT
-176,Gaussian Property,CONCEPT
-177,Population Action Distribution,CONCEPT
-178,Agent State,CONCEPT
-179,State Variable y,CONCEPT
-180,State y,CONCEPT
-181,Minus ms,CONCEPT
-182,Process Hs,CONCEPT
-183,Waseem Karim,PERSON
-184,Privacy Concerns,CONCEPT
-185,GPS Tracking,TOOL
-186,GPS sensors,TOOL
-187,User restrictions,CONCEPT
-188,Personal location data,DATA
-189,Daniel Lacker,PERSON
-190,Jean-Michel Lasry,PERSON
-191,Pierre-Louis Lions,PERSON
-192,Initial State Distribution,ENTITY
-193,State Process,ENTITY
-194,Agent-Population Profile,ENTITY
-195,Policy,ENTITY
-196,Single-Agent-Side,ENTITY
-197,Population State-Action Distribution,ENTITY
-198,J Function,ENTITY
-199,Alpha,ENTITY
-200,X,ENTITY
-201,Probability,CONCEPT
-202,Distribution,ENTITY
-203,State,ENTITY
-204,Dynamics,ENTITY
-205,Equation,ENTITY
-206,Occupant tracking,CONCEPT
-207,GPS,TOOL
-208,Visual-based tracking,TOOL
-209,Vibration-based tracking,TOOL
-210,Surveillance Systems,PRODUCT
-211,Researchers,PERSON
-212,Vision-Based Tracking Data,DATA
-213,Ben M Hambly,PERSON
-214,Renyuan Xu,PERSON
-215,Huining Yang,PERSON
-216,Elad Hazan,PERSON
-217,Sham Kakade,PERSON
-218,Karan Singh,PERSON
-219,Abby Van Soest,PERSON
-220,GPS Trackers,PRODUCT
-221,United States Government,ORG/GOV
-222,United States Air Force,ORG/GOV
-223,US Department of Defense,ORG/GOV
-224,GPS receivers,TOOL
-225,K Michael,PERSON
-226,J Wang,PERSON
-227,Personal tracking systems,TOOL
-228,People,PERSON
-229,Building,GPE
-230,Adam Shwartz,PERSON
-231,City of Chicago,GPE
-232,Occupant Privacy,CONCEPT
-233,Vibration Signals Dataset,DATA
-234,Occupant Localization,PRODUCT
-235,Proposed Method,TOOL
-236,Vibration based methods,TOOL
-237,Personal tracking technology,TOOL
-238,Navstar GPS,CONCEPT
-239,Shariq Iqbal,PERSON
-240,Fei Sha,PERSON
-241,Actor-attention-critic for multi-agent reinforcement learning,TOOL
-242,Mean ﬁeld games via controlled martingale problems: existence of markovian equilibria,TOOL
-243,Haoran Wang,PERSON
-244,Xun Yu Zhou,PERSON
-245,Weichen Wang,PERSON
-246,Jiequn Han,PERSON
-247,Zhuoran Yang,PERSON
-248,Zhaoran Wang,PERSON
-249,Continuous-time mean-variance portfolio selection: A reinforcement learning framework,PAPER
-250,Vibration-based sensors,TOOL
-251,Buildings walls and Floors,GPE
-252,Human,PERSON
-253,Camera,PRODUCT
-254,Electronic Sensor,PRODUCT
-255,Tracking,PROCESS
-256,Privacy Breaches,CONCEPT
-257,Potential Victims,PERSON
-258,Malicious Person,PERSON
-259,Times,EVENT
-260,Pierre Cardaliaguet,PERSON
-261,Saeed Hadikhanloo,PERSON
-262,René Carmona,PERSON
-263,François Delarue,PERSON
-264,Sarah Dean,PERSON
-265,Horia Mania,PERSON
-266,Nikolai Matni,PERSON
-267,Benjamin Recht,PERSON
-268,Stephen Tu,PERSON
-269,Maryam Fazel,PERSON
-270,Rong Ge,PERSON
-271,Sham M Kakade,PERSON
-272,Mehran Mesbahi,PERSON
-273,GPS trackers,TOOL
-274,Law Enforcement,ORG
-275,Patriot Act,EVENT
-276,Studies,EVENT
-277,Michael Wunder,PERSON
-278,Michael L Littman,PERSON
-279,Monica Babes,PERSON
-280,Classes of multiagent Q-learning dynamics with epsilon-greedy exploration,CONCEPT
-281,Kaiqing Zhang,PERSON
-282,Tamer Basar,PERSON
-283,Policy optimization provably converges In Advances in Neural Information Processing Systems,CONCEPT
-284,Goodwin Hall,GPE
-285,Zuyue Fu,PERSON
-286,Yongxin Chen,PERSON
-287,Jordi Grau-Moya,PERSON
-288,Felix Leibfried,PERSON
-289,Peter Vrancx,PERSON
-290,Mobile Phones,PRODUCT
-291,Flash-light Application,PRODUCT
-292,User Restrictions,PRODUCT
-293,Northeastern University,INSTITUTION
-294,Wireless technologies,TOOL
-295,Vision technologies,TOOL
-296,Ultrasound,PRODUCT
-297,RFID,PRODUCT
-298,WLAN,PRODUCT
-299,Bluetooth,PRODUCT
-300,Fixed camera,TOOL
-301,Mobile camera,TOOL
-302,Project,INSTITUTION
-303,Time based methods,TOOL
-304,Vibrations,CONCEPT
-305,Array of Sensors,TOOL
-306,Material of the Floor,CONCEPT
-307,Event,EVENT
-308,Karl J Aström,PERSON
-309,Björn Wittenmark,PERSON
-310,Adaptive Control,BOOK
-311,Martino Bardi,PERSON
-312,Networks & Heterogeneous Media,JOURNAL
-313,Alain Bensoussan,PERSON
-314,KCJ Sung,PERSON
-315,Sheung Chi Phillip Yam,PERSON
-316,Siu-Pang Yung,PERSON
-317,Journal of Optimization Theory and Applications,JOURNAL
-318,Jalaj Bhandari,PERSON
-319,Daniel Russo,PERSON
-320,Surveillance Cameras,PRODUCT
-321,Cristopher Slobogin,PERSON
-322,Computing,PRODUCT
-323,Centralized Data,DATA
-324,Tracking Individuals,TOOL
-325,Mathieu Laurière,PERSON
-326,Zongjun Tan,PERSON
-327,A probabilistic weak formulation of mean field games and applications,EVENT
-328,Linear-quadratic mean-field reinforcement learning: Convergence of policy gradient methods,EVENT
-329,Leverage,TOOL
-330,Dispersion Compensation,METHOD
-331,Group of Methods,GROUP
-332,Warped Frequency Transform (WFT),METHOD
-333,Energy windowed data,DATA
-334,Tracking method,TOOL
-335,Indoor tracking,ACTIVITY
-336,VTSIL methodology,METHOD
-337,Moving Average  Filter,TOOL
-338,Sensors,PRODUCT
-339,HVAC,INSTITUTION
-340,Energy based methods,TOOL
-341,Dispersion compensation based methods,TOOL
-342,Energy Windowing,CONCEPT
-343,Sensor Layout,LAYOUT
-344,Fourth Fl,FLOOR
-345,Sensor,PRODUCT
-346,Radio Signals,TOOL
-347,Transmitter,TOOL
-348,Receiver,TOOL
-349,Time,METRIC
-350,Signal,TOOL
-351,Attenuation,CONCEPT
-352,Packet Loss,CONCEPT
-353,Redundant Receivers,TOOL
-354,Redundant Transmitters,TOOL
-355,Signal Strength,METRIC
-356,Building Sensors,TOOL
-357,Cell Phone,PRODUCT
-358,RFID Badge,PRODUCT
-359,Same length,METRIC
-360,Machine learning algorithms,TOOL
-361,Footstep responses,CONCEPT
-362,Vectors,TOOL
-363,0.1 seconds,METRIC
-364,0.3 seconds,METRIC
-365,Single Person,PERSON
-366,Localizing a Sequence of Footstep Events,TOOL
-367,Energy Based Methods,TOOL
-368,Fire Alarm Dataset,DATASET
-369,Building Occupants,PERSON
-370,Fire Alarm,EVENT
-371,Ambient Vibrations,TOOL
-372,256 Hz,METRIC
-373,Josef Hofbauer,PERSON
-374,William H Sandholm,PERSON
-375,On the global convergence of stochastic ﬁctitious play,PUB
-376,Econometrica,JOUR
-377,Zhang-Wei Hong,PERSON
-378,Shih-Yang Su,PERSON
-379,Tzu-Yun Shann,PERSON
-380,Yi-Hsiang Chang,PERSON
-381,Chun-Yi Lee,PERSON
-382,A deep policy inference Q-network for multi-agent systems,PUB
-383,Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems,CONF
-384,International Foundation for Autonomous Agents and Multiagent Systems,ORG
-385,predict the location of the event,CONCEPT
-386,dispersion compensation methods,METHOD
-387,these methods,METHOD
-388,localization methods,METHOD
-389,number sensors,METRIC
-390,sensor type,PRODUCT
-391,information needed,METRIC
-392,error reported,METRIC
-393,Individuals,PERSON
-394,Data Obscuring,TOOL
-395,Work,EVENT
-396,Multiple Classification Methods,TOOL
-397,Multi-Agent Reinforcement Learning,CONCEPT
-398,ARXIV preprint arXiv:1802.09640,PREPRINT
-399,[35],PUB
-400,The Journal of Machine Learning Research,INSTITUTION
-401,An information-theoretic analysis of Thompson sampling,CONCEPT
-402,[36],PUB
-403,Journal of Machine Learning Research,INSTITUTION
-404,Exploration versus exploitation in reinforcement learning: a stochastic control approach,CONCEPT
-405,Privacy\_Concerns\_Regarding\_Occupant\_Tracking\_in\_Smart\_Buildings.pdf,EVENT
-406,central server,TOOL
-407,data,DATA
-408,data pipeline,TOOL
-409,time series data,DATA
-410,coordinates,DATA
-411,Single Person Walking,EVENT
-412,Vibration Sensors,TOOL
-413,Dataset,DATA
-414,Subjects,PERSON
-415,Raw Data,DATA
-416,Individual,PERSON
-417,Surveillance cameras,TOOL
-418,IP linked camera,TOOL
-419,Recordings,TOOL
-420,Cristopher,PERSON
-421,Metadata,TOOL
-422,Paper,DOCUMENT
-423,Footstep Event,EVENT
-424,Sequence of Footstep Events,EVENT
-425,Alajlouni et. Al.,PERSON
-426,energy,CONCEPT
-427,sensor,TOOL
-428,This work,WORK
-429,First Experiment,EVENT
-430,Second Experiment,EVENT
-431,Ability,TOOL
-432,Tracking Method,TOOL
-433,A. Ellis Kessler,PERSON
-434,Neural Network model,TOOL
-435,Energy-windowing Approach,APPROACH
-436,Sensor Data,DATA
-437,Increasing Window Sizes,SIZE
-438,Reducing Classification Accuracy,METRIC
-439,Windows,DATA_STRUCTURE
-440,Energy,CONCEPT
-441,Figure 8,EVENT
-442,Es,CONCEPT
-443,β,CONCEPT
-444,xs,CONCEPT
-445,ys,CONCEPT
-446,ri,CONCEPT
-447,xi,CONCEPT
-448,yi,CONCEPT
-449,Footstep Tracking,CONCEPT
-450,Occupants,PERSON
-451,Exits,GPE
-452,Benefits,CONCEPT
-453,Energy Windowing Technique,TOOL
-454,Same Window Sizes,METRIC
-455,Vibration Energy Signal,TOOL
-456,Footstep Signature Data,DATA
-457,Global optimality guarantees for policy gradient methods,RECORD
-458,The Master Equation and the Convergence Problem in Mean Field Games:(AMS-201),RECORD
-459,Certainty equivalence is eﬃcient for linear quadratic control,PRODUCT
-460,Gergely Neu,PERSON
-461,Anders Jonsson,PERSON
-462,Vicenç Gómez,PERSON
-463,"A uniﬁed view of entropy-regularized markov
+138,Smart Buildings,GPE
+139,"[34] Roberta Raileanu, Emily Denton, Arthur Szlam, and Rob Fergus",PRODUCT
+140,policy (3.6),POLICY
+141,mean ﬁeld information µ,FIELD
+142,payoﬀ,METRIC
+143,"JSE(t, (cid:98)π | µ)",EQUATION
+144,value,METRIC
+145,result,CONCEPT
+146,Smart Infrastructure,FIELD
+147,Occupant Tracking,FIELD
+148,Entropy Regulation for Mean Field Games with Learning,CONCEPT
+149,Population,GPE
+150,Policy (3.3),CONCEPT
+151,State Process (3.4),CONCEPT
+152,SDE (3.4),CONCEPT
+153,Diffusion Term B,CONCEPT
+154,Drift Term A,CONCEPT
+155,Daniel Lacker,PERSON
+156,Jean-Michel Lasry,PERSON
+157,Human,PERSON
+158,Camera,PRODUCT
+159,Electronic Sensor,PRODUCT
+160,Tracking,PROCESS
+161,Privacy Breach,CONCEPT
+162,Individual,PERSON
+163,Occupant’s gender information,PERSONAL_DATA
+164,Anonymized Data,ANONYMIZED\_DATA
+165,Localization Accuracy,METRIC
+166,GPS sensors,TOOL
+167,User restrictions,CONCEPT
+168,Personal location data,DATA
+169,Data,DATA
+170,"('Gaussian mean ﬁeld policy', 'POLICY')",Unknown
+171,Waseem Karim,PERSON
+172,Excellent Early Study,EVENT
+173,Privacy Concerns,CONCEPT
+174,GPS Tracking,TOOL
+175,Personal Trackers,PRODUCT
+176,GPS receivers,TOOL
+177,K Michael,PERSON
+178,J Wang,PERSON
+179,Personal tracking systems,TOOL
+180,predict the location of the event,CONCEPT
+181,GPS,PRODUCT
+182,GPS Trackers,PRODUCT
+183,Shariq Iqbal,PERSON
+184,Fei Sha,PERSON
+185,Actor-attention-critic for multi-agent reinforcement learning,PUBLICATION
+186,International Conference on Machine Learning,CONFERENCE
+187,Mean ﬁeld games via controlled martingale problems: existence of markovian equilibria,PUBLICATION
+188,Stochastic Processes and their Applications,JOURNAL
+189,Time based methods,TOOL
+190,Personal tracking technology,TOOL
+191,Navstar GPS,GPE
+192,Daniel Russo,PERSON
+193,Benjamin Van Roy,PERSON
+194,Journal Of Machine Learning Research,INSTITUTION
+195,Haoran Wang,PERSON
+196,Thaleia Zariphopoulou,PERSON
+197,Xunyu Zhou,PERSON
+198,Researchers,PERSON
+199,Mobile Phones,PRODUCT
+200,Flash-light Application,PRODUCT
+201,Access,TOOL
+202,Users,PERSON
+203,Location Data,DATA
+204,Sarah Dean,PERSON
+205,Horia Mania,PERSON
+206,Nikolai Matni,PERSON
+207,Benjamin Recht,PERSON
+208,Stephen Tu,PERSON
+209,Maryam Fazel,PERSON
+210,Rong Ge,PERSON
+211,Sham M Kakade,PERSON
+212,Mehran Mesbahi,PERSON
+213,Vibration based methods,TOOL
+214,λSE,METRIC
+215,Convergence Speed,CONCEPT
+216,λSE = 3,METRIC
+217,λSE = 1,METRIC
+218,GPS trackers,TOOL
+219,Law Enforcement,ORG
+220,Patriot Act,EVENT
+221,K Michael et. al,PERSON
+222,J Wang et.,PERSON
+223,Global Satellite System,CONCEPT
+224,United States Department of Defense,ORG/GOV
+225,Vibration-based sensors,TOOL
+226,Traditional tracking approaches,TOOL
+227,Ansatz V,CONCEPT
+228,Expression 3.16,EXPRESSION
+229,Derivative ∂xV,DERIVATIVE
+230,Derivative ∂xxV,DERIVATIVE
+231,B,METRIC
+232,ms,VARIABLE
+233,x,VARIABLE
+234,ηs,PARAMETER
+235,γs,PARAMETER
+236,D2,METRIC
+237,Step 2 equation,EQUATION
+238,Cristopher Slobogin,PERSON
+239,surveillance cameras,TOOL
+240,computing and computer vision,TOOL
+241,individuals,PERSON
+242,Surveillance cameras,TOOL
+243,ATMs,PRODUCT
+244,IP linked camera,TOOL
+245,VTSIL methodology,TOOL
+246,Energy based methods,TOOL
+247,Methods for Localizing Events,CONCEPT
+248,Attenuation of Signal,METRIC
+249,Goodwin Hall,GPE
+250,Adam Shwartz,PERSON
+251,City of Chicago's Surveillance Cameras,PRODUCT
+252,Wave propagation,CONCEPT
+253,Solid structure,CONCEPT
+254,Wavelet transforms,TOOL
+255,Surveillance Systems,PRODUCT
+256,Existing AI Methodologies,TOOL
+257,Anonymizing Vision-Based Tracking Data,TOOL
+258,Vision-Based Tracking Data,TOOL
+259,René Carmona,PERSON
+260,A probabilistic weak formulation of mean ﬁeld games and applications,WORK
+261,Linear-quadratic mean-ﬁeld reinforcement learning: Convergence of policy gradient methods,WORK
+262,Mathieu Laurière,PERSON
+263,Zongjun Tan,PERSON
+264,Same length,METRIC
+265,Footstep Responses,CONCEPT
+266,Machine Learning Algorithms,TOOL
+267,Single Person,PERSON
+268,Unknown,CONCEPT
+269,Building Sensors,TOOL
+270,Cell Phone,PRODUCT
+271,RFID Badge,PRODUCT
+272,Multiple sources,TOOL
+273,Privacy concerns,CONCEPT
+274,Vision-based tracking,TOOL
+275,Model,TOOL
+276,M Saini et. al,PERSON
+277,City of Chicago,GPE
+278,Fourth ﬂoor,LOCATION
+279,Sensor Layout,TOOL
+280,Locating and Accounting for People,CONCEPT
+281,Emergency,EVENT
+282,Natural Disaster,EVENT
+283,Identifying Threats,CONCEPT
+284,Tracking People,CONCEPT
+285,Making Sure,CONCEPT
+286,Unwanted People,PERSON
+287,Restricted Areas,FIELD
+288,Maximizing Occupant Comfort,CONCEPT
+289,Increasing Energy Efﬁciency,CONCEPT
+290,Building Simulation Data,DATA
+291,Pierre Cardaliaguet,PERSON
+292,Pierre Cardaliaguet and Saeed Hadikhanloo,PERSON
+293,Learning in mean ﬁeld games: the ﬁctitious play,PUBLICATION
+294,"René Carmona, François Delarue, et al.",PERSON
+295,Mean ﬁeld forward-backward stochastic diﬀerential equations,PUBLICATION
+296,"René Carmona, Daniel Lacker, et al.",PERSON
+297,A probabilistic weak formulation of mean ﬁeld games and,PUBLICATION
+298,[31],EVENT
+299,Certainty equivalence is eﬃcient for linear quadratic control,PRODUCT
+300,Advances in Neural Information Processing Systems,INSTITUTION
+301,Gergely Neu,PERSON
+302,Anders Jonsson,PERSON
+303,Vicenç Gómez,PERSON
+304,[32],EVENT
+305,"A uniﬁed view of entropy-regularized markov
 decision processes",PRODUCT
-464,Individuals gender classifiers,TOOL
-465,Proposed method,TOOL
-466,Specific Part of Building,GPE
-467,Localization Error,METRIC
-468,Multiple Events,EVENT
-469,Building Management Professionals,ORG
-470,Real Individuals,PERSON
-471,Evacuation Routes,CONCEPT
-472,Evacuation Procedures,CONCEPT
-473,Binary Classification Models,TOOL
-474,Leave One Out Cross Validation,TOOL
-475,Window Sizes,METRIC
-476,Data,TOOL
-477,50%,METRIC
-478,Bin Size,METRIC
-479,Classifier,TOOL
-480,Localization Method,TOOL
-481,Event Locations,CONCEPT
-482,Walking Signal,CONCEPT
-483,One Sensor,TOOL
-484,Acceleration Data,DATA
-485,Window of Length W,TOOL
-486,Classification and Gender Anonymization,METHOD
-487,this work,WORK
-488,binary classifiers,TOOL
-489,sex of an individual,CONCEPT
-490,confidentiality of data,CONCEPT
-491,data loss,CONCEPT
-492,ability to locate an individual,CONCEPT
-493,Current methods,TOOL
-494,Building Users Identification,CONCEPT
-495,Windowed Floor Vibration Data,DATA
-496,Ellis Kessler,PERSON
-497,Goodwin Hall Case Study,EVENT
-498,Single Participants,PERSON
-499,Vibration Data,DATA
-500,Previous Works,WORK
-501,B. Moeti Masiane,PERSON
-502,Moeti,PERSON
-503,Limited Training Data Size,CONCEPT
-504,Challenges,CONCEPT
-505,Small Number of Participants,METRIC
-506,Data Collection for Footstep Signatures,CONCEPT
-507,Participants,PERSON
-508,Informed Consent,EVENT
-509,Vibration Readings,TOOL
-510,C. Awad Abdelhalim,PERSON
-511,Literature Review,FIELD
-512,Location-based Tracking Technologies,TOOL
-513,Vision-based Tracking Technologies,TOOL
-514,C. BASRI and A. El Khadimi,PERSON
-515,F. Van Diggelen and C. Abraham,PERSON
-516,2016 5th International Conference on Multimedia Computing and Systems (ICMCS),EVENT
-517,CTIA Wireless-Agenda,EVENT
-518,Wiﬁ ﬁngerprinting technique,TOOL
-519,Indoor gps technology,PRODUCT
-520,A. G. Woolard,PERSON
-521,Applications of dispersion compensation for indoor vibration event localization,WORK
-522,Journal of Vibration and Control,JOURNAL
-523,L. Mainetti,PERSON
-524,A survey on indoor positioning systems,WORK
-525,"2014 22nd International Conference on Software, Telecommunications and Computer Networks (SoftCOM)",CONFERENCE
-526,IEEE,ORG
-527,W. Karim,PERSON
-528,2004,YEAR
-529,K. Michael,PERSON
-530,A. McNamee,PERSON
-531,M. G. Michael,PERSON
-532,2006 International Conference on Mobile Business,CONFERENCE
-533,2006,YEAR
-534,J. D. Poston,PERSON
-535,J. Schloemann,PERSON
-536,R. M. Buehrer,PERSON
-537,V. V. N. S. Malladi,PERSON
-538,P. A. Tarazaga,PERSON
-539,Towards indoor localization of pedestrians via smart building vibration sensing,CONCEPT
-540,linear combinations of the first-two singular values alongside 23 other scaled singular values,TOOL
-541,Generative AI Examples,PROJECT
-542,Knowledge Graph,TOOL
-543,6000 participants,METRIC
-544,3000 females,METRIC
-545,3000 males,METRIC
-546,"('S. Alajlouni', 'PERSON')",Unknown
-547,"('M. Albakri', 'PERSON')",Unknown
-548,"('P. Tarazaga', 'PERSON')",Unknown
-549,"('Mechanical Systems and Signal Processing', 'JOUR')",Publication
-550,"('J. D. Poston', 'PERSON')",Unknown
-551,"('R. M. Buehrer', 'PERSON')",Unknown
-552,"('P. A. Tarazaga', 'PERSON')",Unknown
-553,"Wireless-Agenda, Dallas",PUB
-554,A. Soloviev and J. Dickman,PERSON
-555,IEEE Wireless Communications,PUB
-556,A. Soloviev,PERSON
-557,J. Dickman,PERSON
-558,Extending gps carrier phase availability indoors with a deeply integrated receiver architecture,CONCEPT
-559,J. L. Wang,PERSON
-560,M. C. Loui,PERSON
-561,2009 IEEE International Symposium on Technology and Society,EVENT
-562,S. Narain,PERSON
-563,G. Noubir,PERSON
-564,CNBC,ORG
-565,J. Valentino-DeVries,PERSON
-566,N. Singer,PERSON
-567,M. H. Keller,PERSON
-568,A. Krolik,PERSON
-569,New York Times,ORG
-570,F. Adib,PERSON
-571,D. Katabi,PERSON
-572,Y. Cascone,PERSON
-573,M. Ferrara,PERSON
-574,L. Giovannini,PERSON
-575,G. Serale,PERSON
-576,Energy Procedia,JOURNAL
-577,T. Sharpe,PERSON
-578,Building Research & Information,JOURNAL
-579,C. Slobogin,PERSON
-580,Miss. lJ,ORG
-581,2002,YEAR
-582,M. Saini,PERSON
-583,P. K. Atrey,PERSON
-584,S. Mehrotra,PERSON
-585,M. Kankanhalli,PERSON
-586,Multimedia Tools and Applications,ORG
-587,2014,YEAR
-588,multi-camera surveillance video,PRODUCT
-589,J. R. Guerrieri,PERSON
-590,M. H. Francis,PERSON
-591,P. F. Wilson,PERSON
-592,T. Kos,PERSON
-593,L. Miller,PERSON
-594,N. Bryner,PERSON
-595,D. Stroup,PERSON
-596,L. Klein-Berndt,PERSON
-597,2006 First European Conference on Antennas and Propagation,EVENT
-598,2008 1st IFIP Wireless Days,EVENT
-599,Ieee,ORG
-600,M. Bouet,PERSON
-601,A. L. Dos Santos,PERSON
-602,J. Wang,PERSON
-603,B. Amos,PERSON
-604,A. Das,PERSON
-605,P. Pillai,PERSON
-606,N. Sadeh,PERSON
-607,M. Satyanarayanan,PERSON
-608,S. Alajlouni,PERSON
-609,P. Tarazaga,PERSON
-610,J. Cai,PERSON
-611,X. Wang,PERSON
-612,S. Yuan,PERSON
-613,Distance-domain Damage Imaging of Plate-like Structures with Dispersive Lamb Waves,PUBLICATION
-614,IEEE Internet of Things Journal,JOURNAL
-615,D. Bales,PERSON
-616,M. Kasarda,PERSON
-617,D. Batra,PERSON
-618,Gender Classiﬁcation of Walkers via Underﬂoor Accelerometer Measurements,PUBLICATION
-619,M. Molina-Solana,PERSON
-620,M. Ros,PERSON
-621,M. D. Ruiz,PERSON
-622,J. Gmez-Romero,PERSON
-623,M. J. Martin-Bautista,PERSON
-624,Renewable and Sustainable Energy Reviews,JOURNAL
-625,Apr. 2017,TEMPORAL
-626,D. Yan,PERSON
-627,W. OBrien,PERSON
-628,T. Hong,PERSON
-629,X. Feng,PERSON
-630,H. Burak Gunay,PERSON
-631,F. Tahmasebi,PERSON
-632,A. Mahdavi,PERSON
-633,Energy and Buildings,JOURNAL
-634,Nov. 2015,TEMPORAL
-635,Privacy_Concerns_Regarding_Occupant_Tracking_in_Smart_Buildings.pdf,DOCUMENT
-636,G. Fischer,PERSON
-637,B. Dietrich,PERSON
-638,F. Winkler,PERSON
-639,Bluetooth indoor localization system,PRODUCT
-640,Y. Zhuang,PERSON
-641,J. Yang,PERSON
-642,Y. Li,PERSON
-643,L. Qi,PERSON
-644,N. El-Sheimy,PERSON
-645,Smartphone-based indoor localization with bluetooth low energy beacons,PUBLICATION
-646,See through walls with WiFi!,PUBLICATION
-647,Policy-Gradient Algorithm,TOOL
-648,Critical Insights,CONCEPT
-649,Model mis-specification,CONCEPT
-650,Stochastic Games,CONCEPT
-651,game formulation (MFG-SE),FIELD
-652,MFG Formulation,CONCEPT
-653,Knowledge\_Graph\_RAG,PROJECT
-654,Supervised Learning,FIELD
-655,Unsupervised Learning,FIELD
-656,Time-dependent Policies,TOOL
-657,Convergence to the Game Equilibrium,CONCEPT
-658,Operations Research,FIELD
-659,Supply-Chain Management,FIELD
-660,Finance,FIELD
-661,Deviation from Average State,CONCEPT
-662,Current Average State,CONCEPT
-663,Average State at Terminal Time,CONCEPT
-664,Action Value Function,CONCEPT
-665, class of policies,CONCEPT
-666,Demonstration of Convergence of Fictitious Play,EVENT
-667,Prediction of Other Agents’ Actions,CONCEPT
-668,Non-Stationarity of Environment,CONCEPT
-669,Infinite Horizon Setting,FIELD
-670,"V(T, x)",FORMULA
-671,page\_content,TEXT
-672,g,FUNCTION
-673,r,FUNCTION
-674,λSE,METRIC
-675,λCE,METRIC
-676,Linear-Quadratic MFGs,FIELD
-677,Existence of MFG Solution,CONCEPT
-678,Uniqueness of MFG Solution,CONCEPT
-679,MFG with Learning,FIELD
-680,Continuous-time Single-Agent RL,FIELD
-681,Mean Field Interaction,FIELD
-682,Current State,STATE
-683,,Unknown
-684,Mean Reversion,CONCEPT
-685,Uncertainty in the Game,CONCEPT
-686,Single-agent reinforcement-learning,FIELD
-687,Model structure,MODEL
-688,Model parameters,PARAM
-689,Our Algorithm,ALGORITHM
-690,Single-Agent RL,FIELD
-691,Variance_of_Gaussian_Distribution,METRIC
-692,Time-Dependent_Variance_of_Gaussian_Distribution,TOOL
-693,Single-Agent_Mean-Variance_Portfolio_Selection_Problem,FIELD
-694,Is_Member_Of,"('knowledge\\_graph\\_rag', 'PROJ')"
-695,Policy Construction,TOOL
-696,Model Mis-specification,CONCEPT
-697,Optimal Policy,TOOL
-698,System,TOOL
-699,solution to the MFG problem,CONCEPT
-700,Control Problem,CONCEPT
-701,Learning,FIELD
-702,Algorithms Efficiency,METRIC
-703,Algorithms Stability,METRIC
-704,Algorithms Convergence,METRIC
-705,Finite Time Horizon,CONCEPT
-706,Section 2,SECTION
-707,Section 4,SECTION
-708,Framework of MFG with relaxed controls,CONCEPT
-709,"Time Interval [0, T]",GPE
-710,ν,VARIABLE
-711,admissible policy set A,POLICYSET
-712,Convergence Improvement,METRIC
-713,Variance Reduction,METRIC
-714,Theoretical Study,FIELD
-715,Pure Observations,TOOL
-716,Fictitious Play,EVENT
-717,Mean Field Policy Gradient with Exploration,ALGORITHM
-718,"s ∈ [t, T ]",EVENT
-719,ηEE,METRIC
-720,γEE,METRIC
-721,A,METRIC
-722,B,METRIC
-723,D,METRIC
-724,Q,METRIC
-725,¯Q,METRIC
-726,mu_t,METRIC
-727,m_s,METRIC
-728,Partial\_Differential\_Equations,FIELD
-729,Optimization\_Problem,CONCEPT
-730,Exploration-Exploitation,CONCEPT
-731,Information Gain,METRIC
-732,Benefit,METRIC
-733,More Than One Agent,CONCEPT
-734,Unknown Environment,CONCEPT
-735,Actions of Other Agents,CONCEPT
-736,Brownian motion W,CONCEPT
-737,Solving Analytically,CONCEPT
-738,Functional,CONCEPT
-739,Supremum,CONCEPT
-740,Expectation,CONCEPT
-741,/mnt/data/forked-GenAI/GenerativeAIExamples/experimental/knowledge_graph_rag/frontend/papers/Entropy_Regularization_for_Mean_Field_Games_with_Learning.pdf,STRING
-742,"Blacksburg, VA",GPE
-743,Anonymization,TOOL
-744,Infinity,CONCEPT
-745,0 ≤ t ≤ T,TIME_INTERVAL
-746,P(R),FIELD
-747,x,ELEMENT
-748,P(U ),FIELD
-749,Buildings Occupants,GPE
-750,Controlled State Process under (3.3),CONCEPT
-751,B(m∗ − x) D2,CONCEPT
-752,B2(X∗ − m∗)2 D2,CONCEPT
-753,s,TOOL
-754,ηs,METRIC
-755,γs,METRIC
-756,V,CONCEPT
-757,du,TOOL
-758,Xs,CONCEPT
-759,t,TIME
-760,u,CONCEPT
-761,ms,CONCEPT
-762,Mapping and Navigation Systems,SYSTEM
-763,4th Amendment,REG/LAW
-764,Software Developers,PERSON
-765,Applications,PRODUCT
-766,Undisclosed Source,GPE
-767,Mean ﬁeld and n-agent games for optimal investment under relative performance criteria,PUBLICATION
-768,Mean ﬁeld games,PUBLICATION
-769,Reward,CONCEPT
-770,U,ENTITY
-771,Process,ENTITY
-772,Parameters,ENTITY
-773,Public Safety,FIELD
-774,Energy Conservation,FIELD
-775,Marketing,FIELD
-776,Tracking Outside Buildings,CONCEPT
-777,Tracking People,CONCEPT
-778,Accelerometers,PRODUCT
-779,Highly Crowded Areas,LOCATION
-780,Applications of Existing AI Methodologies,TOOL
-781,Privacy of Individuals Metadata,CONCEPT
-782,Policy gradient methods ﬁnd the nash equilibrium in n-player general-sum linear-quadratic games,EVENT
-783,Provably eﬃcient maximum entropy exploration,EVENT
-784,late 1980s,TIME
-785,selective capabilities for public use,EVENT
-786,full capabilities since the year 2000,TIME
-787,Independent of any telephonic or internet reception,CONCEPT
-788,"Personal trackers in the late 90s, early 2000s",EVENT
-789,Cheap technology to acquire even at its infancy,CONCEPT
-790,Geographic Location,CONCEPT
-791,Time Information,CONCEPT
-792,GPS Receiver,TOOL
-793,Emerging Applications,FIELD
-794,Tracking Suspects,EVENT
-795,Tracking Employees,FIELD
-796,Tracking Children,FIELD
-797,Ethical Implications,CONCEPT
-798,Emergency,EVENT
-799,Natural Disaster,EVENT
-800,Occupant Comfort,CONCEPT
-801,Building Simulation Data Collection,EVENT
-802,Loss Through Surveillance Footage,CONCEPT
-803,City of Chicago's Surveillance Cameras,PRODUCT
-804,Highly Integrated Network of Surveillance Cameras,PRODUCT
-805,Privacy,CONCEPT
-806,Racial Profiling,CONCEPT
-807,City Safety,CONCEPT
-808,Occupant Gender Information,CONCEPT
-809,Current Methods Accuracy,METRIC
-810,Anonymizing Occupant Gender Information,CONCEPT
-811,Other methods,TOOL
-812,Past Three Decades,TIME_PERIOD
-813,Government Sector,ORG/GOV
-814,Security Sector,ORG
-815,Commerce Sectors,ORG
-816,Advancements in GPS,TOOL
-817,International Conference on Machine Learning,EVENT
-818,Stochastic Processes and their Applications,JOURNAL
-819,Global convergence of policy gradient for linear-quadratic mean-field control/game in continuous time,PAPER
-820,Location-based and Vision-based tracking methods,TOOL
-821,Range of Surveillance,CONCEPT
-822,Quality and Accuracy of GPS signals,CONCEPT
-823,Indoors,GPE
-824,Actual Harm,CONCEPT
-825,Vulnerable,CONCEPT
-826,Learning in mean ﬁeld games: the ﬁctitious play,PUBLICATION
-827,Mean ﬁeld forward-backward stochastic diﬀerential equations,PUBLICATION
-828,A probabilistic weak formulation of mean ﬁeld games and,PUBLICATION
-829,On the sample complexity of the linear quadratic regulator,PAPER
-830,Global convergence of policy gradient methods for the linear quadratic regulator,PAPER
-831,9/11,EVENT
-832,Privacy concerns,ISSUE
-833,Proceedings of the 27th International Conference on Machine Learning (ICML-10),EVENT
-834,Advances in Neural Information Processing Systems,EVENT
-835,225 high sensitivity accelerometers,TOOL
-836,Virginia Tech’s campus,GPE
-837,Gradient Methods for the Linear Quadratic Regulator,FIELD
-838,Actor-Critic Provably Finds Nash Equilibria of Linear-Quadratic Mean-Field Games,FIELD
-839,Soft Q-learning with Mutual-Information Regularization,FIELD
-840,Red-flags,EVENT
-841,Above Researchers,PERSON
-842,Best Spying Device,PRODUCT
-843,Users Phones GPS Sensors,PRODUCT
-844,Location Data,PRODUCT
-845,Boston,GPE
-846,Indoor tracking techniques,FIELD
-847,Multilateration,TOOL
-848,Attenuation of Signal,CONCEPT
-849,Wave Propagation Speed,TOOL
-850,Original Location Prediction,CONCEPT
-851,2013,METRIC
-852,Explicit solutions of some linear-quadratic mean field games,PUBLICATION
-853,Linear-quadratic mean field games,PUBLICATION
-854,Public Spaces,GPE
-855,[8],DOCUMENT
-856,Anonymity,CONCEPT
-857,Computer Vision,FIELD
-858,Massive Advancements,METRIC
-859,Multiple Sources,GPE
-860,Dispersion Relation of the Floor,CONCEPT
-861,Time Domain Signal,TOOL
-862,Methods for this Transformation,GROUP
-863,Predict Location of the Event,CONCEPT
-864,raw data,DATA
-865,windows of time,TIME
-866,vibration based tracking method,TOOL
-867,indoor tracking,ACTIVITY
-868,personal identifying information,DATA
-869,One Second Window,METRIC
-870,None,NULL
-871,Noise Source,CONCEPT
-872,footstep localization in a building,CONCEPT
-873,attenuation of the signal,TOOL
-874,vibrations travel a distance,TOOL
-875,same underlying principle,CONCEPT
-876,Equation 1,FIELD
-877,General Intuition,CONCEPT
-878,Location,CONCEPT
-879,Determination,CONCEPT
-880,Before the detection,EVENT
-881,After the detection,EVENT
-882,Route,ROUTE
+306,arXiv preprint arXiv:1705.07798,PRODUCT
+307,Josef Hofbauer,PERSON
+308,William H Sandholm,PERSON
+309,On the global convergence of stochastic ﬁctitious play,PUB
+310,Econometrica,JOUR
+311,Zhang-Wei Hong,PERSON
+312,Shih-Yang Su,PERSON
+313,Tzu-Yun Shann,PERSON
+314,Yi-Hsiang Chang,PERSON
+315,Chun-Yi Lee,PERSON
+316,A deep policy inference Q-network for multi-agent systems,PUB
+317,Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems,CONFERENCE
+318,Michael Wunder,PERSON
+319,Michael L Littman,PERSON
+320,Monica Babes,PERSON
+321,Kaiqing Zhang,PERSON
+322,Zhuoran Yang,PERSON
+323,Tamer Basar,PERSON
+324,Leverage,TOOL
+325,Dispersion Compensation,METHOD
+326,Group of Methods,GROUP
+327,Time Domain Signal,TOOL
+328,Warped Frequency Transform,TOOL
+329,Energy Based Tracking Methods,CONCEPT
+330,Signal Energy,CONCEPT
+331,Localization,CONCEPT
+332,225 high sensitivity accelerometers,TOOL
+333,one of ﬁve data acquisition boxes,TOOL
+334,two switches,TOOL
+335,central server,PRODUCT
+336,Ben M Hambly,PERSON
+337,Renyuan Xu,PERSON
+338,Huining Yang,PERSON
+339,Elad Hazan,PERSON
+340,Sham Kakade,PERSON
+341,Karan Singh,PERSON
+342,Abby Van Soest,PERSON
+343,Jalaj Bhandari,PERSON
+344,Global optimality guarantees for policy gradient methods,PRODUCT
+345,"arXiv preprint arXiv:1906.01786, 2019",EVENT
+346,François Delarue,PERSON
+347,Pierre-Louis Lions,PERSON
+348,The Master Equation and the Convergence Problem in Mean Field Games:(AMS-201),PRODUCT
+349,Saeed Hadikhanloo,PERSON
+350,Single Person Walking,EVENT
+351,Radio Signals,TOOL
+352,Transmitter,TOOL
+353,Signal,TOOL
+354,Signal Strength,METRIC
+355,Attenuation,CONCEPT
+356,Packet Loss,CONCEPT
+357,Redundant Receivers,TOOL
+358,Transmitters,TOOL
+359,Signal Manipulation,TOOL
+360,Footstep Signature,CONCEPT
+361,Accuracy of Classifier,METRIC
+362,Vibration sensors,TOOL
+363,Dataset,DATA
+364,Occupants,PERSON
+365,Footstep events,METRIC
+366,Building,GPE
+367,No footstep events,METRIC
+368,Energy Based Methods,TOOL
+369,Final Report,EVENT
+370,data,DATA
+371,Virginia Tech Smart Infrastructure Laboratory,INSTITUTION
+372,data pipeline,TOOL
+373,raw data,DATA
+374,time series data,DATA
+375,sensor coordinates,DATA
+376,Energy windowing technique,TOOL
+377,Events,EVENT
+378,Vibration energy signal,FIELD
+379,"('Table I', 'METADATA')",Unknown
+380,"('Methods', 'TOOL')",Unknown
+381,Vibration Sensors,TOOL
+382,First Experiment,EVENT
+383,Second Experiment,EVENT
+384,Area,GPE
+385,Sensors,TOOL
+386,Energy,METRIC
+387,Footstep Event,EVENT
+388,Sequence,FIELD
+389,A. Ellis Kessler,PERSON
+390,MFG,CONCEPT
+391,ξ,NOTION
+392,Problem,CONCEPT
+393,(2.3),NUM
+394,Alternative formulation of the MFG with learning,CONCEPT
+395,Interpretation,CONCEPT
+396,Deterministic Initial State,STATE
+397,Solving,CONCEPT
+398,V,TOOL
+399,"(t, x | µ, α)",NOTION
+400,Function,CONCEPT
+401,Supremum,CONCEPT
+402,π,TOOL
+403,A,SET
+404,J,TOOL
+405,"(t, x | π, µ, α)",NOTION
+406,Cost Function,CONCEPT
+407,(J),TOOL
+408,Expectation,CONCEPT
+409,T,TOOL
+410,r(X π),NOTION
+411,Reward Function,CONCEPT
+412,r,TOOL
+413,State Process X,NOTION
+414,Policy,CONCEPT
+415,α,TOOL
+416,Source,CONCEPT
+417,Project,INSTITUTION
+418,Privacy\_Concerns\_Regarding\_Occupant\_Tracking\_in\_Smart\_Buildings.pdf,DOC
+419,Localization Method,TOOL
+420,Karl J Aström,PERSON
+421,Björn Wittenmark,PERSON
+422,Adaptive Control,BOOK
+423,Courier Corporation,ORG
+424,Martino Bardi,PERSON
+425,Explicit solutions of some linear-quadratic mean ﬁeld games,JOURNAL_ARTICLE
+426,Networks & Heterogeneous Media,JOURNAL
+427,Alain Bensoussan,PERSON
+428,KCJ Sung,PERSON
+429,Sheung Chi Phillip Yam,PERSON
+430,Siu-Pang Yung,PERSON
+431,Linear-quadratic mean ﬁeld games,JOURNAL_ARTICLE
+432,Journal of Optimization Theory and Applications,JOURNAL
+433,Limited Training Data Size,CONCEPT
+434,Challenges,CONCEPT
+435,Idea for Future Work,CONCEPT
+436,Semi-supervised Learning,CONCEPT
+437,Controlled state process,CONCEPT
+438,Finite Horizon Setting,CONCEPT
+439,Population state distribution flow,CONCEPT
+440,µ,VARIABLE
+441,Flow of population state distribution,CONCEPT
+442,µs,VARIABLE
+443,Population action distribution flow,CONCEPT
+444,Flow of population action distribution,CONCEPT
+445,αs,VARIABLE
+446,αs(·; x),FUNCTION
+447,Linear Combinations,TOOL
+448,Data Synthesis,TOOL
+449,"6,000 Participants",EVENT
+450,"3,000 Females",EVENT
+451,"3,000 Males",EVENT
+452,Xun Yu Zhou,PERSON
+453,Weichen Wang,PERSON
+454,Jiequn Han,PERSON
+455,Zhaoran Wang,PERSON
+456,Continuous-time mean-variance portfolio selection: A reinforcement learning framework,PUBLICATION
+457,Global convergence of policy gradient for linear-quadratic mean-field control/game in continuous time,PUBLICATION
+458,SSRN 3382932,PRODUCT
+459,arXiv preprint arXiv:2008.06845,PRODUCT
+460,Noise,CONCEPT
+461,Vibration based building localization,TOOL
+462,Locating people within a building,TOOL
+463,Unplanned alarm situation,EVENT
+464,Tracking an individual’s evacuation route,PROCESS
+465,This work,WORK
+466,Parameters,METRIC
+467,Hallway,GPE
+468,Length,METRIC
+469,Localization Experiment,CONCEPT
+470,Multiple People,PERSON
+471,Localizing Multiple People,TOOL
+472,Binary Classifiers,TOOL
+473,Sex of an Individual,PERSON
+474,Confidentiality of Data,CONCEPT
+475,Locating Individual,ACTIVITY
+476,Supervised Machine Learning,FIELD
+477,Individuals gender classifiers,TOOL
+478,Individual’s anonymity,CONCEPT
+479,Occupant_Tracking,PROCESS
+480,Example,CONCEPT
+481,Event,EVENT
+482,Time Signal,CONCEPT
+483,Windowed Energy,TOOL
+484,Alajlouni et. Al.,PERSON
+485,Original Signal,CONCEPT
+486,Sensor,PRODUCT
+487,Position,GEO
+488,B. Moeti Masiane,PERSON
+489,C. Awad Abdelhalim,PERSON
+490,Tracking methods,TOOL
+491,Buildings,GPE
+492,Classifiers,TOOL
+493,Gender,CONCEPT
+494,Time window,CONCEPT
+495,Vibration data,DATA
+496,Wireless Technologies,TOOL
+497,Receiver,TOOL
+498,Two Categories,GPE
+499,Vision Technologies,TOOL
+500,Fixed Camera,TOOL
+501,Mobile Camera,TOOL
+502,Ultrasound,TOOL
+503,RFID,TOOL
+504,WLAN,TOOL
+505,Bluetooth,TOOL
+506,Vibration based localization techniques,TECH
+507,Localization Techniques,TECH
+508,Literature,DOC
+509,1.1 m,METRIC
+510,Window Size,TOOL
+511,Energy Windowing,TOOL
+512,Ellis Kessler,PERSON
+513,localization experiments,TOOL
+514,related work section,SECTION
+515,Building Management Professionals,PROFESSION
+516,Unplanned Fire Alarm,EVENT
+517,Evacuation Routes,CONCEPT
+518,Real Individuals,PERSON
+519,Nearest Exits,CONCEPT
+520,Exit Signs,CONCEPT
+521,Smart Building Professionals,PROFESSION
+522,Implementation,TOOL
+523,F. Adib,PERSON
+524,See through walls with WiFi!,PRODUCT
+525,Y. Cascone,PERSON
+526,Ethical issues of monitoring sensor networks for energy efﬁciency in smart buildings: a case study,PRODUCT
+527,T. Sharpe,PERSON
+528,Ethical issues in domestic building performance evaluation studies,PRODUCT
+529,C. BASRI and A. El Khadimi,PERSON
+530,F. Van Diggelen and C. Abraham,PERSON
+531,2016 5th International Conference on Multimedia Computing and Systems (ICMCS),EVENT
+532,2001,EVENT
+533,IEEE,ORG
+534,CTIA Wireless-Agenda,EVENT
+535,A. G. Woolard,PERSON
+536,dispersion compensation,TOOL
+537,Journal of Vibration and Control,PRODUCT
+538,L. Mainetti,PERSON
+539,survey,TOOL
+540,"2014 22nd International Conference on Software, Telecommunications and Computer Networks (SoftCOM)",EVENT
+541,"Wireless-Agenda, Dallas",PUB
+542,A. Soloviev and J. Dickman,PERSON
+543,IEEE Wireless Communications,JOURNAL
+544,Extending gps carrier phase availability indoors with a deeply integrated receiver architecture,EVENT
+545,36–44,METRIC
+546,J. D. Poston,PERSON
+547,J. Schloemann,PERSON
+548,R. M. Buehrer,PERSON
+549,V. V. N. S. Malladi,PERSON
+550,P. A. Tarazaga,PERSON
+551,Smart Building Vibration Sensing,TOOL
+552,Indoor Localization of Pedestrians,CONCEPT
+553,Traditional Tracking Approaches,TOOL
+554,Location-based Tracking Technologies,TOOL
+555,Vision-based Tracking Technologies,TOOL
+556,J. L. Wang,PERSON
+557,M. C. Loui,PERSON
+558,2009 IEEE International Symposium on Technology and Society,EVENT
+559,S. Narain,PERSON
+560,G. Noubir,PERSON
+561,CNBC,ORG
+562,J. Valentino-DeVries,PERSON
+563,N. Singer,PERSON
+564,M. H. Keller,PERSON
+565,A. Krolik,PERSON
+566,New York Times,ORG
+567,W. Karim,PERSON
+568,2004,YEAR
+569,K. Michael,PERSON
+570,A. McNamee,PERSON
+571,M. G. Michael,PERSON
+572,2006,YEAR
+573,The emerging ethics of humancentric gps tracking and monitoring,PUBLICATION
+574,J. R. Guerrieri,PERSON
+575,M. H. Francis,PERSON
+576,P. F. Wilson,PERSON
+577,T. Kos,PERSON
+578,L. Miller,PERSON
+579,N. Bryner,PERSON
+580,D. Stroup,PERSON
+581,L. Klein-Berndt,PERSON
+582,M. Bouet,PERSON
+583,A. L. Dos Santos,PERSON
+584,2006 First European Conference on Antennas and Propagation,EVENT
+585,2008 1st IFIP Wireless Days,EVENT
+586,RFID-assisted indoor localization and communication for first responders,PRODUCT
+587,RFID tags: Positioning principles and localization techniques,PRODUCT
+588,C. Slobogin,PERSON
+589,Miss. lJ,ORG
+590,2002,TIME
+591,M. Saini,PERSON
+592,P. K. Atrey,PERSON
+593,S. Mehrotra,PERSON
+594,M. Kankanhalli,PERSON
+595,Multimedia Tools and Applications,ORG
+596,2014,TIME
+597,"W 3-privacy: understanding what, when, and where inference channels in multi-camera surveillance video",PUBLICATION
+598,A. Perelli,PERSON
+599,L. D. Marchi,PERSON
+600,A. Marzani,PERSON
+601,N. Speciale,PERSON
+602,Passive impacts localization based on dispersion compensation and cross-correlated sig- nals wavelet analysis,EVENT
+603,AIP Conference Proceedings,ORG
+604,P. D. Wilcox,PERSON
+605,A rapid signal processing technique to remove the effect of dispersion from guided wave signals,EVENT
+606,"IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control",ORG
+607,G. Fischer,PERSON
+608,B. Dietrich,PERSON
+609,F. Winkler,PERSON
+610,Bluetooth indoor localization system,TOOL
+611,Y. Zhuang,PERSON
+612,J. Yang,PERSON
+613,Y. Li,PERSON
+614,L. Qi,PERSON
+615,N. El-Sheimy,PERSON
+616,Smartphone-based indoor localization,TOOL
+617,Bluetooth low energy beacons,TOOL
+618,D. Katabi,PERSON
+619,See through walls,TOOL
+620,WiFi,TOOL
+621,J. Wang,PERSON
+622,B. Amos,PERSON
+623,A. Das,PERSON
+624,P. Pillai,PERSON
+625,N. Sadeh,PERSON
+626,M. Satyanarayanan,PERSON
+627,S. Alajlouni,PERSON
+628,P. Tarazaga,PERSON
+629,M. Molina-Solana,PERSON
+630,M. Ros,PERSON
+631,M. D. Ruiz,PERSON
+632,J. Gmez-Romero,PERSON
+633,M. J. Martin-Bautista,PERSON
+634,Renewable and Sustainable Energy Reviews,JOURNAL
+635,Apr. 2017,TEMPORAL
+636,D. Yan,PERSON
+637,W. OBrien,PERSON
+638,T. Hong,PERSON
+639,X. Feng,PERSON
+640,H. Burak Gunay,PERSON
+641,F. Tahmasebi,PERSON
+642,A. Mahdavi,PERSON
+643,Energy and Buildings,JOURNAL
+644,Nov. 2015,TEMPORAL
+645,Reinforcement Learning,FIELD
+646,Oxford,GPE
+647,Relaxed Controls,CONCEPT
+648,Time-dependent Learning Policies,CONCEPT
+649,Reinforcement-Learning,FIELD
+650,Agent knows model structure,CONCEPT
+651,Model parameters,METRIC
+652,Unknown model parameters,METRIC
+653,Anonymous,PERSON
+654,NeurIPS,ORG
+655,Learning,CONCEPT
+656,model mis-specification,CONCEPT
+657,NAN,NAN
+658,"R xµs(dx), σ²",TOOL
+659,system and other agents,ORG
+660,end of each round of play,EVENT
+661,(3.18),EQUATION
+662,P(U),METRIC
+663,Model mis-specification,CONCEPT
+664,Practice,FIELD
+665,Policy Gradient Method,TOOL
+666,Actor Critic Method,TOOL
+667,MFG with Learning,FIELD
+668,Cross Entropy,CONCEPT
+669,Candidate Solution,CONCEPT
+670,page\_content,TEXT
+671,λCE,METRIC
+672,Our Algorithm,TOOL
+673,Concurrent Work,WORK
+674,Recent Works,WORK
+675,family of linear-quadratic MFG,CONCEPT
+676,Section 3,SECTION
+677,set-valued map,TOOL
+678,candidate ﬁxed point(s),CONCEPT
+679,Step 1,CONCEPT
+680,MFG solution,CONCEPT
+681,CONCEPT,REL
+682,Game Equilibrium,CONCEPT
+683,Linear-Quadratic MFGs,FIELD
+684,Environment,CONCEPT
+685,Population of Strategic Opponents,TOOL
+686,Nash Equilibrium Solutions,CONCEPT
+687,"Q^2(X, π)",TOOL
+688,s - ms)^2,TOOL
+689,A(m_s - X π_s),TOOL
+690,(s - m_T)^2,TOOL
+691,Exploration Efficiency,CONCEPT
+692,Heuristic Designs,TOOL
+693,fictitious play convergence,CONCEPT
+694,prediction of other agents’ actions,CONCEPT
+695,regularized Q-learning,TOOL
+696,cross-entropy,TOOL
+697,convergence of ﬁctitious play,CONCEPT
+698,State y,GPE
+699,Not specified,NA
+700,Avoid Curse of Dimensionality,CONCEPT
+701,Finite Time Horizon,TIME_PERIOD
+702,Analysis,EVENT
+703,Enhanced Entropy,METRIC
+704,learning and the optimization procedure,CONCEPT
+705,b,VARIABLE
+706,σ,VARIABLE
+707,g,VARIABLE
+708,(the continuum) of the other agents,GPE
+709,several rounds,EVENT
+710,"(cid:98)j (0, π|α, µ)",VARIABLE
+711,Variance of Gaussian Distribution,METRIC
+712,Variance,METRIC
+713,Gaussian Distribution,TOOL
+714,NU,METRIC
+715,Fictitious Play,EVENT
+716,πi t,ACTION
+717,Mean Field Interaction,FIELD
+718,Current State,STATE
+719,,Unknown
+720,Coefficient B D2,TOOL
+721,Uncertainty,CONCEPT
+722,Mean Field Policy Gradient with Exploration,ALGORITHM
+723,Multi Agent Systems,FIELD
+724,"Time Interval [0,T]",TIME
+725,Policy of all Agents,CONCEPT
+726,Space,GPE
+727,"[t, T ]",GPE
+728,"Blacksburg, VA",GPE
+729,Multi-Agent Reinforcement Learning,FIELD
+730,given mean field information µ,CONCEPT
+731,"{µs}s∈[t,T ]",GPE
+732,Corollary 3.1,CONCEPT
+733,Privacy,CONCEPT
+734,Ethics,CONCEPT
+735,"Time Interval [t, T]",TIME
+736,Volatility Term D2,CONCEPT
+737,Term (m* - X*)ds,CONCEPT
+738,Term λSE ηSE sds,CONCEPT
+739,Term B2(X* - m*)2 D2,CONCEPT
+740,Term B2 D2,CONCEPT
+741,Metadatanamed,METRIC
+742,Mean ﬁeld and n-agent games for optimal investment under relative performance criteria,PUBLICATION
+743,Mean ﬁeld games,PUBLICATION
+744,Vulnerable,CONCEPT
+745,Without Anonymization,ANONYMIZED\_DATA
+746,Software Developers,PERSON
+747,Applications,PRODUCT
+748,Undisclosed Source,GPE
+749,σ2,METRIC
+750,"Late 90s, Early 2000s",TIME
+751,Modern Day Mapping and Navigation Systems,PRODUCT
+752,Studies,FIELD
+753,[4],PUB
+754,[5],PUB
+755,Emerging Applications,FIELD
+756,Tracking Suspects,EVENT
+757,Tracking Employees,EVENT
+758,Tracking Children,EVENT
+759,Ethical Implications,CONCEPT
+760,Dispersion Compensation Methods,CONCEPT
+761,1980s,TIME
+762,selective capabilities,TOOL
+763,full capabilities,TOOL
+764,Year 2000,TIME
+765,User Transmit Data,DATA
+766,Telephonic or Internet Reception,COMMUNICATION_TECH
+767,2019,TIME
+768,2015,TIME
+769,differences in time of arrivals,TOOL
+770,Past Three Decades,TIME_PERIOD
+771,Government Sector,ORG/GOV
+772,Security Sector,ORG/GOV
+773,Commerce Sectors,ORG
+774,Advancements in GPS,TOOL
+775,United States Government,ORG/GOV
+776,Information-Theoretic Analysis Of Thompson Sampling,CONCEPT
+777,Exploration Versus Exploitation In Reinforcement Learning,CONCEPT
+778,Red-flags,EVENT
+779,Northeastern University,INSTITUTION
+780,Phones,PRODUCT
+781,On the sample complexity of the linear quadratic regulator,PAPER
+782,Global convergence of policy gradient methods for the linear quadratic regulator,PAPER
+783,Other methods,TOOL
+784,0,NUMERIC
+785,1,NUMERIC
+786,3,NUMERIC
+787,Three Outer Iterations,TOOL
+788,Five Outer Iterations,TOOL
+789,4th Amendment of the US Constitution,CONCEPT
+790,Data Gathered At The Time,EVENT
+791,New Post 9/11 Legislations,EVENT
+792,Similar Studies,EVENT
+793,Geographic Location,CONCEPT
+794,Time Information,CONCEPT
+795,United States Air Force,ORG/GOV
+796,Public Use,EVENT
+797,Selective Capabilities,CONCEPT
+798,Indoors,GPE
+799,expression 3.16,EXPRESSION
+800,"ηs, γs",PARAMETER
+801,∂xV,DERIVATIVE
+802,∂xxV,DERIVATIVE
+803,x - ms,VARIABLE
+804, Step 2 equation,EQUATION
+805,κ,PARAMETER
+806,an early study,EVENT
+807,privacy concerns,CONCEPT
+808,public spaces,GPE
+809,massive advancements,CONCEPT
+810,aggregating centralized data,TOOL
+811,Late 80s,TIME
+812,Around-the-clock monitoring of sensitive areas and buildings,EVENT
+813,Traffic violations monitoring,EVENT
+814,90s,TIME
+815,1996,TIME
+816,Video recording from surveillance cameras,TOOL
+817,Centralization of video recordings,CONCEPT
+818,Low Frequency Noise,CONCEPT
+819,Loss through Surveillance Footage,CONCEPT
+820,Racial Profiling,CONCEPT
+821,City Safety,CONCEPT
+822,Dispersion phenomenon,CONCEPT
+823,Highly Crowded Areas,LOCATION
+824,Applications of Existing AI Methodologies,TOOL
+825,Preserving Privacy of Individuals,CONCEPT
+826,Annals of Applied probability,JOURNAL
+827,arXiv preprint arXiv:1910.04295,PREPRINT
+828,"Methematics Department, Princeton University",INSTITUTION
+829,INRIA,INSTITUTION
+830,University of Michigan,INSTITUTION
+831,Footsteps,CONCEPT
+832,Walking Signal,CONCEPT
+833,Gender Classification,CONCEPT
+834,Research,FIELD
+835,High emphasis,CONCEPT
+836,Privacy loss quantification,CONCEPT
+837,Conclusion,CONCEPT
+838,Highly,DEGREE
+839,"ESAIM: Control, Optimisation and Calculus of Variations",JOURNAL
+840,23(2):569–591,PUBLICATION_DETAILS
+841,2017,PUBLICATION_YEAR
+842,Electronic Communications in Probability,JOURNAL
+843,18,PUBLICATION_PAGE
+844,Entropy_Regularization_for_Mean_Field_Games_with_Learning.pdf,FILENAME
+845,"page 2265–2294, 2002.",EVENT
+846,pages 1388–1396,EVENT
+847,Proceedings of the 27th International Conference on Machine Learning (ICML-10),EVENT
+848,Classes of multiagent Q-learning dynamics with epsilon-greedy exploration,CONCEPT
+849,Policy optimization provably converges In Advances in Neural Information Processing Systems,CONCEPT
+850,Localization Methods,FIELD
+851,Dispersion Relation,TOOL
+852,Distance Domain,DOMAIN
+853,Methods for Transformation,GROUP
+854,Feature,CONCEPT
+855,Privacy Risk,CONCEPT
+856,Wireless Device Signal,CONCEPT
+857,Virginia Tech’s campus,ORG
+858,Policy gradient methods find the nash equilibrium in n-player general-sum linear-quadratic games,EVENT
+859,SSRN 3894471,PUBLICATION
+860,Provably eﬃcient maximum entropy exploration,EVENT
+861,arXiv,ORG
+862,Princeton University Press,ORG
+863,Fire-alarm Dataset,DATASET
+864,General Intuition,CONCEPT
+865,Determination Of Location,CONCEPT
+866,Various Techniques,CONCEPT
+867,50%,METRIC
+868,Benefits of Indoor Tracking,CONCEPT
+869,Exits,GPE
+870,Twenty minutes,TIME
+871,Footstep Events,EVENT
+872,Evacuation Route,FIELD
+873,Table I,TOOL
+874,.mat ﬁles,FILE_FORMAT
+875,.csv ﬁles,FILE_FORMAT
+876,Successful anonymization,EVENT
+877,Time signal,FIELD
+878,Finding peaks,TOOL
+879,Levels,METRIC
+880,QUANTITY,METRIC
+881,Smart Building,GPE
+882,Accuracy,CONCEPT
 883,Evacuation,EVENT
-884,Final Report,REPORT
-885,Error,CONCEPT
-886,This Work,WORK
-887,Economics Field,FIELD
-888,AAAI,CONF
-889,smaller structures,GPE
-890,one demonstration in a building,GPE
-891,plates,GPE
-892,Table I,TABLE
-893,each study,STUDY
-894,Individual Identifying Information,CONCEPT
-895,Classification Accuracy,METRIC
-896,Sex,FIELD
-897,metadata,METADATA
-898,Virginia Tech Smart Infrastructure Laboratory,INSTITUTION
-899,.mat (Matlab data file),FILE_FORMAT
-900,.csv files,FILE_FORMAT
-901,x-y-z coordinate system,CONCEPT
-902,Conventional Indoor Tracking Methods,TOOL
-903,Level of Personal Identification,CONCEPT
-904,Male and Female Subjects,PERSON
-905,Hallway,GPE
-906,Classify Subjects,PERSON
-907,Evacuation Route,CONCEPT
-908,Late 80s,GPE
-909,Around-the-clock monitoring,TOOL
-910,Sensitive areas and buildings monitoring,TOOL
-911,Traffic violations monitoring,TOOL
-912,ATMs,GPE
-913,1996,GPE
-914,Video recording,TOOL
-915,Multiple cameras,TOOL
-916,One place,GPE
-917,Early study,EVENT
-918,Figure 9,FIGURE
-919,Amplitude of the Signal,METRIC
-920,Other Sensors,SENSOR
-921,energy calculation process,CONCEPT
-922,Ei,METRIC
-923,position,GPE
-924,Vibration based building localization,CONCEPT
-925,Accuracy,METRIC
-926,Group Movement,CONCEPT
-927,Individual Movement,CONCEPT
-928,All authors,GROUP
-929,Anonymization Approach,CONCEPT
-930,Individual’s Gender,CONCEPT
-931,Gender Classification,CONCEPT
-932,RMS,METRIC
-933,ri formula,FORMULA
-934,Indoor Tracking,CONCEPT
-935,NAN,NAN
-936,Successful Anonymization,EVENT
-937,Localization Process,PROCESS
-938,Finding Peaks,EVENT
-939,Five Events,EVENT
-940,Time Signal,TOOL
-941,Binary Classification,FIELD
-942,"arXiv preprint arXiv:1906.01786, 2019",EVENT
-943,"Princeton University Press, 2019",PUBLISHER
-944,[31],EVENT
-945,[32],EVENT
-946,arXiv preprint arXiv:1705.07798,PREPRINT
-947,arXiv,PLATFORM
-948,classify better than 50 percent,METRIC
-949,localization accuracy,METRIC
-950,same time window sizes,TIME_PERIOD
-951,Nearest Exits,CONCEPT
-952,Exit Signs,CONCEPT
-953,Machine Learning,FIELD
-954,Data Aggregation,TOOL
-955,Exponential Decay,CONCEPT
-956,Multiple Window Sizes,TOOL
-957,Root Mean Squared Error,METRIC
-958,Known Locations,CONCEPT
-959,Along,TOOL
-960,X-Axis Component,DATA
-961,Y-Axis Component,DATA
-962,Z-Axis Component,DATA
-963,Square Root of Sum of Squares of Acceleration Data,TOOL
-964,Privacy Concerns Regarding Occupant Tracking in Smart Buildings,PAPER
-965,building,GPE
-966,People Tracking,TOOL
-967,Previous Data,DATA
-968,Localization Experiments,TOOL
-969,Related Work Section,WORK
-970,Sex Labels,METRIC
-971,Trial Labels,METRIC
-972,Explore,CONCEPT
-973,Personal Identification,CONCEPT
-974,Classify Sex,METRIC
-975,Vibration Signal,DATA
-976,Data Pre-processing,TOOL
-977,Data Visualization,TOOL
-978,Classifier Training,TOOL
-979,Related Works Section,FIELD
-980,Training Classification Models,TOOL
-981,Anonymizing Data,TOOL
-982,Future Work,CONCEPT
-983,Ethical Concerns,FIELD
-984,Literature,FIELD
-985,Case-Study Data Analysis,FIELD
-986,Survey on indoor localization system and recent advances of wiﬁ ﬁngerprinting technique,PUBLICATION
-987,Research Sector,SECTOR
-988,The privacy implications of personal locators: why you should think twice before voluntarily availing yourself to gps moni- toring,EVENT
-989,Wash. UJL & Pol’y,JOURNAL
-990,The emerging ethics of humancentric gps tracking and monitoring,EVENT
-991,2015 International Conference on Location and GNSS (ICL-GNSS),EVENT
-992,Accurate Representation of the Actual Dataset,CONCEPT
-993,experimental,FIELD
-994,Rapid Automatic Knowledge Format,PRODUCT
-995,data for 6000 participants,TOOL
-996,"vol. 89, 2001",PUB_DETAILS
-997,2011,TIME
-998,"vol. 18, no. 2",PUB_DETAILS
-999,pp. 36–44,PUB_DETAILS
-1000,Research Community,FIELD
-1001,Privacy and ethical issues in location-based tracking systems,CONCEPT
-1002,"How gps can track you, even when you turn it off",CONCEPT
-1003,"Your apps know where you were last night, and theyre not keeping it secret",CONCEPT
-1004,See through walls with WiFi,PRODUCT
-1005,vol. 43. ACM,PUBLICATION
-1006,Ethical issues of monitoring sensor networks for energy efﬁciency in smart buildings: a case study,PUBLICATION
-1007,Ethical issues in domestic building performance evaluation studies,PUBLICATION
-1008,"Public privacy: camera surveillance of public places and
-
-the right to anonymity",PUBLICATION
-1009,"W 3-privacy: understanding what, when, and where inference channels in multi-camera surveillance video",PUBLICATION
-1010,RFID-assisted Indoor Localization and Communication for First Responders,PROJECT
-1011,RFID Tags: Positioning Principles and Localization Techniques,PROJECT
-1012,Enabling live video analytics with a scalable and privacy-aware framework,EVENT
-1013,"ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",JOURNAL
-1014,A new fast and calibration-free method for footstep impact localization in an instrumented floor,EVENT
-1015,Distance-domain Damage Imaging,TOOL
-1016,Data science for building energy management: A review,PUBLICATION
-1017,Occupant behavior modeling for building performance simulation: Current state and future challenges,PUBLICATION
-1018,/mnt/data/forked-GenAI/GenerativeAIExamples/experimental/knowledge_graph_rag/frontend/papers,FILEPATH
-1019,"1st Workshop on Positioning, Navigation and Communication",EVENT
-1020,2016,YEAR
-1021,596,PAGE
-1022,"vol. 16, no. 5",ISSUE
-1023,ACM,ORG
+884,Fire Alarm,PRODUCT
+885,Ability to Track,TOOL
+886,Group Movement,CONCEPT
+887,Individual Movement,CONCEPT
+888,N/A,N/A
+889,Amplitude,METRIC
+890,Route,FIELD
+891,All authors,PERSON
+892,Initial State,STATE
+893,Solution Analytically,CONCEPT
+894,Analytically,CONCEPT
+895,/mnt/data/forked-GenAI/GenerativeAIExamples/experimental/knowledge_graph_rag/frontend/papers/Entropy_Regularization_for_Mean_Field_Games_with_Learning.pdf,FILE
+896,Figure 6,EVENT
+897,Evacuation Paths,CONCEPT
+898,Heatmaps,CONCEPT
+899,Fire Alarm Dataset,DATA
+900,Figure 9,EVENT
+901,2013,DATE
+902,2012,DATE
+903,2016,DATE
+904,Entropy_Regularization_for_Mean_Field_Games_with_Learning,PDF
+905,Future Work,CONCEPT
+906,"0, T",TIME_PERIOD
+907,<,RELATION
+908,∞,TIME_PERIOD
+909,s,VARIABLE
+910,∈,RELATION
+911,P(R),PROBABILITY_SPACE
+912,:,RELATION
+913,R,SET
+914,→,RELATION
+915,P(U ),PROBABILITY_SPACE
+916,(,PUNCTUATION
+917,U,SET
+918,),PUNCTUATION
+919,Represents,CONCEPT
+920,Action distribution,CONCEPT
+921,at,CONJUNCTION
+922,state,CONCEPT
+923,linear combinations of first-two singular values,TOOL
+924,accurate representation of actual dataset,CONCEPT
+925,"synthesized data for 6,000 participants",EVENT
+926,Privacy Concerns Regarding Occupant Tracking,EVENT
+927,Usefulness in the real world,CONCEPT
+928,Real world example,CONCEPT
+929,Error,METRIC
+930,100 Feet,METRIC
+931,Figure 17,EVENT
+932,Evacuating,EVENT
+933,Separating Sources,TOOL
+934,Groups Metadata,TOOL
+935,Accurate Binary Classifier,TOOL
+936,50_percent,METRIC
+937,1.1_m,METRIC
+938,1.4_m,METRIC
+939,Figure 8,GPE
+940,Process,TOOL
+941,"Data Pre-processing, Visualization, and Classifier Training",TOOL
+942,Exploratory Data Analysis and Visualization,TOOL
+943,Classifier Training for Gender Classification,TOOL
+944,Related Works Section,FIELD
+945,Training Classification Models for Gender Classification,TOOL
+946,Classify,TOOL
+947,Individuals,PERSON
+948,Radio Signal,TOOL
+949,Determination,TOOL
+950,Wireless,TOOL
+951,Vision,TOOL
+952,Reference 22,REF
+953,Reference 23,REF
+954,Reference 24,REF
+955,Reference 25,REF
+956,Reference 26,REF
+957,Reference 27,REF
+958,Reference 28,REF
+959,Reference 29,REF
+960,Reference 30,REF
+961,Reference 31,REF
+962,Positioning,CONCEPT
+963,Navigation,CONCEPT
+964,Best Localization Accuracy,CONCEPT
+965,author,ROLE
+966,previous data,DATA
+967,vibration based localization,CONCEPT
+968,ACM,ORG
+969,Energy Procedia,ORG
+970,Building Research & Information,ORG
+971,Survey on indoor localization system and recent advances of wiﬁ ﬁngerprinting technique,PUBLICATION
+972,Indoor gps technology,PUBLICATION
+973,indoor vibration event localization,EVENT
+974,indoor positioning systems,EVENT
+975,"vol. 89, 2001",PUB_INFO
+976,"vol. 18, no. 2",PUB_INFO
+977,Wireless Communications,FIELD
+978,2015 International Conference on Location and GNSS (ICL-GNSS),EVENT
+979,Technology Sector,FIELD
+980,Literature Review on Ethical Concerns,EVENT
+981,Ethical Concerns,CONCEPT
+982,Development Concerns,CONCEPT
+983,Case-study Data Analysis,TOOL
+984,Privacy and ethical issues in location-based tracking systems,PUBLICATION
+985,"How GPS can track you, even when you turn it off",PUBLICATION
+986,"Your apps know where you were last night, and they’re not keeping it secret",PUBLICATION
+987,The privacy implications of personal locators: why you should think twice before voluntarily availing yourself to gps monitoring,PUBLICATION
+988,Wash. UJL & Pol’y,JOURNAL
+989,2006 International Conference on Mobile Business,CONFERENCE
+990,GPS tracking and monitoring,CONCEPT
+991,[26],METADATA
+992,[27],METADATA
+993,Public privacy: camera surveillance of public places and the right to anonymity,PUBLICATION
+994,Volume 1433,METRIC
+995,May 2012,DATE
+996,Volume 50,METRIC
+997,Apr. 2003,DATE
+998,"1st Workshop on Positioning, Navigation and Communication",EVENT
+999,Smartphone-based indoor localization with bluetooth low energy beacons,PUBLICATION
+1000,Enabling live video analytics with a scalable and privacy-aware framework,EVENT
+1001,"ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",JOURNAL
+1002,A new fast and calibration-free method for footstep impact localization in an instrumented floor,EVENT
+1003,Data science for building energy management: A review,PUBLICATION
+1004,Occupant behavior modeling for building performance simulation: Current state and future challenges,PUBLICATION
+1005,/mnt/data/forked-GenAI/GenerativeAIExamples/experimental/knowledge_graph_rag/frontend/papers/Privacy_Concerns_Regarding_Occupant_Tracking_in_Smart_Buildings.pdf,DATA_FILE

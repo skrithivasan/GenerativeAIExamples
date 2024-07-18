@@ -1,7 +1,7 @@
 import os
 import json
 import networkx as nx
-from fastapi import FastAPI, HTTPException
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
 from langchain.chains import GraphQAChain
@@ -10,7 +10,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.graphs.networkx_graph import NetworkxEntityGraph
 
-app = FastAPI()
+router = APIRouter()
 
 class ChatRequest(BaseModel):
     user_input: str
@@ -18,20 +18,20 @@ class ChatRequest(BaseModel):
     model_id: str
 
 # Load the knowledge graph
-graphml_path = "/mnt/data/GenerativeAIExamples/experimental/knowledge_graph_rag/backend/knowledge_graph.graphml"
+graphml_path = "/mnt/data/GenerativeAIExamples/experimental/knowledge_graph_rag/backend/knowledge_graph.graphml"  # Update this path as necessary
 if not os.path.exists(graphml_path):
     raise FileNotFoundError(f"Knowledge graph not found at {graphml_path}")
-
+ 
 G = nx.read_graphml(graphml_path)
 graph = NetworkxEntityGraph(G)
 
-@app.get("/get-models/")
+@router.get("/get-models/")
 async def get_models():
     models = ChatNVIDIA.get_available_models()
     available_models = [model.id for model in models if model.model_type == "chat" and "instruct" in model.id]
     return {"models": available_models}
 
-@app.post("/chat/")
+@router.post("/chat/")
 async def chat_endpoint(request: ChatRequest):
     llm = ChatNVIDIA(model=request.model_id)
     graph_chain = GraphQAChain.from_llm(llm=llm, graph=graph, verbose=True)
@@ -67,7 +67,3 @@ async def chat_endpoint(request: ChatRequest):
     response_data["assistant_response"] = full_response
 
     return response_data
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8001)

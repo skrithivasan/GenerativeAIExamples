@@ -1,27 +1,29 @@
 import os
 import streamlit as st
 import requests
-import pandas as pd
 import random
+import pandas as pd
+import time
 
 st.title("Evaluations")
 
 st.subheader("Create synthetic Q&A pairs from large document chunks")
 
-# Variable for documents
 if 'documents' not in st.session_state:
     st.session_state['documents'] = None
 
+response = requests.get("http://localhost:8000/evaluation/get-models/")
+if response.status_code == 200:
+    available_models = response.json()["models"]
+else:
+    st.error("Error fetching models.")
+    available_models = []
+
 with st.sidebar:
-    llm_selectbox = st.selectbox("Choose an LLM", ["nvidia/nemotron-4-340b-instruct", "mistralai/mixtral-8x7b-instruct-v0.1", "meta/llama3-70b-instruct"], index=0)
+    llm_selectbox = st.selectbox("Choose an LLM", available_models, index=available_models.index("mistralai/mixtral-8x7b-instruct-v0.1") if "mistralai/mixtral-8x7b-instruct-v0.1" in available_models else 0)
     st.write("You selected: ", llm_selectbox)
 
     num_data = st.slider("How many Q&A pairs to generate?", 10, 100, 50, step=10)
-
-# Start the evaluation backend server when navigating to the evaluation page
-start_backend_response = requests.post("http://localhost:8000/start-evaluation-backend/")
-if start_backend_response.status_code != 200:
-    st.error("Error starting the evaluation backend.")
 
 def has_pdf_files(directory):
     for file in os.listdir(directory):
@@ -42,7 +44,7 @@ def app():
             st.stop()
 
         process_response = requests.post(
-            "http://localhost:8002/process-documents-evaluations/",
+            "http://localhost:8000/evaluation/process-documents/",
             json={"directory": directory, "model_id": llm_selectbox}
         )
         if process_response.status_code == 200:
@@ -53,7 +55,7 @@ def app():
 
     if st.button("Create Q&A pairs"):
         qa_response = requests.post(
-            "http://localhost:8000/create-qa-pairs/",
+            "http://localhost:8000/evaluation/create-qa-pairs/",
             json={"num_data": num_data, "model_id": llm_selectbox}
         )
         if qa_response.status_code == 200:
@@ -69,7 +71,7 @@ def app():
                 answers_list = df_csv["answer"].tolist()
 
                 eval_response = requests.post(
-                    "http://localhost:8000/run-evaluation/",
+                    "http://localhost:8000/evaluation/run-evaluation/",
                     json={"questions_list": questions_list, "answers_list": answers_list}
                 )
                 if eval_response.status_code == 200:
@@ -83,7 +85,7 @@ def app():
                 combined_results = pd.read_csv("combined_results.csv").to_dict(orient="records")
 
                 score_response = requests.post(
-                    "http://localhost:8000/run-scoring/",
+                    "http://localhost:8000/evaluation/run-scoring/",
                     json={"combined_results": combined_results}
                 )
                 if score_response.status_code == 200:

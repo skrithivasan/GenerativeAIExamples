@@ -1,34 +1,25 @@
 import os
-import streamlit as st
-from llama_index.core import SimpleDirectoryReader, KnowledgeGraphIndex
-from llama_index.core import ServiceContext
-import multiprocessing
 import pandas as pd
 import networkx as nx
+from fastapi import APIRouter, BackgroundTasks
+from pydantic import BaseModel
 from utils.lc_graph import process_documents, save_triples_to_csvs
 from vectorstore.search import SearchHandler
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
-from fastapi import FastAPI, UploadFile, File, BackgroundTasks
-from pydantic import BaseModel
-import json
-import asyncio
-import subprocess
+
+router = APIRouter()
+
 class DirectoryRequest(BaseModel):
     directory: str
     model_id: str
 
-app = FastAPI()
-
-chat_backend_process = None
-evaluation_backend_process = None
-
-@app.get("/get-models/")
+@router.get("/get-models/")
 async def get_models():
     models = ChatNVIDIA.get_available_models()
     available_models = [model.id for model in models if model.model_type == "chat" and "instruct" in model.id]
     return {"models": available_models}
 
-@app.post("/process-documents/")
+@router.post("/process-documents/")
 async def process_documents_endpoint(request: DirectoryRequest, background_tasks: BackgroundTasks):
     directory = request.directory
     model_id = request.model_id
@@ -80,7 +71,7 @@ async def process_documents_endpoint(request: DirectoryRequest, background_tasks
     background_tasks.add_task(background_task)
     return {"message": "Processing started"}
 
-@app.get("/progress/")
+@router.get("/progress/")
 async def get_progress():
     try:
         with open("progress.txt", "r") as f:
@@ -88,45 +79,3 @@ async def get_progress():
         return {"progress": progress}
     except FileNotFoundError:
         return {"progress": "0"}
-@app.post("/start-chat-backend/")
-async def start_chat_backend():
-    global chat_backend_process
-    if chat_backend_process is None:
-        chat_backend_process = subprocess.Popen(["uvicorn", "chat_backend:app", "--host", "0.0.0.0", "--port", "8001"])
-        return {"message": "Chat backend started."}
-    else:
-        return {"message": "Chat backend is already running."}
-
-@app.post("/stop-chat-backend/")
-async def stop_chat_backend():
-    global chat_backend_process
-    if chat_backend_process is not None:
-        chat_backend_process.terminate()
-        chat_backend_process = None
-        return {"message": "Chat backend stopped."}
-    else:
-        return {"message": "Chat backend is not running."}
-@app.post("/start-evaluation-backend/")
-async def start_evaluation_backend():
-    global evaluation_backend_process
-    if evaluation_backend_process is None:
-        evaluation_backend_process = subprocess.Popen(["uvicorn", "evaluation_backend:app", "--host", "0.0.0.0", "--port", "8002"])
-        return {"message": "Evaluation backend started."}
-    else:
-        return {"message": "Evaluation backend is already running."}
-
-@app.post("/stop-evaluation-backend/")
-async def stop_evaluation_backend():
-    global evaluation_backend_process
-    if evaluation_backend_process is not None:
-        evaluation_backend_process.terminate()
-        evaluation_backend_process = None
-        return {"message": "Evaluation backend stopped."}
-    else:
-        return {"message": "Evaluation backend is not running."}
-
-
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
