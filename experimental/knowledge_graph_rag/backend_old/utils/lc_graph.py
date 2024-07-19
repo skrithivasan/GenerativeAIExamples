@@ -38,10 +38,6 @@ def process_documents(directory, llm, update_progress=None,triplets=True, chunk_
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
         documents = text_splitter.split_documents(raw_docs)
         st.write("Loaded docs, len(docs): " + str(len(documents)))
-        # Save documents to CSV
-    document_data = [{"id": i, "content": doc.page_content} for i, doc in enumerate(documents)]
-    df = pd.DataFrame(document_data)
-    df.to_csv('documents.csv', index=False)
 
     if not triplets:
         return documents, []

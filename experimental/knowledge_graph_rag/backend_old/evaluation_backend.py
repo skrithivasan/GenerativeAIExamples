@@ -1,10 +1,11 @@
 import os
+import json
 import random
 import pandas as pd
-import networkx as nx
-from fastapi import APIRouter, HTTPException, BackgroundTasks
-from pydantic import BaseModel
 from concurrent.futures import ThreadPoolExecutor
+import networkx as nx
+from fastapi import FastAPI, BackgroundTasks, HTTPException
+from pydantic import BaseModel
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
 from langchain.chains import GraphQAChain
 from vectorstore.search import SearchHandler
@@ -15,12 +16,8 @@ from utils.preprocessor import generate_qa_pair
 from utils.lc_graph import process_documents, save_triples_to_csvs
 from llama_index.core import SimpleDirectoryReader
 from openai import OpenAI
-from langchain.schema import Document
-import logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
-router = APIRouter()
+app = FastAPI()
 
 class ProcessRequest(BaseModel):
     directory: str
@@ -41,11 +38,6 @@ reward_client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
     api_key=os.environ["NVIDIA_API_KEY"]
 )
-@router.get("/get-models/")
-async def get_models():
-    models = ChatNVIDIA.get_available_models()
-    available_models = [model.id for model in models if model.model_type == "chat" and "instruct" in model.id]
-    return {"models": available_models}
 
 def load_data(input_dir, num_workers):
     reader = SimpleDirectoryReader(input_dir=input_dir)
@@ -101,9 +93,7 @@ def get_text_RAG_response(question, llm):
 def get_graph_RAG_response(question, llm):
     chain = prompt_template | llm | StrOutputParser()
     entity_string = llm.invoke("""Return a JSON with a single key 'entities' and list of entities within this user query. Each element in your list MUST BE part of the user's query. Do not provide any explanation. If the returned list is not parseable in Python, you will be heavily penalized. For example, input: 'What is the difference between Apple and Google?' output: ['Apple', 'Google']. Always follow this output format. Here's the user query: """ + question)
-    graphml_path = "/mnt/data/GenerativeAIExamples/experimental/knowledge_graph_rag/backend/knowledge_graph.graphml"
-    G = nx.read_graphml(graphml_path)
-    #G = nx.read_graphml(os.path.join("/", "knowledge_graph.graphml"))
+    G = nx.read_graphml("knowledge_graph.graphml")
     graph = NetworkxEntityGraph(G)
 
     try:
@@ -121,9 +111,7 @@ def get_graph_RAG_response(question, llm):
 def get_combined_RAG_response(question, llm):
     chain = prompt_template | llm | StrOutputParser()
     entity_string = llm.invoke("""Return a JSON with a single key 'entities' and list of entities within this user query. Each element in your list MUST BE part of the user's query. Do not provide any explanation. If the returned list is not parseable in Python, you will be heavily penalized. For example, input: 'What is the difference between Apple and Google?' output: ['Apple', 'Google']. Always follow this output format. Here's the user query: """ + question)
-    #G = nx.read_graphml(os.path.join("data", "knowledge_graph.graphml"))
-    graphml_path = "/mnt/data/GenerativeAIExamples/experimental/knowledge_graph_rag/backend/knowledge_graph.graphml"
-    G = nx.read_graphml(graphml_path)
+    G = nx.read_graphml("knowledge_graph.graphml")
     graph = NetworkxEntityGraph(G)
 
     try:
@@ -140,46 +128,29 @@ def get_combined_RAG_response(question, llm):
     answer = chain.invoke("Context: " + context + "\n\nUser query: " + question)
     return answer
 
-@router.post("/process-documents/")
-async def process_documents_endpoint(request: ProcessRequest, background_tasks: BackgroundTasks):
-    logger.info("Check")
+@app.post("/process-documents-evaluations/")
+async def process_documents_evaluations_endpoint(request: ProcessRequest, background_tasks: BackgroundTasks):
     directory = request.directory
     model_id = request.model_id
     llm = ChatNVIDIA(model=model_id)
-    logger.info(f"Processing documents in directory: {directory} with model: {model_id}")
-    try:
-        documents, results = process_documents(directory, llm, triplets=False, chunk_size=2000, chunk_overlap=200)
-        logger.info(f"Processed {len(documents)} documents.")
-        current_directory = os.getcwd()
-        logger.info(f"Current working directory: {current_directory}")
-        documents_csv_path = os.path.join(current_directory, 'documents.csv')
-        logger.info(f"Path to documents.csv: {documents_csv_path}")
-        return {"message": "Document processing started", "documents_processed": len(documents)}
-    except Exception as e:
-        logger.error(f"Error processing documents: {e}")
-        raise HTTPException(status_code=500, detail="Error processing documents")
-@router.post("/create-qa-pairs/")
+
+    documents, results = process_documents(directory, llm, triplets=False, chunk_size=2000, chunk_overlap=200)
+        
+    return {"message": "Document processing started", "documents_processed": len(documents)}
+
+@app.post("/create-qa-pairs/")
 async def create_qa_pairs(request: QAPairsRequest):
-    logger.info("Entered create_qa_pairs endpoint")
     num_data = request.num_data
     model_id = request.model_id
     llm = ChatNVIDIA(model=model_id)
 
-    current_directory = os.getcwd()
-    documents_csv_path = os.path.join(current_directory, 'documents.csv')
-    
-    logger.info(f"Current working directory: {current_directory}")
-    logger.info(f"Path to documents.csv: {documents_csv_path}")
-    
-    if not os.path.exists(documents_csv_path):
-        logger.error("Documents not found. Please process documents first.")
+    if not os.path.exists('documents.csv'):
         raise HTTPException(status_code=404, detail="Documents not found. Please process documents first.")
     
-    df = pd.read_csv(documents_csv_path)
-    documents = [Document(page_content=row['content']) for index, row in df.iterrows()]
+    df = pd.read_csv('documents.csv')
+    documents = [SimpleDirectoryReader.from_dict(row) for index, row in df.iterrows()]
     json_list = []
-    logger.info(f"Total documents available: {len(documents)}")
-
+    
     qa_docs = random.sample(documents, num_data)
     for doc in qa_docs:
         res = generate_qa_pair(doc, llm)
@@ -190,11 +161,11 @@ async def create_qa_pairs(request: QAPairsRequest):
         qa_df = pd.DataFrame(json_list)
         qa_df.to_csv('qa_data.csv', index=False)
     else:
-        logger.error("No Q&A pairs generated")
         raise HTTPException(status_code=500, detail="No Q&A pairs generated")
-    
-    return {"message": "Q&A pairs created", "qa_pairs": json_list}
-@router.post("/run-evaluation/")
+
+    return {"message": "Q&A pairs created"}
+
+@app.post("/run-evaluation/")
 async def run_evaluation(request: QARequest):
     questions_list = request.questions_list
     answers_list = request.answers_list
@@ -209,7 +180,7 @@ async def run_evaluation(request: QARequest):
     df.to_csv("combined_results.csv", index=False)
     return {"message": "Evaluation completed and results saved"}
 
-@router.post("/run-scoring/")
+@app.post("/run-scoring/")
 async def run_scoring(request: ScoreRequest):
     combined_results = request.combined_results
 
@@ -229,3 +200,7 @@ async def run_scoring(request: ScoreRequest):
     df = pd.DataFrame(combined_results)
     df.to_csv("combined_results_with_scores.csv", index=False)
     return {"message": "Scoring completed and results saved"}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8002)

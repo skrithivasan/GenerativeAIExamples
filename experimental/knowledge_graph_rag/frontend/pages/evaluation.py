@@ -49,19 +49,26 @@ def app():
         )
         if process_response.status_code == 200:
             st.session_state["documents"] = process_response.json().get("documents_processed")
-            st.success("Finished splitting documents!")
+            st.success(f"Finished splitting documents! Number of documents processed: {st.session_state['documents']}")
         else:
             st.error("Error processing documents.")
 
-    if st.button("Create Q&A pairs"):
-        qa_response = requests.post(
-            "http://localhost:8000/evaluation/create-qa-pairs/",
-            json={"num_data": num_data, "model_id": llm_selectbox}
-        )
-        if qa_response.status_code == 200:
-            st.success("Q&A pairs created.")
-        else:
-            st.error("Error creating Q&A pairs.")
+    json_list = []
+    if st.session_state["documents"] is not None:
+        if st.button("Create Q&A pairs"):
+            qa_response = requests.post(
+                "http://localhost:8000/evaluation/create-qa-pairs/",
+                json={"num_data": num_data, "model_id": llm_selectbox}
+            )
+            if qa_response.status_code == 200:
+                qa_pairs = qa_response.json().get("qa_pairs")
+                st.success("Q&A pairs created.")
+                st.write("Generated Q&A Pairs:")
+                for pair in qa_pairs:
+                    st.write(f"Question: {pair['question']}")
+                    st.write(f"Answer: {pair['answer']}")
+            else:
+                st.error("Error creating Q&A pairs.")
 
     if os.path.exists("qa_data.csv"):
         with st.expander("Load Q&A data and run evaluations of text vs graph vs text+graph RAG"):
@@ -76,26 +83,31 @@ def app():
                 )
                 if eval_response.status_code == 200:
                     st.success("Evaluation completed and results saved.")
+                    combined_results = pd.read_csv("combined_results.csv")
+                    st.write("Combined Results:")
+                    st.dataframe(combined_results)
                 else:
                     st.error("Error running evaluations.")
+                
 
     if os.path.exists("combined_results.csv"):
         with st.expander("Run comparative evals for saved Q&A data"):
             if st.button("Run scoring"):
                 combined_results = pd.read_csv("combined_results.csv").to_dict(orient="records")
-
+                score_response = None
+                
                 score_response = requests.post(
                     "http://localhost:8000/evaluation/run-scoring/",
                     json={"combined_results": combined_results}
                 )
                 if score_response.status_code == 200:
                     st.success("Scoring completed and results saved.")
-                else:
+                    combined_results_with_scores = pd.read_csv("combined_results_with_scores.csv")
+                    st.write("Combined Results with Scores:")
+                    st.write(combined_results_with_scores)
+            else:
                     st.error("Error running scoring.")
 
-                combined_results_df = pd.read_csv("combined_results_with_scores.csv")
-                st.write("First few rows of the updated data:")
-                st.dataframe(combined_results_df.head())
 
 if __name__ == "__main__":
     app()

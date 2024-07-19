@@ -1,8 +1,11 @@
 import subprocess
 from fastapi import FastAPI
 from routers import ui_backend,chat,evaluation
+import logging
 
 app = FastAPI()
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Include routers from different modules
 app.include_router(ui_backend.router, prefix="/ui")
