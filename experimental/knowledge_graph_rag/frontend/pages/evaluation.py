@@ -105,7 +105,7 @@ def app():
                     combined_results_with_scores = pd.read_csv("combined_results_with_scores.csv")
                     st.write("Combined Results with Scores:")
                     st.write(combined_results_with_scores)
-            else:
+                else:
                     st.error("Error running scoring.")
 
 

@@ -1,6 +1,6 @@
 import subprocess
 from fastapi import FastAPI
-from routers import ui_backend,chat,evaluation
+from routers import ui_backend,chat,evaluation,visualization
 import logging
 
 app = FastAPI()
