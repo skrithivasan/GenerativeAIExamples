@@ -11,6 +11,7 @@ logger = logging.getLogger(__name__)
 app.include_router(ui_backend.router, prefix="/ui")
 app.include_router(chat.router, prefix="/chat")
 app.include_router(evaluation.router, prefix="/evaluation")
+app.include_router(visualization.router, prefix="/visualization", tags=["visualization"])
 
 
 if __name__ == "__main__":
