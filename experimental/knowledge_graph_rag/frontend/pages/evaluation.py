@@ -4,6 +4,7 @@ import requests
 import random
 import pandas as pd
 import time
+import json 
 
 st.title("Evaluations")
 
@@ -56,38 +57,78 @@ def app():
     json_list = []
     if st.session_state["documents"] is not None:
         if st.button("Create Q&A pairs"):
-            qa_response = requests.post(
-                "http://localhost:8000/evaluation/create-qa-pairs/",
-                json={"num_data": num_data, "model_id": llm_selectbox}
-            )
-            if qa_response.status_code == 200:
-                qa_pairs = qa_response.json().get("qa_pairs")
-                st.success("Q&A pairs created.")
-                st.write("Generated Q&A Pairs:")
-                for pair in qa_pairs:
-                    st.write(f"Question: {pair['question']}")
-                    st.write(f"Answer: {pair['answer']}")
-            else:
-                st.error("Error creating Q&A pairs.")
+            qa_placeholder = st.empty()
+            try:
+                    qa_response = requests.post(
+                        "http://localhost:8000/evaluation/create-qa-pairs/",
+                        json={"num_data": num_data, "model_id": llm_selectbox},
+                        stream=True
+                    )
+                    # if qa_response.status_code == 200:
+                    #     qa_pairs = qa_response.json().get("qa_pairs")
+                    #     st.success("Q&A pairs created.")
+                    #     st.write("Generated Q&A Pairs:")
+                    #     for pair in qa_pairs:
+                    #         st.write(f"Question: {pair['question']}")
+                    #         st.write(f"Answer: {pair['answer']}")
+                    if qa_response.status_code == 200:
+                        qa_placeholder.markdown("**Generated Q&A Pairs:**")
+                        for line in qa_response.iter_lines():
+                            if line:
+                                try:
+                                    pair = json.loads(line.decode('utf-8'))
+                                    if 'question' in pair and 'answer' in pair:
+                                        st.markdown(f"**Question:** {pair['question']}  \n**Answer:** {pair['answer']}")
+                                    else:
+                                        st.error("Received data in an unexpected format.")
+                                        st.write(pair)  # For debugging purposes
+                                except json.JSONDecodeError:
+                                    st.error("Error decoding JSON response.")
+                    else:
+                        st.error("Error creating Q&A pairs.")
+            except requests.exceptions.ChunkedEncodingError as e:
+                st.error(f"Streaming error: {e}")
+            except Exception as e:
+                st.error(f"Unexpected error: {e}")
 
     if os.path.exists("qa_data.csv"):
         with st.expander("Load Q&A data and run evaluations of text vs graph vs text+graph RAG"):
-            if st.button("Run"):
+            if st.button("Run"): 
                 df_csv = pd.read_csv("qa_data.csv")
                 questions_list = df_csv["question"].tolist()
                 answers_list = df_csv["answer"].tolist()
-
-                eval_response = requests.post(
+                eval_placeholder = st.empty()
+                results =[]
+                
+                try:
+                    eval_response = requests.post(
                     "http://localhost:8000/evaluation/run-evaluation/",
-                    json={"questions_list": questions_list, "answers_list": answers_list}
+                    json={"questions_list": questions_list, "answers_list": answers_list},
+                    stream=True
+
                 )
-                if eval_response.status_code == 200:
-                    st.success("Evaluation completed and results saved.")
-                    combined_results = pd.read_csv("combined_results.csv")
-                    st.write("Combined Results:")
-                    st.dataframe(combined_results)
-                else:
-                    st.error("Error running evaluations.")
+                    if eval_response.status_code == 200:
+                        for line in eval_response.iter_lines():
+                            if line:
+                                try:
+                                    result = json.loads(line.decode('utf-8'))
+                                    if 'question' in result and 'gt_answer' in result:
+                                        results.append(result)
+                                        # Update the displayed DataFrame
+                                        results_df = pd.DataFrame(results)
+                                        eval_placeholder.dataframe(results_df)
+                                    else:
+                                        st.error("Received data in an unexpected format.")
+                                        st.write(result)  # For debugging purposes
+                                except json.JSONDecodeError:
+                                    st.error("Error decoding JSON response.")
+                    else:
+                        st.error("Error running evaluations.")
+                except requests.exceptions.ChunkedEncodingError as e:
+                    st.error(f"Streaming error: {e}")
+                except Exception as e:
+                    st.error(f"Unexpected error: {e}")
+
                 
 
     if os.path.exists("combined_results.csv"):
@@ -98,7 +139,8 @@ def app():
                 
                 score_response = requests.post(
                     "http://localhost:8000/evaluation/run-scoring/",
-                    json={"combined_results": combined_results}
+                    json={"combined_results": combined_results}, 
+                    stream=True
                 )
                 if score_response.status_code == 200:
                     st.success("Scoring completed and results saved.")

@@ -1,4 +1,5 @@
 import os
+import asyncio
 import random
 import pandas as pd
 import networkx as nx
@@ -19,6 +20,7 @@ from openai import OpenAI
 from langchain.schema import Document
 import csv 
 import json
+import time
 import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -164,6 +166,7 @@ async def process_documents_endpoint(request: ProcessRequest, background_tasks: 
 @router.post("/create-qa-pairs/")
 async def create_qa_pairs(request: QAPairsRequest):
     logger.info("Entered create_qa_pairs endpoint")
+    
     num_data = request.num_data
     model_id = request.model_id
     llm = ChatNVIDIA(model=model_id)
@@ -180,23 +183,32 @@ async def create_qa_pairs(request: QAPairsRequest):
     
     df = pd.read_csv(documents_csv_path)
     documents = [Document(page_content=row['content']) for index, row in df.iterrows()]
-    json_list = []
     logger.info(f"Total documents available: {len(documents)}")
+    
+    async def event_generator():
+        json_list = []
+        qa_docs = random.sample(documents, num_data)
+        for doc in qa_docs:
+            try:
+                res = generate_qa_pair(doc, llm)
+                if res:
+                    # Append to list and write to file incrementally if needed
+                    json_list.append(res)
+                    yield json.dumps(res) + "\n"
+                    await asyncio.sleep(1)  # Simulate processing time
+            except Exception as e:
+                logger.error(f"Error generating Q&A pair: {e}")
+                yield json.dumps({"error": str(e)}) + "\n"
 
-    qa_docs = random.sample(documents, num_data)
-    for doc in qa_docs:
-        res = generate_qa_pair(doc, llm)
-        if res:
-            json_list.append(res)
-    
-    if len(json_list) > 0:
-        qa_df = pd.DataFrame(json_list)
-        qa_df.to_csv('qa_data.csv', index=False)
-    else:
-        logger.error("No Q&A pairs generated")
-        raise HTTPException(status_code=500, detail="No Q&A pairs generated")
-    
-    return {"message": "Q&A pairs created", "qa_pairs": json_list}
+        # Save the list to a file after processing all documents
+        if json_list:
+            qa_df = pd.DataFrame(json_list)
+            qa_df.to_csv('qa_data.csv', index=False)
+        else:
+            logger.error("No Q&A pairs generated")
+            raise HTTPException(status_code=500, detail="No Q&A pairs generated")
+
+    return StreamingResponse(event_generator(), media_type="text/event-stream")
 @router.post("/run-evaluation/")
 async def run_evaluation(request: QARequest):
     questions_list = request.questions_list
@@ -234,17 +246,26 @@ async def run_scoring(request: ScoreRequest):
 
     score_columns = ['gt', 'textRAG', 'graphRAG', 'combinedRAG']
     metrics = ['helpfulness', 'correctness', 'coherence', 'complexity', 'verbosity']
+    
+    async def score_generator():
+        for row in combined_results:
+            try:
+                res_gt = get_reward_scores(row["question"], row["gt_answer"])
+                res_textRAG = get_reward_scores(row["question"], row["textRAG_answer"])
+                res_graphRAG = get_reward_scores(row["question"], row["graphRAG_answer"])
+                res_combinedRAG = get_reward_scores(row["question"], row["combined_answer"])
 
-    for row in combined_results:
-        res_gt = get_reward_scores(row["question"], row["gt_answer"])
-        res_textRAG = get_reward_scores(row["question"], row["textRAG_answer"])
-        res_graphRAG = get_reward_scores(row["question"], row["graphRAG_answer"])
-        res_combinedRAG = get_reward_scores(row["question"], row["combined_answer"])
+                for score_type, res in zip(score_columns, [res_gt, res_textRAG, res_graphRAG, res_combinedRAG]):
+                     if res:
+                        for metric in metrics:
+                            row[f'{score_type}_{metric}'] = res.get(metric,None)
+                yield json.dumps(row) + "\n"
+                await asyncio.sleep(0.1)  # Simulate processing delay
+            except Exception as e:
+                yield json.dumps({"error": str(e)}) + "\n"
 
-        for score_type, res in zip(score_columns, [res_gt, res_textRAG, res_graphRAG, res_combinedRAG]):
-            for metric in metrics:
-                row[f'{score_type}_{metric}'] = res[metric]
+    return StreamingResponse(score_generator(), media_type="text/event-stream")
 
-    df = pd.DataFrame(combined_results)
-    df.to_csv("combined_results_with_scores.csv", index=False)
-    return {"message": "Scoring completed and results saved"}
+    # df = pd.DataFrame(combined_results)
+    # df.to_csv("combined_results_with_scores.csv", index=False)
+    # return {"message": "Scoring completed and results saved"}
