@@ -47,12 +47,21 @@ def app():
             while True:
                 progress_response = requests.get("http://localhost:8000/ui/progress/")
                 if progress_response.status_code == 200:
-                    progress = float(progress_response.json()["progress"])
-                    progress_bar.progress(progress)
-                    progress_text.text(f"Processing: {int(progress * 100)}%")
-                    if progress >= 1.0:
+                    try:
+                        progress_data = progress_response.json()
+                        progress = float(progress_data.get("progress", 0))  # Default to 0 if not found
+                        progress_bar.progress(progress)
+                        progress_text.text(f"Processing: {int(progress * 100)}%")
+                        if progress >= 1.0:
+                            break
+                    except (ValueError, KeyError):
+                        st.error("Received invalid progress data.")
                         break
+                else:
+                    st.error("Error fetching progress data.")
+                    break
                 time.sleep(1)
+
 
             st.success("Processing complete and graph created. Saved to knowledge_graph.graphml")
         else:

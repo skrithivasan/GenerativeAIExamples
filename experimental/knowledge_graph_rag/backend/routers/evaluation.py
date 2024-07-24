@@ -3,6 +3,7 @@ import random
 import pandas as pd
 import networkx as nx
 from fastapi import APIRouter, HTTPException, BackgroundTasks
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from concurrent.futures import ThreadPoolExecutor
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
@@ -16,6 +17,8 @@ from utils.lc_graph import process_documents, save_triples_to_csvs
 from llama_index.core import SimpleDirectoryReader
 from openai import OpenAI
 from langchain.schema import Document
+import csv 
+import json
 import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -200,14 +203,30 @@ async def run_evaluation(request: QARequest):
     answers_list = request.answers_list
     llm = ChatNVIDIA(model="mistralai/mixtral-8x7b-instruct-v0.1")  # or any other default model
 
-    results = []
-    for question, answer in zip(questions_list, answers_list):
-        result = process_question(question, answer, llm)
-        results.append(result)
+    # results = []
+    # for question, answer in zip(questions_list, answers_list):
+    #     result = process_question(question, answer, llm)
+    #     results.append(result)
 
-    df = pd.DataFrame(results)
-    df.to_csv("combined_results.csv", index=False)
-    return {"message": "Evaluation completed and results saved"}
+    # df = pd.DataFrame(results)
+    # df.to_csv("combined_results.csv", index=False)
+    # return {"message": "Evaluation completed and results saved"}
+    def evaluate():
+        results = []
+        for question, answer in zip(questions_list, answers_list):
+            result = process_question(question, answer, llm)
+            results.append(result)
+
+            # Save the result to the CSV file incrementally
+            with open("combined_results.csv", "a", newline="") as csvfile:
+                writer = csv.DictWriter(csvfile, fieldnames=result.keys())
+                if csvfile.tell() == 0:
+                    writer.writeheader()
+                writer.writerow(result)
+
+            yield json.dumps(result) + "\n"
+    
+    return StreamingResponse(evaluate(), media_type="text/event-stream")
 
 @router.post("/run-scoring/")
 async def run_scoring(request: ScoreRequest):

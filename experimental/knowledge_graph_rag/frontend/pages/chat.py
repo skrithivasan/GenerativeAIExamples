@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import json
+import time
 
 st.set_page_config(layout="wide")
 
@@ -43,8 +44,10 @@ if user_input:
             response_data = response.json()
             context = response_data.get("context", "")
             assistant_response = response_data.get("assistant_response", "")
-            full_response = assistant_response
-            message_placeholder.markdown(full_response)
+            for chunk in assistant_response.split(' '):
+                full_response += chunk + ' '
+                message_placeholder.markdown(full_response)
+                time.sleep(0.05)  #
         else:
             st.error("Error processing the chat request.")
 
