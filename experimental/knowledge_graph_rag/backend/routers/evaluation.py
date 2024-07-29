@@ -34,10 +34,12 @@ class ProcessRequest(BaseModel):
 class QAPairsRequest(BaseModel):
     num_data: int
     model_id: str
+    
 
 class QARequest(BaseModel):
     questions_list: list
     answers_list: list
+    model_id: str
 
 class ScoreRequest(BaseModel):
     combined_results: list
@@ -213,6 +215,7 @@ async def create_qa_pairs(request: QAPairsRequest):
 async def run_evaluation(request: QARequest):
     questions_list = request.questions_list
     answers_list = request.answers_list
+    model_id = request.model_id
     llm = ChatNVIDIA(model=model_id)  # or any other default model
 
     # results = []

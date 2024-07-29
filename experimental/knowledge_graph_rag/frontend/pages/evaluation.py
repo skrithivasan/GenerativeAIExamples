@@ -139,7 +139,7 @@ def app():
                 try:
                     eval_response = requests.post(
                         "http://localhost:8000/evaluation/run-evaluation/",
-                        json={"questions_list": questions_list, "answers_list": answers_list},
+                        json={"questions_list": questions_list, "answers_list": answers_list, "model_id": llm_selectbox},
                         stream=True
                     )
                     if eval_response.status_code == 200:
