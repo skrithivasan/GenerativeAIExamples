@@ -213,7 +213,7 @@ async def create_qa_pairs(request: QAPairsRequest):
 async def run_evaluation(request: QARequest):
     questions_list = request.questions_list
     answers_list = request.answers_list
-    llm = ChatNVIDIA(model="mistralai/mixtral-8x7b-instruct-v0.1")  # or any other default model
+    llm = ChatNVIDIA(model=model_id)  # or any other default model
 
     # results = []
     # for question, answer in zip(questions_list, answers_list):
@@ -223,7 +223,7 @@ async def run_evaluation(request: QARequest):
     # df = pd.DataFrame(results)
     # df.to_csv("combined_results.csv", index=False)
     # return {"message": "Evaluation completed and results saved"}
-    def evaluate():
+    async def evaluate():
         results = []
         for question, answer in zip(questions_list, answers_list):
             result = process_question(question, answer, llm)
@@ -237,6 +237,7 @@ async def run_evaluation(request: QARequest):
                 writer.writerow(result)
 
             yield json.dumps(result) + "\n"
+            await asyncio.sleep(0.1) 
     
     return StreamingResponse(evaluate(), media_type="text/event-stream")
 

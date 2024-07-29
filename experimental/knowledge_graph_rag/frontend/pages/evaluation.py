@@ -1,10 +1,17 @@
 import os
 import streamlit as st
 import requests
-import random
 import pandas as pd
-import time
-import json 
+import json
+
+# Custom CSS to change heading font sizes
+st.markdown("""
+    <style>
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.2em;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 st.title("Evaluations")
 
@@ -12,6 +19,10 @@ st.subheader("Create synthetic Q&A pairs from large document chunks")
 
 if 'documents' not in st.session_state:
     st.session_state['documents'] = None
+if 'qa_pairs' not in st.session_state:
+    st.session_state['qa_pairs'] = []
+if 'evaluation_results' not in st.session_state:
+    st.session_state['evaluation_results'] = []
 
 response = requests.get("http://localhost:8000/evaluation/get-models/")
 if response.status_code == 200:
@@ -38,118 +49,172 @@ def app():
     selected_dir = st.selectbox("Select a directory:", directories, index=0)
     directory = os.path.join(cwd, selected_dir)
 
-    if st.button("Process Documents"):
-        res = has_pdf_files(directory)
-        if not res:
-            st.error("No PDF files found in directory! Only PDF files and text extraction are supported for now.")
-            st.stop()
+    # Process Documents
+    with st.container():
+        st.markdown("### 1. Process Documents")
+        if st.button("Process Documents"):
+            res = has_pdf_files(directory)
+            if not res:
+                st.error("No PDF files found in directory! Only PDF files and text extraction are supported for now.")
+                st.stop()
+            progress_bar = st.progress(0)
 
-        process_response = requests.post(
-            "http://localhost:8000/evaluation/process-documents/",
-            json={"directory": directory, "model_id": llm_selectbox}
-        )
-        if process_response.status_code == 200:
-            st.session_state["documents"] = process_response.json().get("documents_processed")
-            st.success(f"Finished splitting documents! Number of documents processed: {st.session_state['documents']}")
-        else:
-            st.error("Error processing documents.")
+            process_response = requests.post(
+                "http://localhost:8000/evaluation/process-documents/",
+                json={"directory": directory, "model_id": llm_selectbox}
+            )
+            if process_response.status_code == 200:
+                st.session_state["documents"] = process_response.json().get("documents_processed")
+                st.success(f"Finished splitting documents! Number of documents processed: {st.session_state['documents']}")
+                progress_bar.progress(100)
+            else:
+                st.error("Error processing documents.")
+                progress_bar.progress(0)
 
-    json_list = []
-    if st.session_state["documents"] is not None:
-        if st.button("Create Q&A pairs"):
-            qa_placeholder = st.empty()
-            try:
+    # # Display processed document results
+    # if st.session_state["documents"]:
+    #     st.write(f"Processed documents: {st.session_state['documents']}")
+
+    # Create Q&A pairs
+    with st.container():
+        st.markdown("### 2. Create synthetic Q&A pairs from large document chunks")
+        if st.session_state["documents"] is not None:
+            if st.button("Create Q&A pairs"):
+                qa_placeholder = st.empty()
+                json_list = []
+                progress_bar = st.progress(0)
+                try:
                     qa_response = requests.post(
                         "http://localhost:8000/evaluation/create-qa-pairs/",
                         json={"num_data": num_data, "model_id": llm_selectbox},
                         stream=True
                     )
-                    # if qa_response.status_code == 200:
-                    #     qa_pairs = qa_response.json().get("qa_pairs")
-                    #     st.success("Q&A pairs created.")
-                    #     st.write("Generated Q&A Pairs:")
-                    #     for pair in qa_pairs:
-                    #         st.write(f"Question: {pair['question']}")
-                    #         st.write(f"Answer: {pair['answer']}")
                     if qa_response.status_code == 200:
-                        qa_placeholder.markdown("**Generated Q&A Pairs:**")
+                        total_lines = 0 
                         for line in qa_response.iter_lines():
                             if line:
                                 try:
                                     pair = json.loads(line.decode('utf-8'))
                                     if 'question' in pair and 'answer' in pair:
-                                        st.markdown(f"**Question:** {pair['question']}  \n**Answer:** {pair['answer']}")
+                                        res = {
+                                            'question': pair['question'],
+                                            'answer': pair['answer']
+                                        }
+                                        st.write(res)
+                                        json_list.append(res)
+                                        total_lines += 1
+                                        progress_bar.progress(min(total_lines / num_data, 1.0))  # Update progress
                                     else:
                                         st.error("Received data in an unexpected format.")
                                         st.write(pair)  # For debugging purposes
                                 except json.JSONDecodeError:
                                     st.error("Error decoding JSON response.")
+                        st.session_state['qa_pairs'] = json_list
+                        st.success("Q&A pair generation completed.")
+                        progress_bar.progress(100)
                     else:
                         st.error("Error creating Q&A pairs.")
-            except requests.exceptions.ChunkedEncodingError as e:
-                st.error(f"Streaming error: {e}")
-            except Exception as e:
-                st.error(f"Unexpected error: {e}")
+                        progress_bar.progress(0)
+                except requests.exceptions.ChunkedEncodingError as e:
+                    st.error(f"Streaming error: {e}")
+                    progress_bar.progress(0)
+                except Exception as e:
+                    st.error(f"Unexpected error: {e}")
+                    progress_bar.progress(0)
 
+    
+    # Run Evaluation
     if os.path.exists("qa_data.csv"):
-        with st.expander("Load Q&A data and run evaluations of text vs graph vs text+graph RAG"):
-            if st.button("Run"): 
+        with st.container():
+            st.markdown("### 3. Load Q&A data and run evaluations of text vs graph vs text+graph RAG")
+            if st.button("Run Evaluation"):
                 df_csv = pd.read_csv("qa_data.csv")
                 questions_list = df_csv["question"].tolist()
                 answers_list = df_csv["answer"].tolist()
                 eval_placeholder = st.empty()
-                results =[]
-                
+                results = []
+                progress_bar = st.progress(0)
+                total_questions = len(questions_list)
+
                 try:
                     eval_response = requests.post(
-                    "http://localhost:8000/evaluation/run-evaluation/",
-                    json={"questions_list": questions_list, "answers_list": answers_list},
-                    stream=True
-
-                )
+                        "http://localhost:8000/evaluation/run-evaluation/",
+                        json={"questions_list": questions_list, "answers_list": answers_list},
+                        stream=True
+                    )
                     if eval_response.status_code == 200:
-                        for line in eval_response.iter_lines():
+                        for index, line in enumerate(eval_response.iter_lines()):
                             if line:
                                 try:
                                     result = json.loads(line.decode('utf-8'))
                                     if 'question' in result and 'gt_answer' in result:
                                         results.append(result)
+                                        st.session_state['evaluation_results'] = results
                                         # Update the displayed DataFrame
                                         results_df = pd.DataFrame(results)
                                         eval_placeholder.dataframe(results_df)
+                                        progress_bar.progress(min((index + 1) / total_questions, 1.0))  # Update progress
                                     else:
                                         st.error("Received data in an unexpected format.")
                                         st.write(result)  # For debugging purposes
                                 except json.JSONDecodeError:
                                     st.error("Error decoding JSON response.")
+                        # Success message displayed after processing all lines
+                        st.success("Combined results saved to 'combined_results.csv'")
+                        progress_bar.progress(100)
                     else:
                         st.error("Error running evaluations.")
                 except requests.exceptions.ChunkedEncodingError as e:
                     st.error(f"Streaming error: {e}")
+                    progress_bar.progress(0)
+
                 except Exception as e:
                     st.error(f"Unexpected error: {e}")
+                    progress_bar.progress(0)
 
-                
 
+    # Run Scoring
     if os.path.exists("combined_results.csv"):
-        with st.expander("Run comparative evals for saved Q&A data"):
-            if st.button("Run scoring"):
+        with st.container():
+            st.markdown("### 4. Run comparative evals for saved Q&A data")
+            if st.button("Run Scoring"):
                 combined_results = pd.read_csv("combined_results.csv").to_dict(orient="records")
                 score_response = None
-                
+                score_placeholder = st.empty()
+                results = []
+                total_items = len(combined_results)
+                progress_bar = st.progress(0)
+
+
                 score_response = requests.post(
                     "http://localhost:8000/evaluation/run-scoring/",
                     json={"combined_results": combined_results}, 
                     stream=True
                 )
                 if score_response.status_code == 200:
-                    st.success("Scoring completed and results saved.")
-                    combined_results_with_scores = pd.read_csv("combined_results_with_scores.csv")
-                    st.write("Combined Results with Scores:")
-                    st.write(combined_results_with_scores)
+                    for index,line in enumerate(score_response.iter_lines()):
+                        if line:
+                            try:
+                                result = json.loads(line.decode('utf-8'))
+                                if 'question' in result and 'gt_answer' in result:
+                                    results.append(result)
+                                    # Update the displayed DataFrame incrementally
+                                    results_df = pd.DataFrame(results)
+                                    score_placeholder.dataframe(results_df)
+                                    progress_bar.progress(min((index + 1) / total_items, 1.0))  # Update progress
+                                else:
+                                    st.error("Received data in an unexpected format.")
+                                    st.write(result)  # For debugging purposes
+                            except json.JSONDecodeError:
+                                st.error("Error decoding JSON response.")
+                    # Success message displayed after processing all lines
+                    st.success("Scoring completed and results saved to 'combined_results_with_scores.csv.")
+                    # Save the final results to a CSV file
+                    pd.DataFrame(results).to_csv('combined_results_with_scores.csv', index=False)
+                    progress_bar.progress(100)
                 else:
                     st.error("Error running scoring.")
-
+                    progress_bar.progress(0)
 
 if __name__ == "__main__":
     app()
